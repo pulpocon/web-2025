@@ -3,8 +3,8 @@
     <div class="cta">
       <a
           class="btn"
-          href="https://forms.gle/29d7pUBpUtGwEnxK7"
-      >Formulario entradas diversity</a>
+          href="#"
+      >Formulario entradas diversity (Soon)</a>
     </div>
   </section>
 </template>

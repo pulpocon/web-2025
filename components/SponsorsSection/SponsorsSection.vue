@@ -9,16 +9,16 @@
       </header>
 
       <div class="sps-section__sps">
-        <sponsors></sponsors>
+<!--        <sponsors></sponsors>-->
       </div>
       <div class="sps-section__sps" style="text-align: center">
         <header class="sps-section__header">
           <h3 class="sps-section__title" style="font-size:2rem">Patrocina la #pulpoCon25</h3>
         </header>
-        <a class="btn" href="https://bit.ly/pulpoCon24SponsorES" target="_blank">
+<!--        <a class="btn" href="https://docs.google.com/presentation/d/1pRGA1fH5ULCLFxAamWO92UqcpQc1iEQjOMT2zw6kgpU/edit?usp=sharing" target="_blank">
           Dossier Patrocinadores
-        </a>
-        <a class="btn" href="https://bit.ly/pulpoCon24SponsorEN" target="_blank">
+        </a>-->
+        <a class="btn" href="https://docs.google.com/presentation/d/1pRGA1fH5ULCLFxAamWO92UqcpQc1iEQjOMT2zw6kgpU/edit?usp=sharing" target="_blank">
           Sponsors Deck
         </a>
       </div>
