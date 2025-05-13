@@ -26,6 +26,11 @@
         Sponsors
         Deck
       </a>
+      <a class="btn"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSelmgdbv3iHlVx31EHIPhqRrHIWqTJKVOjABE7zExntC-VS0A/viewform?usp=preview"
+         target="_blank">
+        Call for Speakers
+      </a>
     </div>
 
     <div
