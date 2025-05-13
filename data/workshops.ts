@@ -14,6 +14,7 @@ import mariaLarios from '~/data/workshops/maria-larios';
 import joanLeon from '~/data/workshops/joan-leon';
 import mariaQuiroz from '~/data/workshops/maria-quiroz';
 import irenePiccoli from '~/data/workshops/irene-piccoli';
+import tbdWorkshop from '~/data/workshops/tbd-workshop';
 
 export default {
   'legacy-projects': legacyProjects,
@@ -29,5 +30,6 @@ export default {
   'maria-larios': mariaLarios,
   'joan-leon': joanLeon,
   'maria-quiroz': mariaQuiroz,
-  'irene-piccoli': irenePiccoli
+  'irene-piccoli': irenePiccoli,
+  'tbdWorkshop': tbdWorkshop,
 } as Record<string, Workshop>

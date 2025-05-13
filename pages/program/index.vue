@@ -42,7 +42,7 @@
               09:30<br>11:30
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="legacy-projects"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -69,7 +69,7 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="legacy-projects"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -96,7 +96,7 @@
               15:30<br>18:30
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <workshop-teaser id="legacy-projects"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title">
               Badge pickup
@@ -172,16 +172,16 @@
               9:30<br>11:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="irene-piccoli"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="azahara-manuel"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-		          <workshop-teaser id="salva-corts"/>
+		          <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="maria-quiroz"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title">
               Opening
@@ -192,7 +192,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="ella-polo"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               10:10<br/>10:50
@@ -200,7 +200,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="emilio-carrion"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               10:50<br/>11:30
@@ -224,19 +224,19 @@
               12:30<br>14:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="annegret-junker" />
+              <workshop-teaser id="tbd-workshop" />
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="lorena-martinez"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="antonio-ojea"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="maria-larios"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="nadia-santalla"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               12:30<br>13:10
@@ -244,7 +244,7 @@
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="iago-cabo"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               13:10<br>13:50
@@ -252,7 +252,7 @@
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="mercedes-rodriguez"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               13:50<br>14:30
@@ -276,19 +276,19 @@
               16:30<br>18:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="dorra-bartaguiz"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="joan-leon"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="almudena-vivanco"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="ana-carmona"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="luis-rovirosa"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               16:30<br>17:10
@@ -296,7 +296,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="santi-herrero"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               17:10<br>17:50
@@ -304,7 +304,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="janko-miguel"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               17:50<br>18:30
@@ -316,7 +316,7 @@
               18:30<br>19:30
             </td>
             <td class="program-day__table-title" colspan="5">
-              <workshop-teaser id="open-mic"/>
+              <workshop-teaser id="tbd-workshop"/>
             </td>
             <td class="program-day__table-time">
               18:30<br>19:30
@@ -369,7 +369,7 @@
               10:00<br>10:40
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="maria-calzada"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               10:00<br>10:40
@@ -381,7 +381,7 @@
               10:40<br>11:20
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="berny-cantos"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               10:40<br>11:20
@@ -405,7 +405,7 @@
               12:30<br>13:10
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="dani-santamaria"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               12:30<br>13:10
@@ -416,7 +416,7 @@
               13:20<br>14:00
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="krisztina-hirth"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               13:20<br>14:00
@@ -440,7 +440,7 @@
               16:00<br>16:40
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="annegret-junker"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               16:00<br>16:40
@@ -452,7 +452,7 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="dorra-bartaguiz"/>
+              <talk-teaser id="tbd-talk"/>
             </td>
             <td class="program-day__table-time">
               16:50<br>17:30
@@ -485,9 +485,11 @@
         </table>
       </div>
       <footer>
+<!--
         <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
           Comprar entradas 🎟️
         </a>
+ -->
       </footer>
     </section>
   </section>
