@@ -15,16 +15,19 @@
       </header>
       <div class="program-day__table-wrapper">
         <table class="program-day__table">
+          <thead>
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
               Track
             </th>
             <th>
-                Jardín / Salón
+              Jardín / Salón
             </th>
             <th>&nbsp;</th>
           </tr>
+          </thead>
+          <tbody>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--start">
             <td class="program-day__table-time">
               08:30<br/>09:30
@@ -115,7 +118,7 @@
               16:00<br>18:30
             </td>
           </tr>
-
+          </tbody>
         </table>
       </div>
 
@@ -135,6 +138,7 @@
       </header>
       <div class="program-day__table-wrapper">
         <table class="program-day__table">
+          <thead>
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
@@ -154,7 +158,8 @@
             </th>
             <th>&nbsp;</th>
           </tr>
-
+          </thead>
+          <tbody>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--start">
             <td class="program-day__table-time">
               08:30<br/>09:30
@@ -322,6 +327,7 @@
               18:30<br>19:30
             </td>
           </tr>
+          </tbody>
         </table>
       </div>
       <footer>
@@ -340,6 +346,7 @@
       </header>
       <div class="program-day__table-wrapper">
         <table class="program-day__table">
+          <tbody>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--start">
             <td class="program-day__table-time">
               08:30<br/>09:30
@@ -482,6 +489,7 @@
               18:00<br>20:30
             </td>
           </tr>
+          </tbody>
         </table>
       </div>
       <footer>
