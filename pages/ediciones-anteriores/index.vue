@@ -7,6 +7,9 @@
         </header>
 
         <div class="page-simple__content">
+          <h2 class="heading-2">2024</h2>
+          <a class="btn" href="https://2024.pulpocon.es">Visita 2024</a>
+
           <h2 class="heading-2">2023</h2>
           <p>La edición de 2023 reunió a 250 asistentes únicos durante tres días llegados de todas partes de España,
             confirmando a la pulpo como la gran sede #GastroTech mundial.
