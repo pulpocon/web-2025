@@ -2,9 +2,9 @@
   <section class="sps-section" id="sponsors">
     <div class="container-fluid-1440">
       <header class="sps-section__header">
-        <h2 class="sps-section__title" data-aos="fade-up">Patrocinadores</h2>
+        <h2 class="sps-section__title" data-aos="fade-up">Sponsors</h2>
         <p class="sps-section__description" data-aos="fade-up" data-aos-delay="200">
-          #pulpoCon25 es posible gracias a la colaboración de las siguientes empresas:
+          #pulpoCon25 is possible thanks to the support of our sponsors. We are grateful for their commitment to the community and their contribution to the success of this event.
         </p>
       </header>
 

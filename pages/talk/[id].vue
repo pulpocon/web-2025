@@ -26,7 +26,7 @@
     </div>
 
     <footer class="talk__footer">
-      <nuxt-link class="btn" to="/program">Volver al programa</nuxt-link>
+      <nuxt-link class="btn" to="/program">Back to the Schedule</nuxt-link>
     </footer>
 
   </article>

@@ -10,8 +10,8 @@ export default {
   description: [
     'Description of your workshop \n'
   ],
-  schedule: 'Viernes 16:00-18:00',
-  track: 'Devops',
+  schedule: 'Friday 16:30-18:30',
+  track: 'Backend',
   twitter: [
     ''
   ]

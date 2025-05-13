@@ -14,29 +14,26 @@
       <div class="container-fluid-1440">
         <div class="summary-section__data">
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="200">
-            <span class="number">3</span> días
+            <span class="number">3</span> Days
           </aside>
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="400">
-            <span class="number">14</span> talleres
+            <span class="number">14</span> Workshops
           </aside>
 
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="600">
-            <span class="number">12</span> charlas
+            <span class="number">14</span> Talks
           </aside>
 
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="800">
-            <span class="number">+10h</span> de networking a la gallega
+            <span class="number">+10h</span> Galician Networking
           </aside>
         </div>
 
         <header class="summary-section__description" data-aos="fade" data-aos-delay="1200">
-          <p>PulpoCon 🐙 es el evento <strong class="text-gradient-light">#gastrotech</strong> / conferencia que acercará
-            el
-            movimiento “crafter” y el “clean code” a
-            la
-            comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres. Técnicas,
-            arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos
-            ponentes de gran prestigio nacional e internacional. 18, 19 y 20 de septiembre de 2025 en Vigo</p>
+          <p>PulpoCon 🐙 is the <strong class="text-gradient-light">#gastrotech</strong> event / conference that brings
+            the crafter movement and clean code to the developer community of Galicia and its area of influence through
+            talks and workshops. Techniques, architectures, and models that foster better professionals beyond the tech stack used.
+            With recognized speakers of great national and international prestige. September 18, 19, and 20, 2025 in Vigo</p>
         </header>
       </div>
     </div>

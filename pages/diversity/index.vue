@@ -2,24 +2,17 @@
   <article class="page-simple__wrapper">
     <div class="container-fluid-900">
       <header class="page-simple__header">
-        <h1 class="page-simple__title">Diversidad</h1>
+        <h1 class="page-simple__title">Diversity</h1>
       </header>
 
       <div class="page-simple__content">
-        <p>La diversidad, importa. Desde la organización de la <strong>PulpoCon</strong> sabemos que cuando el
-          desarrollo de una aplicación se lleva a cabo por un equipo diverso, esto hace que el resultado sea de mayor
-          calidad.</p>
+        <p>Diversity matters. At the <strong>PulpoCon</strong> organization, we know that when an application is developed by a diverse team, the result is of higher quality.</p>
 
-        <p>Tanto la organización de la <strong>PulpoCon</strong>, como sus voluntarios y miembros consideran, respetan,
-          valoran y promueven las diferencias como una parte fundamental de sus valores.</p>
+        <p>Both the <strong>PulpoCon</strong> organization, its volunteers, and members consider, respect, value, and promote differences as a fundamental part of their values.</p>
 
-        <p>Estamos comprometidos con la diversidad de nuestra sociedad y de nuestra propia comunidad. Cada persona es
-          única y todas ellas son, a su vez, diversas en nacionalidad, edad, raza, origen étnico, creencias, prácticas
-          espirituales, género, identidad de género, orientación sexual, trabajo, estado civil, etc. lo que enriquece a
-          nuestra profesión a la comunidad de desarrolladoras y a toda la sociedad.</p>
+        <p>We are committed to the diversity of our society and our own community. Each person is unique, and all of them are, in turn, diverse in nationality, age, race, ethnicity, beliefs, spiritual practices, gender, gender identity, sexual orientation, occupation, marital status, etc., which enriches our profession, the developer community, and society as a whole.</p>
 
-        <p>Por todo ello, queremos transmitir nuestra invitación sincera a todos los colectivos que suelen estar poco
-          representados en la comunidad tecnológica a que formen parte de la PulpoCon</p>
+        <p>For all these reasons, we want to extend our sincere invitation to all groups that are often underrepresented in the tech community to be part of PulpoCon.</p>
 
         <diversity-link></diversity-link>
       </div>

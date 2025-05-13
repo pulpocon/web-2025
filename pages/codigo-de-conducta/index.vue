@@ -2,56 +2,30 @@
   <article class="page-simple__wrapper">
     <div class="container-fluid-900">
       <header class="page-simple__header">
-        <h1 class="page-simple__title">Código de conducta</h1>
+        <h1 class="page-simple__title">Code of Conduct</h1>
       </header>
       <div class="page-simple__content">
-        <p>Requerimos que todos los asistentes, ponentes, patrocinios y voluntariado de nuestra conferencia estén de
-          acuerdo con el siguiente código de conducta.</p>
+        <p>We require that all attendees, speakers, sponsors, and volunteers of our conference agree to the following code of conduct.</p>
 
-        <p>La organización se encargará de que se cumpla durante las reuniones y eventos, esperamos la colaboración de
-          todos los participantes para ayudar a construir un entorno seguro para todo el mundo.</p>
+        <p>The organization will ensure compliance during meetings and events, and we expect the collaboration of all participants to help create a safe environment for everyone.</p>
 
-        <h3 class="heading-3">La versión rápida</h3>
-        <p>Queremos que la conferencia sea una experiencia libre de acoso para todo el mundo sin importar su género,
-          su
-          identidad o expresión de género, edad, orientación sexual, discapacidad, aspecto físico, raza o religión. No
-          toleraremos el acoso de ningún tipo a ningún participante.</p>
-        <p>El lenguaje o las imágenes sexuales no son apropiadas para el evento, incluyendo las charlas, Twitter y
-          cualquier otro medio de comunicación.</p>
+        <h3 class="heading-3">The Quick Version</h3>
+        <p>We want the conference to be a harassment-free experience for everyone, regardless of their gender, gender identity or expression, age, sexual orientation, disability, physical appearance, race, or religion. We do not tolerate harassment of any participant in any form.</p>
+        <p>Sexual language or imagery is not appropriate for the event, including talks, Twitter, and any other communication medium.</p>
 
-        <p>Los participantes que violen estas reglas podrán ser sancionados o expulsados de la conferencia a
-          discreción
-          de
-          los organizadores.</p>
+        <p>Participants who violate these rules may be sanctioned or expelled from the conference at the discretion of the organizers.</p>
 
-        <h3 class="heading-3">La versión no tan rápida</h3>
-        <p>Incluímos como acoso los comentarios verbales ofensivos relacionados con el género, la identidad o
-          expresión
-          de
-          género, edad, orientación sexual, discapacidad, apariencia física, raza, religión, imágenes sexuales en
-          espacios
-          públicos, intimidación deliberada, acecho, persecución, el acoso con fotografías o vídeos, la interrupción
-          sostenida de charlas u otros eventos, el contacto físico inapropiado y la atención sexual indeseada.</p>
+        <h3 class="heading-3">The Not-So-Quick Version</h3>
+        <p>We consider harassment to include offensive verbal comments related to gender, gender identity or expression, age, sexual orientation, disability, physical appearance, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
 
-        <p>Los patrocinios también se encuentran sujetos a esta política. En concreto, los patrocinadores no deben
-          usar
-          imágenes, actividades u otro material sexualizado. El personal (incluyendo los voluntarios) no debe utilizar
-          ropa/uniformes/disfraces sexualizados, o crear de ninguna otra forma un entorno sexualizado.</p>
+        <p>Sponsorships are also subject to this policy. Specifically, sponsors should not use sexualized images, activities, or other material. Staff (including volunteers) should not wear sexualized clothing/uniforms/costumes or otherwise create a sexualized environment.</p>
 
-        <p>Si un participante tiene un comportamiento de acoso, los organizadores de la conferencia podrán tomar
-          cualquier
-          acción que consideren apropiada, incluyendo advertir al infractor o su expulsión de la reunión o
-          conferencia.</p>
+        <p>If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expelling them from the meeting or conference.</p>
 
-        <p>Si estás siendo acosado, ves a alguien que lo está siendo o tienes alguna otra preocupación, por favor
-          contacta
-          con algún miembro de la organización inmediatamente.</p>
+        <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the organization immediately.</p>
 
-        <p>Los miembros de la organización estarán encantados de ayudar a los participantes a contactar con la
-          seguridad
-          del sitio o la policía local, proveer escolta o asistir de otra manera para ayudar a quienes están siendo
-          acosados a sentirse seguros durante la conferencia.</p>
-        <p>Valoramos tu asistencia. Esperamos que los participantes sigan estas reglas durante la conferencia.</p>
+        <p>Organization members will be happy to assist participants in contacting venue security or local police, provide escorts, or otherwise assist those experiencing harassment to feel safe during the conference.</p>
+        <p>We value your attendance. We expect participants to follow these rules during the conference.</p>
 
         <p>Source and credit: <a href="https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md">https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md</a>
         </p>

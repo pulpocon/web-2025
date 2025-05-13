@@ -2,13 +2,12 @@
   <section class="hero-section">
       <div>
         <h2 class="claim">
-          <span class="text-gradient">El evento #GastroTech de Galicia</span> 🐙
+          <span class="text-gradient">The #GastroTech event in Galicia</span> 🐙
         </h2>
 
         <h3 class="date">
-          Vigo, 18, 19 y 20 septiembre 2025
+          Vigo, 18, 19 and 20 september 2025
         </h3>
-
       </div>
 <!--
       <div>
@@ -27,7 +26,7 @@
       -->
       <div class="claims">
         <a class="btn" href="#summary">
-          <i class="fas fa-arrow-down"></i> Más información <i class="fas fa-arrow-down"></i>
+          <i class="fas fa-arrow-down"></i> Más información | More information <i class="fas fa-arrow-down"></i>
         </a>
       </div>
   </section>

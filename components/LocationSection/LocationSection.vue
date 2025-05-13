@@ -15,7 +15,7 @@
     <aside class="location-section__content">
       <div class="location-section__venue">
         <h2>
-          Ubicación
+          Venue
         </h2>
         <a ref="nofollow, noopener"
            href="https://www.afundacion.org/es/centros/centro/centro_social_afundacion_vigo"
@@ -26,40 +26,40 @@
       </div>
 
       <h2>
-        Transporte
+        Transportation
       </h2>
       <ul class="location-section__transports">
         <li class="transport-info">
           <h4 class="transport-info__title">
-            <i class="fa fa-bus"></i> Autobús urbano
+            <i class="fa fa-bus"></i> City Buses
           </h4>
           <div class="transport-info__content">
-            Líneas: C3, CAC, C7, L11, 12B, C4A, C5A, C4B, L8, C5B, 12A, C9A. L17, C9A, C15C.
+            Lines: C3, CAC, C7, L11, 12B, C4A, C5A, C4B, L8, C5B, 12A, C9A. L17, C9A, C15C.
             <a
                 ref="nofollow, noopener"
                 href="https://moovitapp.com/?to=R%C3%BAa%20Policarpo%20Sanz%2024&tll=42.237556_-8.722738&customerId=5546&metroId=3841&lang=es"
-                target="_blank">Calcular ruta</a>
+                target="_blank">Route Calculator</a>
           </div>
         </li>
         <li class="transport-info">
           <h4 class="transport-info__title">
-            <i class="fa fa-plane-arrival"></i> Avión
+            <i class="fa fa-plane-arrival"></i> Flights
           </h4>
           <div class="transport-info__content">
-            Aeropuerto de Peinador: a 17 km de distancia. <a
+            Peinador Airport: 17 km distance. <a
               href="https://www.aena-aeropuertos.es/csee/Satellite/Aeropuerto-Vigo/es/"
-              target="_blank">Más información</a>
+              target="_blank">More information</a>
           </div>
         </li>
         <li class="transport-info">
           <h4 class="transport-info__title">
-            <i class="fa fa-train"></i> Tren
+            <i class="fa fa-train"></i> Train
           </h4>
           <div class="transport-info__content">
-            <p>Estación de trenes Guixar: R/ Areal, s/n Vigo. <a
+            <p>Train Station Guixar: R/ Areal, s/n Vigo. <a
                 href="http://www.adif.es/es_ES/infraestructuras/estaciones/22308/informacion_000390.shtml"
                 target="_blank">
-              Información de la estación de trenes Vigo-Guixar.
+              Train Station Vigo-Guixar Info.
             </a>
             </p>
           </div>

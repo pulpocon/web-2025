@@ -17,7 +17,7 @@ useHead({
   bodyAttrs: {
     class: 'home'
   },
-  title: '#pulpoCon25 - Vigo, 18-20 september 2025'
+  title: '#pulpoCon25 - Vigo, September 18-20, 2025'
 })
 
 </script>

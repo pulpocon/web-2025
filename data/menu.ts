@@ -10,31 +10,31 @@ const menu: MenuItem[] = [
   },
   {
     'link': 'https://entradas.pulpocon.es',
-    'title': 'Entradas'
+    'title': 'Tickets'
   },
   {
     'link': '/#sponsors',
-    'title': 'Patrocinadores'
+    'title': 'Sponsors'
   },
   {
      'link': '/program',
-     'title': 'Programa'
+     'title': 'Schedule'
   },
   {
     'link': '/organization',
-    'title': 'Organización'
+    'title': 'Organization'
   },
   {
     'link': '/codigo-de-conducta',
-    'title': 'Código de conducta'
+    'title': 'Code of Conduct'
   },
   {
     'link': '/diversity',
-    'title': 'Diversidad'
+    'title': 'Diversity'
   },
   {
     'link': '/ediciones-anteriores',
-    'title': 'Otras ediciones'
+    'title': 'Past Editions'
   }
 ]
 

@@ -4,7 +4,7 @@
       <a
           class="btn"
           href="#"
-      >Formulario entradas diversity (Soon)</a>
+      >Diversity Tickets Form (Soon)</a>
     </div>
   </section>
 </template>
