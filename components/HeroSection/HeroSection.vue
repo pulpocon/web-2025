@@ -6,7 +6,7 @@
         </h2>
 
         <h3 class="date">
-          Vigo, 19, 20 y 21 septiembre 2024
+          Vigo, 18, 19 y 20 septiembre 2025
         </h3>
 
       </div>
