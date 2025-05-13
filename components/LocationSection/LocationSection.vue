@@ -22,7 +22,7 @@
            target="_blank">
           <i class="fa fa-info-circle"></i> Auditorio Sede Afundación Vigo
         </a>
-        <address>c/ Policarpo Sanz, 24 - 26, Vigo. 36202, Pontevedra</address>
+        <address>c/ Policarpo Sanz, 24 - 26, Vigo. 36202, Pontevedra. Spain</address>
       </div>
 
       <h2>

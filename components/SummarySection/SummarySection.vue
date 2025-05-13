@@ -33,7 +33,7 @@
           <p>PulpoCon 🐙 is the <strong class="text-gradient-light">#gastrotech</strong> event / conference that brings
             the crafter movement and clean code to the developer community of Galicia and its area of influence through
             talks and workshops. Techniques, architectures, and models that foster better professionals beyond the tech stack used.
-            With recognized speakers of great national and international prestige. September 18, 19, and 20, 2025 in Vigo</p>
+            With recognized speakers of great national and international prestige. September 18, 19, and 20, 2025 in Vigo, Galicia, Spain.</p>
         </header>
       </div>
     </div>

@@ -3,7 +3,7 @@
     <div class="web-footer__content container-fluid-1440">
       <div class="event-organizer">
         <h3 class="event-organizer__title">
-          Organizan
+          Organized by
         </h3>
         <div class="event-organizer__logos">
           <a class="event-organizer__link event-organizer__link--craftersvigo" href="https://twitter.com/CraftersVigo">
@@ -22,7 +22,7 @@
     </div>
     <div class="web-footer__links container-fluid-1440">
       <nuxt-link to="/codigo-de-conducta">
-        Código de conducta
+        Code of conduct
       </nuxt-link>
 
       <a href="mailto:hello@pulpocon.es">
@@ -35,5 +35,6 @@
 <script lang="ts" setup>
 import LogoCraftersVigo from '~/components/Logos/LogoCraftersVigo.vue'
 import LogoVigoTech from '~/components/Logos/LogoVigoTech.vue'
-import LogoAindustriosa from '~/components/Logos/LogoAindustriosa.vue'</script>
+import LogoAindustriosa from '~/components/Logos/LogoAindustriosa.vue'
+</script>
 <style src="./WebFooter.scss"></style>
