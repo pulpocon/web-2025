@@ -10,7 +10,7 @@
     <section class="program-day">
       <header>
         <h2 class="heading-3">
-          Jueves, 19 de septiembre 2024
+          Jueves, 18 de septiembre 2025
         </h2>
       </header>
       <div class="program-day__table-wrapper">
@@ -18,7 +18,7 @@
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
-              Track CODIUM
+              Track
             </th>
             <th>
                 Jardín / Salón
@@ -130,7 +130,7 @@
     <section class="program-day">
       <header>
         <h2 class="heading-3">
-          Viernes, 20 de septiembre 2024
+          Viernes, 19 de septiembre 2025
         </h2>
       </header>
       <div class="program-day__table-wrapper">
@@ -335,7 +335,7 @@
     <section class="program-day">
       <header>
         <h2 class="heading-3">
-          Sábado, 21 de septiembre 2024
+          Sábado, 20 de septiembre 2025
         </h2>
       </header>
       <div class="program-day__table-wrapper">

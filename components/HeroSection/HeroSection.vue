@@ -10,6 +10,7 @@
         </h3>
 
       </div>
+<!--
       <div>
         <a class="btn" href="https://entradas.pulpocon.es" target="_blank">
           🎟 ¡Entradas disponibles! 🎟
@@ -23,6 +24,7 @@
           Sponsors Deck
         </a>
       </div>
+      -->
       <div class="claims">
         <a class="btn" href="#summary">
           <i class="fas fa-arrow-down"></i> Más información <i class="fas fa-arrow-down"></i>

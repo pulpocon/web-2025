@@ -12,14 +12,14 @@ export default defineNuxtConfig({
   ],
   css: ['./assets/scss/app.scss'],
   meta: {
-    title: '#pulpoCon24 - 19, 20 y 21 de septiembre en Vigo 🐙',
+    title: '#pulpoCon25 - 18, 19 y 20 de septiembre en Vigo 🐙',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'PulpoCon 🐙 es el evento #gastrotechh / conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. 19, 20 y 21 de septiembre de 2024 en Vigo'
+        content: 'PulpoCon 🐙 es el evento #gastrotechh / conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. 18, 19 y 20 de septiembre de 2025 en Vigo'
       },
       {
         hid: 'og:title',
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         hid: 'og:description',
         property: 'og:description',
         content:
-            'PulpoCon 🐙 es el evento #gastrotechh / conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. 19, 20 y 21 de septiembre de 2024 en Vigo'
+            'PulpoCon 🐙 es el evento #gastrotechh / conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. 18, 19 y 20 de septiembre de 2025 en Vigo'
       },
       {
         hid: 'og:image',

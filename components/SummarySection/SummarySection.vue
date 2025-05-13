@@ -36,7 +36,7 @@
             la
             comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres. Técnicas,
             arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos
-            ponentes de gran prestigio nacional e internacional. 19, 20 y 21 de septiembre de 2024 en Vigo</p>
+            ponentes de gran prestigio nacional e internacional. 18, 19 y 20 de septiembre de 2025 en Vigo</p>
         </header>
       </div>
     </div>
