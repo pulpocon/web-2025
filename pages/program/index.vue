@@ -120,9 +120,9 @@
       </div>
 
       <footer>
-        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
+<!--        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
           Comprar entradas 🎟️
-        </a>
+        </a>-->
       </footer>
     </section>
 
@@ -325,9 +325,9 @@
         </table>
       </div>
       <footer>
-        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
+<!--        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
           Comprar entradas 🎟️
-        </a>
+        </a>-->
       </footer>
     </section>
 
