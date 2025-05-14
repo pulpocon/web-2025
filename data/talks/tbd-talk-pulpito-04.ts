@@ -11,6 +11,6 @@ export default {
   description: [
     'Abstract of your talk'
   ],
-  schedule: 'Sat 10:00-10:40',
+  schedule: 'Fri 13:10-13:50',
   twitter: ''
 }
