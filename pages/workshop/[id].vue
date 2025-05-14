@@ -19,7 +19,7 @@
     </section>
 
     <div class="workshop__description  workshop__subsection">
-      <h2 class="heading-3">Descripción</h2>
+      <h2 class="heading-3">Description</h2>
       <p v-for="description in workshop.description">
         {{ description }}
       </p>

@@ -19,7 +19,7 @@
     </section>
 
     <div class="talk__description  talk__subsection">
-      <h2 class="heading-3">Descripción</h2>
+      <h2 class="heading-3">Description</h2>
       <p v-for="description in talk.description">
         {{ description }}
       </p>
