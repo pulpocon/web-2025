@@ -2,16 +2,16 @@ export default {
   title: 'Open Space',
   speaker: [
     {
-      image: 'pdte.jpg',
+      image: 'your-photo.jpg',
       name: 'TBC',
       link: ''
     }
   ],
   description: [
-    '¿Qué es un openspace?',
-    'Es una oportunidad para explorar nuevas perspectivas sobre un tema específico. ¿Alguna vez has intentado empatizar con alguien sobre un asunto del que estabas seguro de tener total conocimiento? En este openspace, los participantes propondrán temas que posteriormente serán votados por todos. Una vez definidos los temas de interés, nos sumergiremos en discusiones enriquecedoras, permitiendo que cada voz sea escuchada. La idea es aprender colectivamente, en un ambiente de respeto y colaboración.'
+    'What is an openspace?',
+    'It is an opportunity to explore new perspectives on a specific topic. Have you ever tried to empathize with someone on an issue you were sure you fully understood? In this openspace, participants will propose topics that will later be voted on by everyone. Once the topics of interest are defined, we will dive into enriching discussions, allowing every voice to be heard. The idea is to learn collectively, in an environment of respect and collaboration.'
   ],
-  schedule: 'Jueves 16:00-19:00',
+  schedule: 'Thursday 16:00-19:00',
   track: 'Open Space',
   twitter: [
     ''
