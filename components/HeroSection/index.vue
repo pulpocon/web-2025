@@ -32,6 +32,10 @@
         Call for Speakers
       </a>
     </div>
+    <div class="summary-section__description" data-aos="fade" data-aos-delay="1200">
+      <p>🔔 Call for Speakers closing on <strong class="text-gradient-light">June, 15th</strong> 🔔</p>
+    </div>
+
 
     <div
         class="claims">
