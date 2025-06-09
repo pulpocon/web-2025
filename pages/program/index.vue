@@ -19,7 +19,10 @@
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
-              Track
+              Crafter Newbie Workshop
+            </th>
+            <th>
+              Crafter Expert Workshop
             </th>
             <th>
               Jardín / Salón
@@ -32,7 +35,7 @@
             <td class="program-day__table-time">
               08:30<br/>09:30
             </td>
-            <td class="program-day__table-title" colspan="2">
+            <td class="program-day__table-title" colspan="3">
               Badge pickup & Breakfast 🪪☕
             </td>
             <td class="program-day__table-time">
@@ -45,7 +48,10 @@
               09:30<br>11:30
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="tbd-workshop"/>
+              <workshop-teaser id="tbd-workshop-newbie-01"/>
+            </td>
+            <td class="program-day__table-title">
+              <workshop-teaser id="tbd-workshop-expert-01"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -59,7 +65,7 @@
             <td class="program-day__table-time">
               11:30<br>12:00
             </td>
-            <td class="program-day__table-title" colspan="2">
+            <td class="program-day__table-title" colspan="3">
               Coffee Break ☕
             </td>
             <td class="program-day__table-time">
@@ -72,7 +78,10 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="tbd-workshop"/>
+              <workshop-teaser id="tbd-workshop-newbie-02"/>
+            </td>
+            <td class="program-day__table-title">
+              <workshop-teaser id="tbd-workshop-expert-02"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -86,7 +95,7 @@
             <td class="program-day__table-time">
               14:00<br>15:30
             </td>
-            <td class="program-day__table-title" colspan="2">
+            <td class="program-day__table-title" colspan="3">
               Lunch 🍽️
             </td>
             <td class="program-day__table-time">
@@ -96,10 +105,13 @@
           <!----->
           <tr class="program-day__table-slot  program-day__table-slot--1h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="2">
-              15:30<br>18:30
+              15:30<br>17:30
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <workshop-teaser id="tbd-workshop"/>
+              <workshop-teaser id="tbd-workshop-newbie-03"/>
+            </td>
+            <td class="program-day__table-title" rowspan="2">
+              <workshop-teaser id="tbd-workshop-expert-03"/>
             </td>
             <td class="program-day__table-title">
               Badge pickup
@@ -321,7 +333,7 @@
               18:30<br>19:30
             </td>
             <td class="program-day__table-title" colspan="5">
-              <workshop-teaser id="tbd-workshop"/>
+              <workshop-teaser id="tbd-fireside-chat"/>
             </td>
             <td class="program-day__table-time">
               18:30<br>19:30
