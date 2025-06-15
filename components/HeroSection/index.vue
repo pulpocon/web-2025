@@ -23,17 +23,11 @@
       <a class="btn"
          href="https://docs.google.com/presentation/d/1pRGA1fH5ULCLFxAamWO92UqcpQc1iEQjOMT2zw6kgpU/edit?usp=sharing"
          target="_blank">
-        Sponsors
-        Deck
-      </a>
-      <a class="btn"
-         href="https://docs.google.com/forms/d/e/1FAIpQLSelmgdbv3iHlVx31EHIPhqRrHIWqTJKVOjABE7zExntC-VS0A/viewform?usp=preview"
-         target="_blank">
-        Call for Speakers
+        Sponsors Deck
       </a>
     </div>
     <div class="summary-section__description" data-aos="fade" data-aos-delay="1200">
-      <p>🔔 Call for Speakers closing on <strong class="text-gradient-light">June, 15th</strong> 🔔</p>
+      <p>🔔 Call for Speakers closed. Proposals in review. 🔔</p>
     </div>
 
 
