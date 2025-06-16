@@ -3,9 +3,9 @@ export default {
   speaker:
   [
     {
-      image: 'your-photo.jpg',
-      name: 'Your Name',
-      link: 'Your Linkedin'
+      image: 'sandroMancuso.jpeg',
+      name: 'Sandro Mancuso',
+      link: 'https://www.linkedin.com/in/sandromancuso/'
     }
   ],
   description: [

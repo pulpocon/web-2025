@@ -1,10 +1,10 @@
 export default {
-  title: 'Workshop Title',
+  title: '🇬🇧 Workshop Title 🇬🇧',
   speaker: [
     {
-      image: 'your-photo.jpg',
-      name: 'Your Name',
-      link: 'Link to Your Linkedin'
+      image: 'clareSudbery.jpeg',
+      name: 'Clare Sudbery',
+      link: 'https://www.linkedin.com/in/clare-sudbery-she-her-35939540/'
     }
   ],
   description: [

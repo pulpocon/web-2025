@@ -1,10 +1,10 @@
 export default {
-  title: 'Workshop Title',
+  title: '🇬🇧 Workshop Title 🇬🇧',
   speaker: [
     {
-      image: 'your-photo.jpg',
-      name: 'Your Name',
-      link: 'Link to Your Linkedin'
+      image: 'krisztinaHirth.png',
+      name: 'Krisztina Hirth',
+      link: 'https://www.linkedin.com/in/christina-hirth-yellowbrickcode/'
     }
   ],
   description: [
