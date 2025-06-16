@@ -14,6 +14,7 @@
     "@pinia/nuxt": "^0.11.0",
     "@vueuse/core": "^13.1.0",
     "@vueuse/nuxt": "^13.1.0",
+    "better-sqlite3": "^11.10.0",
     "nuxt": "^3.17.3",
     "sass": "^1.88.0",
     "sireno-grid": "^0.4.0",
