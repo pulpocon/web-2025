@@ -8,8 +8,8 @@
         </p>
       </header>
 
-      <div class="speakers-section__sps">
-        <div class="page--organization__organizers-content">
+      <div class="speakers-section__content">
+        <div class="speakers-section__speakers-content">
           <speaker-person
               v-for="(speaker, index) in speakers"
               :key="speaker.name"
@@ -25,7 +25,6 @@
 <script lang="ts" setup>
 
 import speakers from "~/data/speakers";
-import OrganizerPerson from "~/components/OrganizerPerson/index.vue";
 
 defineProps()
 

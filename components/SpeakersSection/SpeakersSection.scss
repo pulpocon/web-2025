@@ -11,6 +11,19 @@
     padding: 40px;
   }
 
+  &__content {
+
+  }
+
+
+  &__speakers {
+    &-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+  }
 
   &__header {
     margin-bottom: 40px;

@@ -7,6 +7,11 @@
       </h2>
     </header>
     <h3 class="speaker__position">{{ speaker.position }}</h3>
+    <p v-if="speaker.social?.linkedin" class="speaker__social-link">
+      <a :href="speaker.social?.linkedin" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </p>
 
     <ul class="speaker__social">
       <li v-if="speaker.social?.twitter" class="speaker__social-link">
