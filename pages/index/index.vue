@@ -2,6 +2,7 @@
   <div class="page-home" id="home">
     <hero-section></hero-section>
     <summary-section></summary-section>
+    <speakers-section></speakers-section>
     <sponsors-section></sponsors-section>
     <location-section></location-section>
   </div>
@@ -12,6 +13,7 @@ import HeroSection from '../../components/HeroSection'
 import SummarySection from '../../components/SummarySection'
 import LocationSection from '../../components/LocationSection'
 import SponsorsSection from '../../components/SponsorsSection';
+import SpeakersSection from '../../components/SpeakersSection';
 
 useHead({
   bodyAttrs: {
