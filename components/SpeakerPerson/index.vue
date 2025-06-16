@@ -1,7 +1,7 @@
 <template>
   <article class="speaker">
     <header>
-      <img :alt="speaker.name" :src="speaker.image.href" class="speaker__image">
+      <img :alt="speaker.name" :src="speaker.image" class="speaker__image">
       <h2 class="speaker__name">
         {{ speaker.name }}
       </h2>
@@ -31,7 +31,7 @@ type Speaker = {
   name: string
   position: string
   bio: string
-  image: URL
+  image: string
   social?: {
     linkedin?: string
     twitter?: string
