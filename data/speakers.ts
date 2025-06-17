@@ -37,8 +37,16 @@ const organizers: Speaker[] = [
     social: {
       linkedin: 'https://www.linkedin.com/in/christina-hirth-yellowbrickcode/'
     }
+  },
+  {
+    image: '/i/speakers/jesusVillarVazquez.jpg',
+    name: 'Jesús M. Villar',
+    position: 'Apipana.io',
+    bio: 'Engineering Lead',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/geeksusma/'
+    }
   }
-
 ]
 
 export default organizers
