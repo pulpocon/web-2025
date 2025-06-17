@@ -1,13 +1,17 @@
+import {getSpeaker} from "~/data/speakers";
+
+const speaker = getSpeaker('Fancy Speaker');
+
 export default {
   title: '🇬🇧 Talk Title 🇬🇧',
   speaker:
-  [
-    {
-      image: 'your-photo.jpg',
-      name: 'Your Name',
-      link: 'Your Linkedin'
-    }
-  ],
+      [
+        {
+          image: speaker?.image ?? '/i/speakers/your-photo.jpg',
+          name: speaker?.name ?? 'Your Name',
+          link: speaker?.social?.linkedin ?? '#'
+        }
+      ],
   description: [
     'Abstract of your talk'
   ],

@@ -7,8 +7,8 @@ export default {
     speaker:
         [
             {
-                image: speaker?.image,
-                name: speaker?.name,
+                image: speaker?.image ?? '/i/speakers/your-photo.jpg',
+                name: speaker?.name ?? 'Your Name',
                 link: speaker?.social?.linkedin ?? '#'
             }
         ],
