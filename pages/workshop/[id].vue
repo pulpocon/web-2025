@@ -11,7 +11,7 @@
       <ul>
         <li v-for="speaker in workshop.speaker">
           <a :href="speaker.link" class="workshop__speaker" rel="noopener noreferrer" target="_blank">
-            <img :alt="speaker.name" :src="getImage(speaker.image)" class="workshop__speaker-image">
+            <img :alt="speaker.name" :src="speaker.image" class="workshop__speaker-image">
             {{ speaker.name }}
           </a>
         </li>
@@ -38,7 +38,5 @@ import { useRoute } from '#app'
 const route = useRoute()
 
 const workshop: ComputedRef = computed(() => workshops[route.params.id] || {})
-
-const getImage = (image: string) => `/i/speakers/${image}`
 </script>
 <style src="./workshop.scss"></style>

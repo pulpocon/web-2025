@@ -2,7 +2,7 @@ export type Organizer = {
   name: string
   position: string
   bio: string
-  image: URL
+  image: string
   social?: {
     linkedin?: string
     twitter?: string
@@ -15,7 +15,7 @@ const organizers: Organizer[] = [
     name: 'Ángela Falque',
     position: 'Product & Graphic Designer',
     bio: '',
-    image: new URL('../assets/i/organizers/angela-falque.jpeg', import.meta.url),
+    image: '/i/organizers/angela-falque.jpeg',
     social: {
       linkedin: 'https://www.linkedin.com/in/angelafalque-graphicdesigner/'
     }
@@ -24,7 +24,7 @@ const organizers: Organizer[] = [
     name: 'Fran Iglesias',
     position: 'Senior Software Engineer',
     bio: '',
-    image: new URL('../assets/i/organizers/fran-iglesias.jpg', import.meta.url),
+    image: '/i/organizers/fran-iglesias.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/franiglesias/'
     }
@@ -33,7 +33,7 @@ const organizers: Organizer[] = [
     name: 'Lorena Abalde',
     position: 'Frontend Software Engineer',
     bio: '',
-    image: new URL('../assets/i/organizers/lorena-abalde.jpg', import.meta.url),
+    image: '/i/organizers/lorena-abalde.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/lorenaabalde/'
     }
@@ -42,7 +42,7 @@ const organizers: Organizer[] = [
     name: 'Rolando Caldas',
     position: 'Crafter & Agile Software Engineer',
     bio: '',
-    image: new URL('../assets/i/organizers/rolando-caldas.jpeg', import.meta.url),
+    image: '/i/organizers/rolando-caldas.jpeg',
     social: {
       linkedin: 'https://www.linkedin.com/in/rolandocaldas/'
     }

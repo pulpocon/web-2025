@@ -11,7 +11,7 @@
       <ul>
         <li v-for="speaker in talk.speaker">
           <a :href="speaker.link" class="talk__speaker" rel="noopener noreferrer" target="_blank">
-            <img :alt="speaker.name" :src="getImage(speaker.image)" class="talk__speaker-image">
+            <img :alt="speaker.name" :src="speaker.image" class="talk__speaker-image">
             {{ speaker.name }}
           </a>
         </li>
@@ -38,7 +38,5 @@ import { useRoute } from '#app'
 const route = useRoute()
 
 const talk: ComputedRef = computed(() => talks[route.params.id] || {})
-
-const getImage = (image: string) => `/i/speakers/${image}`
 </script>
 <style src="./talk.scss"></style>

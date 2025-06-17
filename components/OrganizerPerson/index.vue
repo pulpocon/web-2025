@@ -31,7 +31,7 @@ type Organizer = {
   name: string
   position: string
   bio: string
-  image: URL
+  image: string
   social?: {
     linkedin?: string
     twitter?: string

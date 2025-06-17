@@ -1,10 +1,14 @@
+import {getSpeaker} from "~/data/speakers";
+
+const speaker = getSpeaker('Clare Sudbery');
+
 export default {
   title: '🇬🇧 Workshop Title 🇬🇧',
   speaker: [
     {
-      image: 'clareSudbery.jpeg',
-      name: 'Clare Sudbery',
-      link: 'https://www.linkedin.com/in/clare-sudbery-she-her-35939540/'
+      image: speaker?.image,
+      name: speaker?.name,
+      link: speaker?.social?.linkedin ?? '#'
     }
   ],
   description: [

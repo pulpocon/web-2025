@@ -1,10 +1,15 @@
+import {getSpeaker} from "~/data/speakers";
+
+const speaker = getSpeaker('Krisztina Hirth');
+
+
 export default {
   title: '🇬🇧 Workshop Title 🇬🇧',
   speaker: [
     {
-      image: 'krisztinaHirth.png',
-      name: 'Krisztina Hirth',
-      link: 'https://www.linkedin.com/in/christina-hirth-yellowbrickcode/'
+      image: speaker?.image,
+      name: speaker?.name,
+      link: speaker?.social?.linkedin ?? '#'
     }
   ],
   description: [

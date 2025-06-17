@@ -10,7 +10,7 @@ export type Speaker = {
 
 }
 
-const organizers: Speaker[] = [
+const speakers: Speaker[] = [
   {
     name: 'Clare Sudbery',
     position: 'Sudbery Soft. Eng.',
@@ -49,4 +49,8 @@ const organizers: Speaker[] = [
   }
 ]
 
-export default organizers
+export default speakers
+
+export function getSpeaker(name: string) {
+  return speakers.find(speaker => speaker.name === name)
+}

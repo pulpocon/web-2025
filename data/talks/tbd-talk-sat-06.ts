@@ -1,11 +1,16 @@
+import {getSpeaker} from "~/data/speakers";
+
+const speaker = getSpeaker('Sandro Mancuso');
+
+
 export default {
   title: '🇬🇧 Talk Title 🇬🇧',
   speaker:
   [
     {
-      image: 'sandroMancuso.jpeg',
-      name: 'Sandro Mancuso',
-      link: 'https://www.linkedin.com/in/sandromancuso/'
+      image: speaker?.image,
+      name: speaker?.name,
+      link: speaker?.social?.linkedin ?? '#'
     }
   ],
   description: [
