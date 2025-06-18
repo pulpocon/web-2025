@@ -1,19 +1,19 @@
 <template>
   <nuxt-link v-if="workshop" :to="`/workshop/${id}`" class="workshop-teaser">
     <div class="speaker-info">
-      <img v-for="speaker in (workshop.speaker || [])"
+      <div class="speaker-info__image-group"><img v-for="speaker in (workshop.speaker || [])"
            :key="speaker.name"
            :src="speaker.image"
            :alt="speaker.name"
-           class="speaker-image">
-      <p>{{ (workshop.speaker || []).map((speaker) => speaker.name).join(' & ') }}:</p>
-      <p><strong>{{ workshop.title }}</strong></p>
+           class="speaker-image"></div>
+      {{ makeList((workshop.speaker || []).map((speaker) => speaker.name)) }}:
+      <strong>{{ workshop.title }}</strong>
     </div>
   </nuxt-link>
 </template>
 <script lang="ts" setup>
 import workshops from '../../data/workshops'
-import speakers from "~/data/speakers";
+import {makeList} from "~/utils/getList";
 
 type Speaker = {
   image: string
@@ -44,13 +44,23 @@ const workshop: ComputedRef<Workshop | undefined> = computed(() => workshops[pro
 }
 
 .speaker-info {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   align-items: center;
+  justify-content: center;
+
+  &__image-group {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+  }
 }
 
 .speaker-image {
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 16px;
