@@ -1,6 +1,6 @@
 import {getSpeaker} from "~/data/speakers";
 
-const speaker = getSpeaker('Fancy Speaker');
+const speaker = getSpeaker('Dorra Bartaguiz');
 
 export default {
   title: '🇬🇧 Talk Title 🇬🇧',

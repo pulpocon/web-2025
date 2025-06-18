@@ -46,6 +46,15 @@ const speakers: Speaker[] = [
     social: {
       linkedin: 'https://www.linkedin.com/in/geeksusma/'
     }
+  },
+  {
+    image: '/i/speakers/dorraBartaguiz.png',
+    name: 'Dorra Bartaguiz',
+    position: 'CTO Arolla',
+    bio: 'co-author "Software Craft" Dunod editions, coach, speaker',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/💎dorra-bartaguiz-457b5315/'
+    }
   }
 ]
 
