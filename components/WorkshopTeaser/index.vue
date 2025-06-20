@@ -1,40 +1,34 @@
 <template>
   <nuxt-link v-if="workshop" :to="`/workshop/${id}`" class="workshop-teaser">
     <div class="speaker-info">
-      <div class="speaker-info__image-group"><img v-for="speaker in (workshop.speaker || [])"
-           :key="speaker.name"
-           :src="speaker.image"
-           :alt="speaker.name"
-           class="speaker-image"></div>
-      {{ makeList((workshop.speaker || []).map((speaker) => speaker.name)) }}:
-      <strong>{{ workshop.title }}</strong>
+      <div class="speaker-info__image-group"><img v-for="speaker in (workshop.getSpeakers())"
+                                                  :key="speaker.name"
+                                                  :src="speaker.image"
+                                                  :alt="speaker.name"
+                                                  class="speaker-image"></div>
+      {{ workshop.speakersNames() }}:
+      <strong>{{ workshop.getTitle() }}</strong>
     </div>
   </nuxt-link>
 </template>
+
 <script lang="ts" setup>
-import workshops from '../../data/workshops'
-import {makeList} from "~/utils/getList";
 
-type Speaker = {
-  image: string
-  name: string
-  link?: string
-}
-
-type Workshop = {
-  title: string
-  speaker: Speaker[]
-  description: string[]
-  schedule: string
-  track: string
-  twitter: string[]
-}
+import {slots} from "~/data/slots";
+import {TeaserModel} from "~/model/TeaserModel";
+import speakersList from "~/data/speakers-map";
+import type {Slot} from "~/model";
 
 const props = defineProps({
-  id: { type: String, required: true }
+  id: {type: String, required: true}
 })
 
-const workshop: ComputedRef<Workshop | undefined> = computed(() => workshops[props.id])
+const slot: Slot | undefined = slots.get(props.id)
+
+const workshop: TeaserModel = !slot
+    ? TeaserModel.placeholder()
+    : TeaserModel.fromSlot(slot, speakersList)
+
 </script>
 
 <style scoped lang="scss">

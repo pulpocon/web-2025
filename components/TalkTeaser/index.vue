@@ -1,40 +1,36 @@
 <template>
   <nuxt-link v-if="talk" :to="`/talk/${id}`">
     <div class="speaker-info">
-      <div class="speaker-info__image-group"><img v-for="speaker in (talk.speaker || [])"
-           :key="speaker.name"
-           :src="speaker.image"
-           :alt="speaker.name"
-           class="speaker-image"></div>
-      
-      {{ makeList((talk.speaker || []).map((speaker: Speaker) => speaker.name)) }}:
-      <strong>{{ talk.title }}</strong>
+      <div class="speaker-info__image-group"><img v-for="speaker in (talk.getSpeakers())"
+                                                  :key="speaker.name"
+                                                  :src="speaker.image"
+                                                  :alt="speaker.name"
+                                                  class="speaker-image"></div>
+
+      {{ talk.speakersNames() }}:
+      <strong>{{ talk.getTitle() }}</strong>
     </div>
   </nuxt-link>
 </template>
+
 <script lang="ts" setup>
-import talks from '../../data/talks'
-import {makeList} from "~/utils/getList";
 
-type Speaker = {
-  image: string
-  name: string
-  link?: string
-}
+import type {Slot} from "~/model";
+import {slots} from "~/data/slots";
+import {TeaserModel} from "~/model/TeaserModel";
+import speakersList from "~/data/speakers-map";
 
-type Talk = {
-  title: string
-  speaker: Speaker[]
-  description: string[]
-  schedule: string
-  twitter: string
-}
 
 const props = defineProps({
-  id: { type: String, required: true }
+  id: {type: String, required: true}
 })
 
-const talk: ComputedRef<Talk | undefined> = computed(() => talks[props.id])
+const slot: Slot | undefined = slots.get(props.id)
+
+const talk: TeaserModel = !slot
+    ? TeaserModel.placeholder()
+    : TeaserModel.fromSlot(slot, speakersList)
+
 </script>
 
 <style scoped lang="scss">

@@ -2,17 +2,17 @@
   <article class="page page--workshop">
     <header class="page__header">
       <h1 class="heading-1">
-        {{ workshop.title }}
+        {{ workshop.getTitle() }}
       </h1>
-      <h3 class="workshop__track">Track {{ workshop.track }} - {{ workshop.schedule }}</h3>
+      <h3 class="workshop__track">Track {{ workshop.getTrack() }} - {{ workshop.schedule }}</h3>
     </header>
-    <section v-if="workshop.speaker?.length > 0" class="workshop__speakers workshop__subsection">
-      <h2 class="heading-3">{{ workshop.speaker.length > 1 ? 'Speakers' : 'Speaker' }}</h2>
+    <section v-if="workshop.getSpeakers().length > 0" class="workshop__speakers workshop__subsection">
+      <h2 class="heading-3">{{ workshop.getSpeakers().length > 1 ? 'Speakers' : 'Speaker' }}</h2>
       <ul>
-        <li v-for="speaker in workshop.speaker">
-          <a :href="speaker.link" class="workshop__speaker" rel="noopener noreferrer" target="_blank">
+        <li v-for="speaker in workshop.getSpeakers()">
+          <a :href="speaker.social?.linkedin" class="workshop__speaker" rel="noopener noreferrer" target="_blank">
             <img :alt="speaker.name" :src="speaker.image" class="workshop__speaker-image">
-            {{ speaker.name }}
+            {{ speaker.name }}<br/> {{ speaker.position }} @ {{ speaker.company }}
           </a>
         </li>
       </ul>
@@ -32,11 +32,48 @@
   </article>
 </template>
 <script lang="ts" setup>
-import workshops from '../../data/workshops'
-import { useRoute } from '#app'
+import {useRoute} from '#app'
+import {slots} from "~/data/slots";
+import {DetailModel} from "~/model/DetailModel";
+import type {Speaker} from "~/model";
+import speakersList from "~/data/speakers-map";
 
 const route = useRoute()
 
-const workshop: ComputedRef = computed(() => workshops[route.params.id] || {})
+const slot = slots.get(route.params.id as string);
+
+let workshop: DetailModel
+
+
+if (!slot) {
+  workshop = new DetailModel(
+      'Not Defined',
+      'xx',
+      [{
+        name: 'Not Defined',
+        image: '/i/speakers/your-photo.jpg',
+        position: 'Developer',
+        company: 'Acme Inc.',
+        bio: 'Unknown',
+        social:
+            {linkedin: 'https://www.not-defined.com'}
+      }],
+      ['Content to be defined'],
+      '',
+      ''
+  )
+} else {
+  const speakers: Speaker[] = slot.speakers.map((id: string) => speakersList.get(id)!)!
+
+  workshop = new DetailModel(
+      slot.content.title,
+      slot.content.lang,
+      speakers,
+      slot.content.description,
+      slot.schedule,
+      slot.track
+  )
+}
+
 </script>
 <style src="./workshop.scss"></style>

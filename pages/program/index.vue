@@ -48,10 +48,10 @@
               09:30<br>11:30
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="tbd-workshop-newbie-01"/>
+              <workshop-teaser id="workshop-newbie-01"/>
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="tbd-workshop-expert-01"/>
+              <workshop-teaser id="workshop-expert-01"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -78,10 +78,10 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="tbd-workshop-newbie-02"/>
+              <workshop-teaser id="workshop-newbie-02"/>
             </td>
             <td class="program-day__table-title">
-              <workshop-teaser id="tbd-workshop-expert-02"/>
+              <workshop-teaser id="workshop-expert-02"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -108,10 +108,10 @@
               15:30<br>17:30
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <workshop-teaser id="tbd-workshop-newbie-03"/>
+              <workshop-teaser id="workshop-newbie-03"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <workshop-teaser id="tbd-workshop-expert-03"/>
+              <workshop-teaser id="workshop-expert-03"/>
             </td>
             <td class="program-day__table-title">
               Badge pickup
@@ -189,16 +189,16 @@
               9:30<br>11:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-backend-01"/>
+              <workshop-teaser id="workshop-backend-01"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-frontend-01"/>
+              <workshop-teaser id="workshop-frontend-01"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-		          <workshop-teaser id="tbd-workshop-devops-01"/>
+		          <workshop-teaser id="workshop-devops-01"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-management-01"/>
+              <workshop-teaser id="workshop-management-01"/>
             </td>
             <td class="program-day__table-title">
               Opening
@@ -209,7 +209,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-01"/>
+              <talk-teaser id="talk-pulpito-01"/>
             </td>
             <td class="program-day__table-time">
               10:10<br/>10:50
@@ -217,7 +217,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-02"/>
+              <talk-teaser id="talk-pulpito-02"/>
             </td>
             <td class="program-day__table-time">
               10:50<br/>11:30
@@ -241,19 +241,19 @@
               12:30<br>14:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-backend-02" />
+              <workshop-teaser id="workshop-backend-02" />
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-frontend-02"/>
+              <workshop-teaser id="workshop-frontend-02"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-devops-02"/>
+              <workshop-teaser id="workshop-devops-02"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-management-02"/>
+              <workshop-teaser id="workshop-management-02"/>
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-03"/>
+              <talk-teaser id="talk-pulpito-03"/>
             </td>
             <td class="program-day__table-time">
               12:30<br>13:10
@@ -261,7 +261,7 @@
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-04"/>
+              <talk-teaser id="talk-pulpito-04"/>
             </td>
             <td class="program-day__table-time">
               13:10<br>13:50
@@ -269,7 +269,7 @@
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-05"/>
+              <talk-teaser id="talk-pulpito-05"/>
             </td>
             <td class="program-day__table-time">
               13:50<br>14:30
@@ -293,19 +293,19 @@
               16:30<br>18:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-backend-03"/>
+              <workshop-teaser id="workshop-backend-03"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-frontend-03"/>
+              <workshop-teaser id="workshop-frontend-03"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-devops-03"/>
+              <workshop-teaser id="workshop-devops-03"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="tbd-workshop-management-03"/>
+              <workshop-teaser id="workshop-management-03"/>
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-06"/>
+              <talk-teaser id="talk-pulpito-06"/>
             </td>
             <td class="program-day__table-time">
               16:30<br>17:10
@@ -313,7 +313,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-07"/>
+              <talk-teaser id="talk-pulpito-07"/>
             </td>
             <td class="program-day__table-time">
               17:10<br>17:50
@@ -321,7 +321,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-pulpito-08"/>
+              <talk-teaser id="talk-pulpito-08"/>
             </td>
             <td class="program-day__table-time">
               17:50<br>18:30
@@ -333,7 +333,7 @@
               18:30<br>19:30
             </td>
             <td class="program-day__table-title" colspan="5">
-              <workshop-teaser id="tbd-fireside-chat"/>
+              <workshop-teaser id="fireside-chat"/>
             </td>
             <td class="program-day__table-time">
               18:30<br>19:30
@@ -388,7 +388,7 @@
               10:00<br>10:40
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-sat-01"/>
+              <talk-teaser id="talk-sat-01"/>
             </td>
             <td class="program-day__table-time">
               10:00<br>10:40
@@ -400,7 +400,7 @@
               10:40<br>11:20
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-sat-02"/>
+              <talk-teaser id="talk-sat-02"/>
             </td>
             <td class="program-day__table-time">
               10:40<br>11:20
@@ -424,7 +424,7 @@
               12:30<br>13:10
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-sat-03"/>
+              <talk-teaser id="talk-sat-03"/>
             </td>
             <td class="program-day__table-time">
               12:30<br>13:10
@@ -435,7 +435,7 @@
               13:20<br>14:00
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-sat-04"/>
+              <talk-teaser id="talk-sat-04"/>
             </td>
             <td class="program-day__table-time">
               13:20<br>14:00
@@ -459,7 +459,7 @@
               16:00<br>16:40
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-sat-05"/>
+              <talk-teaser id="talk-sat-05"/>
             </td>
             <td class="program-day__table-time">
               16:00<br>16:40
@@ -471,7 +471,7 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="tbd-talk-sat-06"/>
+              <talk-teaser id="talk-sat-06"/>
             </td>
             <td class="program-day__table-time">
               16:50<br>17:30
@@ -515,8 +515,7 @@
   </section>
 </template>
 <script lang="ts" setup>
-import config from '../../data/config'
-import WorkshopTeaser from '../../components/WorkshopTeaser'
-import TalkTeaser from '../../components/TalkTeaser'
+import WorkshopTeaser from '../../components/WorkshopTeaser/index.vue'
+import TalkTeaser from '../../components/TalkTeaser/index.vue'
 </script>
 <style src="./program.scss"></style>

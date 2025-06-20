@@ -2,17 +2,17 @@
   <article class="page page--talk">
     <header class="page__header">
       <h1 class="heading-1">
-        {{ talk.title }}
+        {{ talk.getTitle() }}
       </h1>
       <h3 class="talk__track">{{ talk.schedule }}</h3>
     </header>
-    <section v-if="talk.speaker" class="talk__speakers talk__subsection">
-      <h2 class="heading-3">{{ talk.speaker.length > 1 ? 'Speakers' : 'Speaker' }}</h2>
+    <section v-if="talk.getSpeakers().length > 0" class="talk__speakers talk__subsection">
+      <h2 class="heading-3">{{ talk.getSpeakers().length > 1 ? 'Speakers' : 'Speaker' }}</h2>
       <ul>
-        <li v-for="speaker in talk.speaker">
-          <a :href="speaker.link" class="talk__speaker" rel="noopener noreferrer" target="_blank">
+        <li v-for="speaker in talk.getSpeakers()">
+          <a :href="speaker.social?.linkedin" class="talk__speaker" rel="noopener noreferrer" target="_blank">
             <img :alt="speaker.name" :src="speaker.image" class="talk__speaker-image">
-            {{ speaker.name }}
+            {{ speaker.name }}<br /> {{ speaker.position }} @ {{ speaker.company }}
           </a>
         </li>
       </ul>
@@ -32,11 +32,49 @@
   </article>
 </template>
 <script lang="ts" setup>
-import talks from '../../data/talks'
 import { useRoute } from '#app'
+
+import {slots} from '~/data/slots'
+import speakersList from '~/data/speakers-map'
+import {DetailModel} from "~/model/DetailModel";
+import type {Speaker} from "~/model";
 
 const route = useRoute()
 
-const talk: ComputedRef = computed(() => talks[route.params.id] || {})
+const slot = slots.get(route.params.id as string);
+
+let talk: DetailModel
+
+
+
+if (!slot) {
+  talk = new DetailModel(
+      'Not Defined',
+      'xx',
+      [{
+        name: 'Not Defined',
+        image: '/i/speakers/your-photo.jpg',
+        position: 'Developer',
+        company: 'Acme Inc.',
+        bio: 'Unknown',
+        social:
+            {linkedin: 'https://www.not-defined.com'}
+      }],
+      ['Content to be defined'],
+      '',
+      ''
+  )
+} else {
+  const speakers: Speaker[] = slot.speakers.map((id: string) => speakersList.get(id)!)!
+
+  talk = new DetailModel(
+      slot.content.title,
+      slot.content.lang,
+      speakers,
+      slot.content.description,
+      slot.schedule,
+      ''
+  )
+}
 </script>
 <style src="./talk.scss"></style>

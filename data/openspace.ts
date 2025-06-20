@@ -2,7 +2,7 @@ export default {
   title: 'Open Space',
   speaker: [
     {
-      image: 'your-photo.jpg',
+      image: 'your-photo-grayscale.jpg',
       name: 'TBC',
       link: ''
     }

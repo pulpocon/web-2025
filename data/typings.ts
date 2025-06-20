@@ -6,7 +6,8 @@ export interface Speaker {
 
 export interface Workshop {
   title: string
-  speaker: Speaker[]
+  lang: string
+  speakers: Speaker[]
   description: string[]
   schedule: string
   track: string
@@ -15,7 +16,8 @@ export interface Workshop {
 
 export interface Talk {
   title: string
-  speaker: Speaker[]
+  lang: string
+  speakers: Speaker[]
   description: string[]
   schedule: string
   twitter: string
