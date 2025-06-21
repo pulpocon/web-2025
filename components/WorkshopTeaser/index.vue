@@ -16,7 +16,7 @@
 
 import {slots} from "~/data/slots";
 import {TeaserModel} from "~/model/TeaserModel";
-import speakersList from "~/data/speakers-map";
+import speakersList from "~/data/speakers";
 import type {Slot} from "~/model";
 
 const props = defineProps({
@@ -58,5 +58,6 @@ const workshop: TeaserModel = !slot
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 16px;
+  border: 3px solid #a81d88;
 }
 </style>

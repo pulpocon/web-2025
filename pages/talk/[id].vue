@@ -35,7 +35,7 @@
 import { useRoute } from '#app'
 
 import {slots} from '~/data/slots'
-import speakersList from '~/data/speakers-map'
+import speakersList from '~/data/speakers'
 import {DetailModel} from "~/model/DetailModel";
 import type {Speaker} from "~/model";
 
@@ -48,22 +48,7 @@ let talk: DetailModel
 
 
 if (!slot) {
-  talk = new DetailModel(
-      'Not Defined',
-      'xx',
-      [{
-        name: 'Not Defined',
-        image: '/i/speakers/your-photo.jpg',
-        position: 'Developer',
-        company: 'Acme Inc.',
-        bio: 'Unknown',
-        social:
-            {linkedin: 'https://www.not-defined.com'}
-      }],
-      ['Content to be defined'],
-      '',
-      ''
-  )
+  talk = DetailModel.placeholder()
 } else {
   const speakers: Speaker[] = slot.speakers.map((id: string) => speakersList.get(id)!)!
 
@@ -73,7 +58,7 @@ if (!slot) {
       speakers,
       slot.content.description,
       slot.schedule,
-      ''
+      slot.track
   )
 }
 </script>

@@ -1,6 +1,22 @@
 import type {Slot} from "~/model";
 
 export const slots: Map<string, Slot> = new Map([
+        ['openspace', {
+            speakers: [
+                'tbd'
+            ],
+            content: {
+                title: 'Open Space',
+                description: [
+                    'An open space is a non-conference format. No agenda, no predefined topics. Attendants decide the agenda at the start, using a collaborative process. No topic is banned.',
+                    'It is an opportunity to explore new perspectives on whatever topic matters to you. Have you ever tried to empathize with someone on an issue you were sure you fully understood?',
+                    'In this openspace, participants will propose topics that will later be voted on by everyone. Once the topics of interest are defined, we will dive into enriching discussions, allowing every voice to be heard. The idea is to learn collectively, in an environment of respect and collaboration.'
+                ],
+                lang: 'es',
+            },
+            schedule: 'Thursday 16:00-19:00',
+            track: 'Open Space',
+        }],
         ['talk-sat-02', {
             speakers:
                 [
@@ -49,10 +65,10 @@ export const slots: Map<string, Slot> = new Map([
                 description: [
                     'Description of your workshop'
                 ],
-                lang: 'en',
+                lang: 'es',
             },
             speakers: [
-                'krisztina',
+                'jesus',
             ],
             schedule: 'Friday 09:30-11:30',
             track: 'Backend',
@@ -66,11 +82,151 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'en',
             },
             speakers: [
+                'krisztina',
+            ],
+            schedule: 'Friday 12:00-14:00',
+            track: 'Backend',
+        }],
+        ['workshop-backend-03', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'en',
+            },
+            speakers: [
                 'clare',
             ],
             schedule: 'Friday 16:30-18:30',
             track: 'Backend',
-        }]
+        }],
+        ['workshop-frontend-01', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 09:30-11:30',
+            track: 'Frontend',
+        }],
+        ['workshop-frontend-02', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'en',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 12:00-14:00',
+            track: 'Frontend',
+        }],
+        ['workshop-frontend-03', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'en',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 16:30-18:30',
+            track: 'Frontend',
+        }],
+        ['workshop-devops-01', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 09:30-11:30',
+            track: 'DevOps',
+        }],
+        ['workshop-devops-02', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'en',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 12:00-14:00',
+            track: 'DevOps',
+        }],
+        ['workshop-devops-03', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'en',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 16:30-18:30',
+            track: 'DevOps',
+        }],
+        ['workshop-management-01', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 09:30-11:30',
+            track: 'Management',
+        }],
+        ['workshop-management-02', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'en',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 12:00-14:00',
+            track: 'Management',
+        }],
+        ['workshop-management-03', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'en',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 16:30-18:30',
+            track: 'Management',
+        }],
     ])
 ;
 

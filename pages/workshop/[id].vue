@@ -36,7 +36,7 @@ import {useRoute} from '#app'
 import {slots} from "~/data/slots";
 import {DetailModel} from "~/model/DetailModel";
 import type {Speaker} from "~/model";
-import speakersList from "~/data/speakers-map";
+import speakersList from "~/data/speakers";
 
 const route = useRoute()
 
@@ -44,24 +44,8 @@ const slot = slots.get(route.params.id as string);
 
 let workshop: DetailModel
 
-
 if (!slot) {
-  workshop = new DetailModel(
-      'Not Defined',
-      'xx',
-      [{
-        name: 'Not Defined',
-        image: '/i/speakers/your-photo.jpg',
-        position: 'Developer',
-        company: 'Acme Inc.',
-        bio: 'Unknown',
-        social:
-            {linkedin: 'https://www.not-defined.com'}
-      }],
-      ['Content to be defined'],
-      '',
-      ''
-  )
+  workshop = DetailModel.placeholder()
 } else {
   const speakers: Speaker[] = slot.speakers.map((id: string) => speakersList.get(id)!)!
 

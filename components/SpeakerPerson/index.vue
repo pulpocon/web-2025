@@ -6,12 +6,7 @@
         {{ speaker.name }}
       </h2>
     </header>
-    <h3 class="speaker__position">{{ speaker.position }}</h3>
-    <p v-if="speaker.social?.linkedin" class="speaker__social-link">
-      <a :href="speaker.social?.linkedin" rel="noopener noreferrer" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </p>
+    <h3 class="speaker__position">{{ speaker.position }} <br />@ {{ speaker.company }}</h3>
 
     <ul class="speaker__social">
       <li v-if="speaker.social?.twitter" class="speaker__social-link">
@@ -32,16 +27,8 @@
 
 <script lang="ts" setup>
 
-type Speaker = {
-  name: string
-  position: string
-  bio: string
-  image: string
-  social?: {
-    linkedin?: string
-    twitter?: string
-  }
-}
+
+import type {Speaker} from "~/model";
 
 defineProps({
   speaker: { type: Object as () => Speaker, required: true }

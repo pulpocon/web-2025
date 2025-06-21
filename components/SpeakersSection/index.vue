@@ -24,7 +24,16 @@
 </template>
 <script lang="ts" setup>
 
-import speakers from "~/data/speakers";
+import speakersList from "~/data/speakers";
+import type {Speaker} from "~/model";
+
+let speakers: Speaker[] = [];
+speakersList.forEach((speaker: Speaker, key: string) => {
+  if (key !== 'tbd') {
+    speakers.push(speaker)
+  }
+});
+
 
 defineProps()
 
