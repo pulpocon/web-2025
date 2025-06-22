@@ -1,5 +1,5 @@
 import type {Speaker} from "~/model";
-import {makeList} from "~/utils/getList";
+import {langTitle} from "~/utils/langTitle";
 
 export class DetailModel {
     title: string
@@ -41,10 +41,6 @@ export class DetailModel {
             '',
             ''
         )
-    }
-
-    speakersNames(): string {
-        return makeList(this.speakers.map((s: Speaker) => s.name))
     }
 
     getSpeakers(): Speaker[] {
