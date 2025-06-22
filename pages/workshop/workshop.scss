@@ -24,6 +24,39 @@
       }
     }
 
+    &__speaker-card {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+    }
+
+    &__speaker-details {
+      display: flex;
+      gap: .3rem;
+      flex-direction: column;
+      justify-content: center;
+
+      &-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+
+      &-position {
+        font-size: 1rem;
+        font-weight: normal;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
 
     &__speaker {
       color: #fff;
@@ -38,19 +71,15 @@
         height: 120px;
         border-radius: 50%;
         transition: all 0.3s ease-in-out;
-      }
 
-      &:hover {
-        text-decoration: underline;
-
-        .workshop__speaker-image {
-          scale: 1.1;
+        &:hover {
+          text-decoration: underline;
+          scale: 1.2;
         }
       }
     }
 
     &__speakers {
-
       li {
         margin-bottom: 10px;
       }

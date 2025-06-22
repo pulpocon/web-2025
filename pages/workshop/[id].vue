@@ -9,11 +9,15 @@
     <section v-if="workshop.getSpeakers().length > 0" class="workshop__speakers workshop__subsection">
       <h2 class="heading-3">{{ workshop.getSpeakers().length > 1 ? 'Speakers' : 'Speaker' }}</h2>
       <ul>
-        <li v-for="speaker in workshop.getSpeakers()">
-          <a :href="speaker.social?.linkedin" class="workshop__speaker" rel="noopener noreferrer" target="_blank">
-            <img :alt="speaker.name" :src="speaker.image" class="workshop__speaker-image">
-            {{ speaker.name }}<br/> {{ speaker.position }} @ {{ speaker.company }}
-          </a>
+        <li v-for="speaker in workshop.getSpeakers()" class="workshop__speaker-card">
+          <img :alt="speaker.name" :src="speaker.image" class="workshop__speaker-image">
+          <div class="workshop__speaker-details">
+            <span class="workshop__speaker-details-name">{{ speaker.name }}</span>
+            <span class="workshop__speaker-details-position"><a :href="speaker.social?.linkedin" class="workshop"
+                                               rel="noopener noreferrer" target="_blank">
+              {{ speaker.position }} @ {{ speaker.company }}
+            </a></span>
+          </div>
         </li>
       </ul>
     </section>

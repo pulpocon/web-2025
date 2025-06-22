@@ -9,11 +9,15 @@
     <section v-if="talk.getSpeakers().length > 0" class="talk__speakers talk__subsection">
       <h2 class="heading-3">{{ talk.getSpeakers().length > 1 ? 'Speakers' : 'Speaker' }}</h2>
       <ul>
-        <li v-for="speaker in talk.getSpeakers()">
-          <a :href="speaker.social?.linkedin" class="talk__speaker" rel="noopener noreferrer" target="_blank">
-            <img :alt="speaker.name" :src="speaker.image" class="talk__speaker-image">
-            {{ speaker.name }}<br /> {{ speaker.position }} @ {{ speaker.company }}
-          </a>
+        <li v-for="speaker in talk.getSpeakers()" class="talk__speaker-card">
+          <img :alt="speaker.name" :src="speaker.image" class="talk__speaker-image">
+          <div class="talk__speaker-details">
+            <span class="talk__speaker-details-name">{{ speaker.name }}</span>
+            <span class="talk__speaker-details-position"><a :href="speaker.social?.linkedin" class="talk__speaker"
+                                               rel="noopener noreferrer" target="_blank">
+              {{ speaker.position }} @ {{ speaker.company }}
+            </a></span>
+          </div>
         </li>
       </ul>
     </section>
@@ -32,7 +36,7 @@
   </article>
 </template>
 <script lang="ts" setup>
-import { useRoute } from '#app'
+import {useRoute} from '#app'
 
 import {slots} from '~/data/slots'
 import speakersList from '~/data/speakers'
@@ -44,7 +48,6 @@ const route = useRoute()
 const slot = slots.get(route.params.id as string);
 
 let talk: DetailModel
-
 
 
 if (!slot) {
