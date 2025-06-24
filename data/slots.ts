@@ -20,6 +20,20 @@ export const slots: Map<string, Slot> = new Map([
         ['talk-sat-02', {
             speakers:
                 [
+                    'dorra'
+                ],
+            content: {
+                title: 'Talk Title',
+                lang: 'en',
+                description: ['TBD'],
+
+            },
+            track: 'Main Day',
+            schedule: 'Sat 10:00-10:40',
+        }],
+        ['talk-sat-04', {
+            speakers:
+                [
                     'clare'
                 ],
             content: {
