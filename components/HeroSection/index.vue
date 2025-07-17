@@ -12,13 +12,11 @@
         Vigo, September, 18, 19 & 20, 2025
       </h3>
     </div>
-    <!--
-          <div>
-            <a class="btn" href="https://entradas.pulpocon.es" target="_blank">
-              🎟 Tickets Available! 🎟
-            </a>
-          </div>
-                -->
+    <div>
+      <a class="btn" href="https://entradas.pulpocon.es" target="_blank">
+        🎟 Tickets Available! 🎟
+      </a>
+    </div>
     <div>
       <a class="btn"
          href="https://docs.google.com/presentation/d/1pRGA1fH5ULCLFxAamWO92UqcpQc1iEQjOMT2zw6kgpU/edit?usp=sharing"
