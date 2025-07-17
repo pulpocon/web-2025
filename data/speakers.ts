@@ -51,6 +51,16 @@ const speakersList: Map<string, Speaker> = new Map([
             linkedin: 'https://www.linkedin.com/in/💎dorra-bartaguiz-457b5315/'
         }
     }],
+    ['helder', {
+        image: '/i/speakers/helderDeOliveira.jpeg',
+        name: 'Helder de Oliveira',
+        company: 'Codurance',
+        position: 'Engineering Manager',
+        bio: 'Driving Agile Transformations & Building Scalable Platforms',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/hemarque/'
+        }
+    }],
     ['tbd', {
         image: '/i/speakers/your-photo-grayscale.jpg',
         name: 'Speaker TBD',
