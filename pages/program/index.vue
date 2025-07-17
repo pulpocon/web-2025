@@ -22,7 +22,7 @@
               Crafter Newbie Workshop
             </th>
             <th>
-              Crafter Expert Workshop
+              Crafter + IA Workshop
             </th>
             <th>
               Jardín / Salón
@@ -135,9 +135,7 @@
       </div>
 
       <footer>
-<!--        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
-          Comprar entradas 🎟️
-        </a>-->
+      <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">Tickets 🎟️</a>
       </footer>
     </section>
 
@@ -154,13 +152,13 @@
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
-              Backend
+              🇬🇧 Crafter 🇬🇧
             </th>
             <th>
-              Frontend
+              🇪🇸 Crafter 🇪🇸
             </th>
             <th>
-              Devops
+              Fullstack
             </th>
             <th>
               Management
@@ -189,13 +187,13 @@
               9:30<br>11:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-backend-01"/>
+              <workshop-teaser id="workshop-crafter-en-01"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-frontend-01"/>
+              <workshop-teaser id="workshop-crafter-es-01"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-		          <workshop-teaser id="workshop-devops-01"/>
+		          <workshop-teaser id="workshop-fullstack-01"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="workshop-management-01"/>
@@ -241,13 +239,13 @@
               12:30<br>14:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-backend-02" />
+              <workshop-teaser id="workshop-crafter-en-02" />
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-frontend-02"/>
+              <workshop-teaser id="workshop-crafter-es-02"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-devops-02"/>
+              <workshop-teaser id="workshop-fullstack-02"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="workshop-management-02"/>
@@ -293,13 +291,13 @@
               16:30<br>18:30
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-backend-03"/>
+              <workshop-teaser id="workshop-crafter-en-03"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-frontend-03"/>
+              <workshop-teaser id="workshop-crafter-es-03"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="workshop-devops-03"/>
+              <workshop-teaser id="workshop-fullstack-03"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="workshop-management-03"/>
@@ -343,9 +341,7 @@
         </table>
       </div>
       <footer>
-<!--        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
-          Comprar entradas 🎟️
-        </a>-->
+        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">Tickets 🎟️</a>
       </footer>
     </section>
 
@@ -505,11 +501,7 @@
         </table>
       </div>
       <footer>
-<!--
-        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
-          Comprar entradas 🎟️
-        </a>
- -->
+        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">Tickets 🎟️</a>
       </footer>
     </section>
   </section>
@@ -517,5 +509,6 @@
 <script lang="ts" setup>
 import WorkshopTeaser from '../../components/WorkshopTeaser/index.vue'
 import TalkTeaser from '../../components/TalkTeaser/index.vue'
+import config from "~/data/config";
 </script>
 <style src="./program.scss"></style>

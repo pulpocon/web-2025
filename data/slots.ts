@@ -73,21 +73,21 @@ export const slots: Map<string, Slot> = new Map([
             track: 'Pulpito',
             schedule: 'Friday 18:30-19:30',
         }],
-        ['workshop-backend-01', {
+        ['workshop-crafter-en-01', {
             content: {
                 title: 'Workshop Title',
                 description: [
                     'Description of your workshop'
                 ],
-                lang: 'es',
+                lang: 'en',
             },
             speakers: [
-                'jesus',
+                'tbd',
             ],
             schedule: 'Friday 09:30-11:30',
-            track: 'Backend',
+            track: '🇬🇧 Crafter 🇬🇧',
         }],
-        ['workshop-backend-02', {
+        ['workshop-crafter-en-02', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -99,9 +99,9 @@ export const slots: Map<string, Slot> = new Map([
                 'krisztina',
             ],
             schedule: 'Friday 12:00-14:00',
-            track: 'Backend',
+            track: '🇬🇧 Crafter 🇬🇧',
         }],
-        ['workshop-backend-03', {
+        ['workshop-crafter-en-03', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -113,9 +113,23 @@ export const slots: Map<string, Slot> = new Map([
                 'clare',
             ],
             schedule: 'Friday 16:30-18:30',
-            track: 'Backend',
+            track: '🇬🇧 Crafter 🇬🇧',
         }],
-        ['workshop-frontend-01', {
+        ['workshop-crafter-es-01', {
+            content: {
+                title: 'Workshop Title',
+                description: [
+                    'Description of your workshop'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'jesus',
+            ],
+            schedule: 'Friday 09:30-11:30',
+            track: '🇪🇸 Crafter 🇪🇸',
+        }],
+        ['workshop-crafter-es-02', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -126,24 +140,10 @@ export const slots: Map<string, Slot> = new Map([
             speakers: [
                 'tbd',
             ],
-            schedule: 'Friday 09:30-11:30',
-            track: 'Frontend',
-        }],
-        ['workshop-frontend-02', {
-            content: {
-                title: 'Workshop Title',
-                description: [
-                    'Description of your workshop'
-                ],
-                lang: 'en',
-            },
-            speakers: [
-                'tbd',
-            ],
             schedule: 'Friday 12:00-14:00',
-            track: 'Frontend',
+            track: '🇪🇸 Crafter 🇪🇸',
         }],
-        ['workshop-frontend-03', {
+        ['workshop-crafter-es-03', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -155,9 +155,9 @@ export const slots: Map<string, Slot> = new Map([
                 'tbd',
             ],
             schedule: 'Friday 16:30-18:30',
-            track: 'Frontend',
+            track: '🇪🇸 Crafter 🇪🇸',
         }],
-        ['workshop-devops-01', {
+        ['workshop-fullstack-01', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -169,9 +169,9 @@ export const slots: Map<string, Slot> = new Map([
                 'tbd',
             ],
             schedule: 'Friday 09:30-11:30',
-            track: 'DevOps',
+            track: 'FullStack',
         }],
-        ['workshop-devops-02', {
+        ['workshop-fullstack-02', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -183,9 +183,9 @@ export const slots: Map<string, Slot> = new Map([
                 'tbd',
             ],
             schedule: 'Friday 12:00-14:00',
-            track: 'DevOps',
+            track: 'FullStack',
         }],
-        ['workshop-devops-03', {
+        ['workshop-fullstack-03', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -197,7 +197,7 @@ export const slots: Map<string, Slot> = new Map([
                 'tbd',
             ],
             schedule: 'Friday 16:30-18:30',
-            track: 'DevOps',
+            track: 'FullStack',
         }],
         ['workshop-management-01', {
             content: {
