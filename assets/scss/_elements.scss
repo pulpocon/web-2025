@@ -1,0 +1,27 @@
+/* Basic styling for common elements */
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, var(--turquoise), var(--blue-violet));
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  i {
+    margin: 0 5px;
+  }
+}
+
+/* Text gradient */
+.text-gradient {
+  @include text-gradient();
+}

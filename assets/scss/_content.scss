@@ -1,0 +1,38 @@
+/* Styling for content elements */
+
+/* Section styling */
+section {
+  padding: 50px 0;
+  
+  @include media-min($md) {
+    padding: 80px 0;
+  }
+}
+
+/* Content containers */
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+  @include media-min($md) {
+    padding: 0 40px;
+  }
+}
+
+/* Summary section */
+.summary-section {
+  &__description {
+    text-align: center;
+    margin-bottom: 30px;
+    
+    p {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      
+      @include media-min($md) {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

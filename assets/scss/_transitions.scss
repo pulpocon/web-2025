@@ -1,0 +1,43 @@
+/* Vue transitions */
+
+/* Fade transition */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Slide right transition (for mobile menu) */
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: transform 0.3s ease;
+}
+.slide-right-enter,
+.slide-right-leave-to {
+  transform: translateX(-100%);
+}
+
+/* Slide up transition */
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: transform 0.5s ease, opacity 0.5s;
+}
+.slide-up-enter,
+.slide-up-leave-to {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+/* Scale transition */
+.scale-enter-active,
+.scale-leave-active {
+  transition: transform 0.5s ease, opacity 0.5s;
+}
+.scale-enter,
+.scale-leave-to {
+  transform: scale(0.9);
+  opacity: 0;
+}

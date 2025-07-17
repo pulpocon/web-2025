@@ -10,7 +10,7 @@ const menu: MenuItem[] = [
   },
   {
     'link': 'https://entradas.pulpocon.es',
-    'title': '🎟️ Tickets 🎟️'
+    'title': 'Tickets'
   },
   {
     'link': '/#sponsors',
@@ -26,7 +26,7 @@ const menu: MenuItem[] = [
   },
   {
     'link': '/codigo-de-conducta',
-    'title': 'Code of Conduct'
+    'title': 'CoC'
   },
   {
     'link': '/diversity',

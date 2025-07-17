@@ -1,10 +1,10 @@
 <template>
   <header :class="['web-header', {'not-in-top': notInTop || mobileMenuVisible }]">
     <div class="web-header__content container-fluid-1440">
-      <div class="mobile-menu-toggle hidden-lg" @click="mobileMenuToggle">
+      <div class="mobile-menu-toggle visible-xs visible-lxs visible-sm visible-md" @click="mobileMenuToggle">
         <i class="fa fa-bars"/>
       </div>
-      <div class="web-header__spacer hidden-lg"></div>
+      <div class="web-header__spacer visible-xs visible-lxs visible-sm visible-md"></div>
 
       <div class="web-header__logo-wrapper">
         <nuxt-link to="/#home">
@@ -51,6 +51,19 @@ import { storeToRefs } from 'pinia'
 import Logo from '../../components/Logos/LogoPulpoCon1Ink.vue'
 import { useMobileMenuStore } from '../../stores/mobileMenu'
 import { useUIStore } from '../../stores/ui'
+
+// Add Font Awesome CDN to ensure icons are loaded
+useHead({
+  link: [
+    { 
+      rel: 'stylesheet', 
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
+      integrity: 'sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==',
+      crossorigin: 'anonymous',
+      referrerpolicy: 'no-referrer'
+    }
+  ]
+})
 
 const mobileMenu = useMobileMenuStore()
 const uiStore = useUIStore()
