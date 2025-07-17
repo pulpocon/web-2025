@@ -10,7 +10,7 @@ const menu: MenuItem[] = [
   },
   {
     'link': 'https://entradas.pulpocon.es',
-    'title': 'Tickets (soon)'
+    'title': '🎟️ Tickets 🎟️'
   },
   {
     'link': '/#sponsors',

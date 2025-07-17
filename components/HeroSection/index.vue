@@ -27,7 +27,8 @@
       </a>
     </div>
     <div class="summary-section__description" data-aos="fade" data-aos-delay="1200">
-      <p>🔔 Call for Speakers closed. Proposals in review. 🔔</p>
+      <p>🐙 Octopus Experience: Early-bird tickets available 🐙</p>
+      <p>🔔 More Early-bird tickets coming soon! 🔔</p>
     </div>
 
 
