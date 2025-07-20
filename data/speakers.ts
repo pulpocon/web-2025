@@ -9,7 +9,8 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/clareSudbery.jpeg',
         social: {
             linkedin: 'https://www.linkedin.com/in/clare-sudbery-she-her-35939540/'
-        }
+        },
+        show: true
     }],
     ['sandro', {
         name: 'Sandro Mancuso',
@@ -19,7 +20,8 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/sandroMancuso.jpeg',
         social: {
             linkedin: 'https://www.linkedin.com/in/sandromancuso/'
-        }
+        },
+        show: true
     }],
     ['krisztina', {
         image: '/i/speakers/krisztinaHirth.png',
@@ -29,7 +31,8 @@ const speakersList: Map<string, Speaker> = new Map([
         position: 'Staff Architect',
         social: {
             linkedin: 'https://www.linkedin.com/in/christina-hirth-yellowbrickcode/'
-        }
+        },
+        show: true
     }],
     ['jesus', {
         image: '/i/speakers/jesusVillarVazquez.jpg',
@@ -39,7 +42,8 @@ const speakersList: Map<string, Speaker> = new Map([
         bio: '',
         social: {
             linkedin: 'https://www.linkedin.com/in/geeksusma/'
-        }
+        },
+        show: true
     }],
     ['dorra', {
         image: '/i/speakers/dorraBartaguiz.png',
@@ -49,7 +53,8 @@ const speakersList: Map<string, Speaker> = new Map([
         bio: 'co-author "Software Craft" Dunod editions, coach, speaker',
         social: {
             linkedin: 'https://www.linkedin.com/in/💎dorra-bartaguiz-457b5315/'
-        }
+        },
+        show: true
     }],
     ['helder', {
         image: '/i/speakers/helderDeOliveira.jpeg',
@@ -59,7 +64,41 @@ const speakersList: Map<string, Speaker> = new Map([
         bio: 'Driving Agile Transformations & Building Scalable Platforms',
         social: {
             linkedin: 'https://www.linkedin.com/in/hemarque/'
-        }
+        },
+        show: true
+    }],
+    ['annegret', {
+        image: '/i/speakers/annegretJunker.png',
+        name: 'Dr. Annegret Junker',
+        company: 'codecentric AG',
+        position: 'Chief Software Architect',
+        bio: 'Author of Mastering Domain-Driven Design',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/dr-annegret-junker-141a99a4/'
+        },
+        show: false
+    }],
+    ['lorena', {
+        image: '/i/speakers/lorenaMartinez.jpeg',
+        name: 'Lorena Martínez',
+        company: 'Qualifyze',
+        position: 'Fullstack Software Engineer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/lorenamartinezmoledo/'
+        },
+        show: false
+    }],
+    ['ben', {
+        image: '/i/speakers/benjaminRae.jpeg',
+        name: 'Benjamin A. Rae',
+        company: 'Qualifyze',
+        position: 'Software Engineer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/benjamin-alexander-rae/'
+        },
+        show: false
     }],
     ['tbd', {
         image: '/i/speakers/your-photo-grayscale.jpg',
@@ -69,7 +108,8 @@ const speakersList: Map<string, Speaker> = new Map([
         bio: '',
         social: {
             linkedin: 'https://www.not-defined.com'
-        }
+        },
+        show: false
     }]
 ])
 

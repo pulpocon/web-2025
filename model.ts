@@ -4,6 +4,7 @@ export type Speaker = {
     company: string
     bio: string
     image: string
+    show: boolean
     social?: {
         linkedin?: string
         twitter?: string

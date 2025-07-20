@@ -29,7 +29,7 @@ import type {Speaker} from "~/model";
 
 let speakers: Speaker[] = [];
 speakersList.forEach((speaker: Speaker, key: string) => {
-  if (key !== 'tbd') {
+  if (speaker.show) {
     speakers.push(speaker)
   }
 });
