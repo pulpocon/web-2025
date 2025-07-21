@@ -100,6 +100,17 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: false
     }],
+    ['fran', {
+        image: '/i/speakers/franIglesias.jpg',
+        name: 'Fran Iglesias',
+        company: 'Qualifyze',
+        position: 'Staff Software Engineer',
+        bio: 'PulpoCon and Crafters-Vigo organizer',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/franiglesias/'
+        },
+        show: false
+    }],
     ['tbd', {
         image: '/i/speakers/your-photo-grayscale.jpg',
         name: 'Speaker TBD',
