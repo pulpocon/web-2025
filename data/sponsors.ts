@@ -9,7 +9,8 @@ export enum SponsorType {
   Diamond = 'diamond',
   Gold = 'gold',
   Silver = 'silver',
-  Multimedia = 'multimedia'
+  Multimedia = 'multimedia',
+  Partner = 'partners'
 }
 
 type SponsorGroups = Record<SponsorType, Sponsor[]>
@@ -17,85 +18,45 @@ type SponsorGroups = Record<SponsorType, Sponsor[]>
 const sponsors: SponsorGroups = {
   [SponsorType.Octopus]: [
     {
-      name: 'Elastic',
-      logo: '/i/sps/elastic.svg',
-      link: 'https://www.elastic.co/es/?utm_origin=pulpocon&utm_medium=web'
-    },
-    {
-      name: 'Elastic',
-      logo: '/i/sps/edpuzzle.svg',
-      link: 'https://edpuzzle.com/?utm_origin=pulpocon&utm_medium=web'
+      name: 'Lambdaloopers',
+      logo: '/i/sps/lambdaloopers.webp',
+      link: 'https://lambdaloopers.com/?utm_origin=pulpocon&utm_medium=web'
     },
   ],
   [SponsorType.Diamond]: [
-    {
-      name: 'Marine Instruments',
-      logo: '/i/sps/marine.png',
-      link: 'https://www.marineinstruments.es/?utm_origin=pulpocon&utm_medium=web'
-    },
     {
       name: 'Grafana',
       logo: '/i/sps/grafana.svg',
       link: 'https://grafana.com/?utm_origin=pulpocon&utm_medium=web'
     },
     {
-      name: 'Codium',
-      logo: '/i/sps/codium.png',
-      link: 'https://www.codium.team/?utm_origin=pulpocon&utm_medium=web'
+      name: 'Innatial',
+      logo: '/i/sps/innatial.png',
+      link: 'https://www.innatial.com/?utm_origin=pulpocon&utm_medium=web'
     }
   ],
   [SponsorType.Gold]: [
     {
-      name: 'Optare Solutions',
-      logo: '/i/sps/optare-solutions.png',
-      link: 'https://optaresolutions.com/?utm_origin=pulpocon&utm_medium=web'
+      name: 'Gradiant',
+      logo: '/i/sps/gradiant.png',
+      link: 'https://gradiant.org/?utm_origin=pulpocon&utm_medium=web'
     },
   ],
   [SponsorType.Silver]: [
-    {
-      name: 'Deveez',
-      logo: '/i/sps/deveez.svg',
-      link: 'https://deveez.com/?utm_origin=pulpocon&utm_medium=web'
-    },
-    {
-      name: 'Ultreia',
-      logo: '/i/sps/ultreia.png',
-      link: 'https://www.ultreia.es/?utm_origin=pulpocon&utm_medium=web'
-    },
     {
       name: 'Vitae',
       logo: '/i/sps/vitae.png',
       link: 'https://www.vitaedigital.com'
     },
     {
-      name: 'SeQura',
-      logo: '/i/sps/SeQura.svg',
-      link: 'https://www.sequra.com/es?utm_origin=pulpocon&utm_medium=web'
+      name: 'Apipana',
+      logo: '/i/sps/apipana.png',
+      link: 'https://apipana.io/es?utm_origin=pulpocon&utm_medium=web'
     },
     {
       name: 'Qualifyze',
       logo: '/i/sps/qualifyzeLogo.png',
-      link: 'https://www.ultreia.es/?utm_origin=pulpocon&utm_medium=web'
-    },
-    {
-      name: 'Sngular',
-      logo: '/i/sps/sngular.svg',
-      link: 'https://www.sngular.com/?utm_origin=pulpocon&utm_medium=web'
-    },
-    {
-      name: 'Mercadona Tech',
-      logo: '/i/sps/mercadona-tech.svg',
-      link: 'https://www.mercadonatech.com/?utm_origin=pulpocon&utm_medium=web'
-    },
-    {
-      name: 'Adevinta',
-      logo: '/i/sps/adevinta.svg',
-      link: 'https://adevinta.com/es/?utm_origin=pulpocon&utm_medium=web'
-    },
-    {
-      name: 'SCRM Lidl International Hub',
-      logo: '/i/sps/scrm.png',
-      link: 'https://scrm.lidl/?utm_origin=pulpocon&utm_medium=web'
+      link: 'https://www.qualifyze.com/?utm_origin=pulpocon&utm_medium=web'
     },
   ],
   [SponsorType.Multimedia]: [
@@ -104,7 +65,25 @@ const sponsors: SponsorGroups = {
       logo: '/i/sps/teltek.png',
       link: 'https://teltek.es/?utm_origin=pulpocon&utm_medium=web'
     }
+  ],
+  [SponsorType.Partner]: [
+    {
+      name: 'AFundación',
+      logo: '/i/sps/afundacion.png',
+      link: 'https://www.afundacion.org/es/centros/centro/centro_social_afundacion_vigo/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'NH-Collection',
+      logo: '/i/sps/nh-collection.png',
+      link: 'https://www.nh-collection.com/es/hotel/nh-collection-vigo/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'El Molino',
+      logo: '/i/sps/el-molino.jpeg',
+      link: 'https://www.facebook.com/MolinoVigo/?utm_origin=pulpocon&utm_medium=web'
+    }
   ]
+
 }
 
 export default sponsors
