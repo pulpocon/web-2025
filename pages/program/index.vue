@@ -19,7 +19,7 @@
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
-              Crafter Newbie Workshop
+              Crafter Starter Workshop
             </th>
             <th>
               Crafter + IA Workshop

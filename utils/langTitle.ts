@@ -1,3 +1,5 @@
+import {getFlag} from "~/utils/getFlag";
+
 export function langTitle(title: string, lang: string | undefined): string {
     const flags = new Map<string, string>([
         ['en', '🇬🇧'],
@@ -7,5 +9,5 @@ export function langTitle(title: string, lang: string | undefined): string {
         return title;
     }
 
-    return `${flags.get(lang) || '🇺🇳'} ${title} ${flags.get(lang) || '🇺🇳'}`
+    return `${getFlag(lang) || '🇺🇳'} ${title} ${getFlag(lang) || '🇺🇳'}`
 }

@@ -1,5 +1,5 @@
 import type {Speaker} from "~/model";
-import {langTitle} from "~/utils/langTitle";
+import {getFlag} from "~/utils/getFlag";
 
 export class DetailModel {
     title: string
@@ -35,7 +35,8 @@ export class DetailModel {
                 bio: 'Unknown',
                 social: {
                     linkedin: 'https://www.not-defined.com'
-                }
+                },
+                show: true
             }],
             ['Content to be defined'],
             '',
@@ -48,10 +49,14 @@ export class DetailModel {
     }
 
     getTitle(): string {
-        return langTitle(this.title, this.lang)
+        return this.title
     }
 
     getTrack(): string {
         return this.track
+    }
+
+    getLangAsFlag(): string {
+        return getFlag(this.lang)
     }
 }

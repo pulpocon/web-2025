@@ -5,6 +5,7 @@
         {{ workshop.getTitle() }}
       </h1>
       <h3 class="workshop__track">Track {{ workshop.getTrack() }} - {{ workshop.schedule }}</h3>
+      <h3 class="workshop__lang">{{ workshop.getLangAsFlag() }}</h3>
     </header>
     <section v-if="workshop.getSpeakers().length > 0" class="workshop__speakers workshop__subsection">
       <h2 class="heading-3">{{ workshop.getSpeakers().length > 1 ? 'Speakers' : 'Speaker' }}</h2>
