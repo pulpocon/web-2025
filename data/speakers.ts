@@ -111,6 +111,17 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: false
     }],
+    ['anna', {
+        image: '/i/speakers/annaSala.jpg',
+        name: 'Anna Sala Mercade',
+        company: 'IFCO Systems',
+        position: 'Frontend Developer',
+        bio: 'I am a Frontend developer passionate about learning more every day, and I have a peculiar obsession with rubber ducks.',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/franiglesias/'
+        },
+        show: false
+    }],
     ['tbd', {
         image: '/i/speakers/your-photo-grayscale.jpg',
         name: 'Speaker TBD',
@@ -125,4 +136,3 @@ const speakersList: Map<string, Speaker> = new Map([
 ])
 
 export default speakersList
-
