@@ -120,7 +120,7 @@ const speakersList: Map<string, Speaker> = new Map([
         social: {
             linkedin: 'https://www.linkedin.com/in/franiglesias/'
         },
-        show: false
+        show: true
     }],
     ['tbd', {
         image: '/i/speakers/your-photo-grayscale.jpg',
