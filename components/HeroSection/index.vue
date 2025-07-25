@@ -25,8 +25,8 @@
       </a>
     </div>
     <div class="summary-section__description" data-aos="fade" data-aos-delay="1200">
-      <p>🐙 Octopus Experience: Early-bird tickets available 🐙</p>
-      <p>🔔 More Early-bird tickets coming soon! 🔔</p>
+      <p>🔔 Early-bird tickets on sale! 🔔</p>
+      <p>🐙 Discover the new Octopus Experience 🐙</p>
     </div>
 
 
