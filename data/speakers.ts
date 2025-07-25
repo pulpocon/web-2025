@@ -76,7 +76,7 @@ const speakersList: Map<string, Speaker> = new Map([
         social: {
             linkedin: 'https://www.linkedin.com/in/dr-annegret-junker-141a99a4/'
         },
-        show: false
+        show: true
     }],
     ['lorena', {
         image: '/i/speakers/lorenaMartinez.jpeg',
