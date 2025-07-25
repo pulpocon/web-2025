@@ -95,18 +95,27 @@
         @include media-min(768px) {
           width: 300px;
         }
+        img {
+          max-height: 100%;
+        }
       }
 
 
       &--gold {
         @include media-min(768px) {
-          width: 230px;
+          width: 240px;
+        }
+        img {
+          max-height: 100%;
         }
       }
 
       &--silver {
         @include media-min(768px) {
-          width: 200px;
+          width: 180px;
+        }
+        img {
+          max-height: 100%;
         }
       }
 
@@ -115,17 +124,36 @@
         @include media-min(768px) {
           width: 100px;
         }
+        img {
+          max-height: 100%;
+        }
       }
 
       &--supporter {
         @include media-min(768px) {
           width: 90px;
         }
+        img {
+          max-height: 100%;
+        }
       }
 
       &--multimedia {
         @include media-min(768px) {
           width: 200px;
+        }
+        img {
+          max-height: 100%;
+        }
+      }
+
+      &--partner {
+        @include media-min(768px) {
+          width: 150px;
+        }
+
+        img {
+          max-height: 100%;
         }
       }
     }

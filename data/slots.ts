@@ -17,6 +17,20 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Thursday 16:00-19:00',
             track: 'Open Space',
         }],
+        ['talk-sat-01', {
+            speakers:
+                [
+                    'annegret'
+                ],
+            content: {
+                title: 'Talk Title',
+                lang: 'en',
+                description: ['TBD'],
+
+            },
+            track: 'Main Day',
+            schedule: 'Sat 10:00-10:40',
+        }],
         ['talk-sat-02', {
             speakers:
                 [
@@ -72,6 +86,90 @@ export const slots: Map<string, Slot> = new Map([
             },
             track: 'Pulpito',
             schedule: 'Friday 18:30-19:30',
+        }],
+        ['workshop-newbie-01', {
+            speakers:
+                [
+                    'lorena',
+                    'ben',
+                ],
+            content: {
+                title: 'Module 1',
+                lang: 'es',
+                description: ['TBD'],
+            },
+            track: 'Crafter Starter Workshop',
+            schedule: 'Thursday 9:30-11:30',
+        }],
+        ['workshop-newbie-02', {
+            speakers:
+                [
+                    'lorena',
+                    'ben',
+                ],
+            content: {
+                title: 'Module 2',
+                lang: 'es',
+                description: ['TBD'],
+            },
+            track: 'Crafter Starter Workshop',
+            schedule: 'Thursday 9:30-11:30',
+        }],
+        ['workshop-newbie-03', {
+            speakers:
+                [
+                    'lorena',
+                    'ben',
+                ],
+            content: {
+                title: 'Module 3',
+                lang: 'es',
+                description: ['TBD'],
+            },
+            track: 'Crafter Starter Workshop',
+            schedule: 'Thursday 9:30-11:30',
+        }],
+        ['workshop-expert-01', {
+            speakers:
+                [
+                    'tbd',
+                    'tbd'
+                ],
+            content: {
+                title: 'Module 1',
+                lang: 'es',
+                description: ['TBD'],
+            },
+            track: 'Crafter + AI Workshop',
+            schedule: 'Thursday 9:30-11:30',
+        }],
+        ['workshop-expert-02', {
+            speakers:
+                [
+                    'tbd',
+                    'tbd'
+                ],
+            content: {
+                title: 'Module 2',
+                lang: 'es',
+                description: ['TBD'],
+            },
+            track: 'Crafter + AI Workshop',
+            schedule: 'Thursday 9:30-11:30',
+        }],
+        ['workshop-expert-03', {
+            speakers:
+                [
+                    'tbd',
+                    'tbd'
+                ],
+            content: {
+                title: 'Module 3',
+                lang: 'es',
+                description: ['TBD'],
+            },
+            track: 'Crafter + AI Workshop',
+            schedule: 'Thursday 9:30-11:30',
         }],
         ['workshop-crafter-en-01', {
             content: {
@@ -157,32 +255,34 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 16:30-18:30',
             track: '🇪🇸 Crafter 🇪🇸',
         }],
-        ['workshop-fullstack-01', {
+    ['workshop-fullstack-01', {
+        content: {
+            title: 'FS-2: Arquitectura Hexagonal por el libro',
+            description: [
+                'En este taller desarrollaremos una aplicación básica siguiendo al pie de la letra el patrón Ports & Adapters, más conocido como Arquitectura Hexagonal.',
+                'Usaremos como base el libro "Hexagonal Architecture Explained" del Dr. Alistair Cockburn y Juan Manuel Garrido',
+                'Durante el taller resolveremos las dudas y confusiones más habituales a la hora de usar este patrón.'
+            ],
+            lang: 'es',
+        },
+        speakers: [
+            'fran',
+        ],
+        schedule: 'Friday 12:00-14:00',
+        track: 'FullStack',
+    }],
+    ['workshop-fullstack-02', {
             content: {
                 title: 'Workshop Title',
                 description: [
-                    'Description of your workshop'
+                    'TBD'
                 ],
                 lang: 'es',
             },
             speakers: [
-                'tbd',
+                'anna',
             ],
             schedule: 'Friday 09:30-11:30',
-            track: 'FullStack',
-        }],
-        ['workshop-fullstack-02', {
-            content: {
-                title: 'Workshop Title',
-                description: [
-                    'Description of your workshop'
-                ],
-                lang: 'en',
-            },
-            speakers: [
-                'tbd',
-            ],
-            schedule: 'Friday 12:00-14:00',
             track: 'FullStack',
         }],
         ['workshop-fullstack-03', {
@@ -219,7 +319,7 @@ export const slots: Map<string, Slot> = new Map([
                 description: [
                     'Description of your workshop'
                 ],
-                lang: 'en',
+                lang: 'es',
             },
             speakers: [
                 'helder',
