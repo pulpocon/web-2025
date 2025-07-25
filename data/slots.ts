@@ -90,8 +90,7 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-01', {
             speakers:
                 [
-                    'lorena',
-                    'ben',
+                    'tbd'
                 ],
             content: {
                 title: 'Module 1',
@@ -104,8 +103,7 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-02', {
             speakers:
                 [
-                    'lorena',
-                    'ben',
+                    'tbd',
                 ],
             content: {
                 title: 'Module 2',
@@ -118,8 +116,7 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-03', {
             speakers:
                 [
-                    'lorena',
-                    'ben',
+                    'tbd',
                 ],
             content: {
                 title: 'Module 3',
@@ -257,16 +254,14 @@ export const slots: Map<string, Slot> = new Map([
         }],
     ['workshop-fullstack-01', {
         content: {
-            title: 'FS-2: Arquitectura Hexagonal por el libro',
+            title: 'tbd',
             description: [
-                'En este taller desarrollaremos una aplicación básica siguiendo al pie de la letra el patrón Ports & Adapters, más conocido como Arquitectura Hexagonal.',
-                'Usaremos como base el libro "Hexagonal Architecture Explained" del Dr. Alistair Cockburn y Juan Manuel Garrido',
-                'Durante el taller resolveremos las dudas y confusiones más habituales a la hora de usar este patrón.'
+                'tbd'
             ],
             lang: 'es',
         },
         speakers: [
-            'fran',
+            'tbd',
         ],
         schedule: 'Friday 12:00-14:00',
         track: 'FullStack',
