@@ -118,7 +118,7 @@ const speakersList: Map<string, Speaker> = new Map([
         position: 'Frontend Developer',
         bio: 'I am a Frontend developer passionate about learning more every day, and I have a peculiar obsession with rubber ducks.',
         social: {
-            linkedin: 'https://www.linkedin.com/in/franiglesias/'
+            linkedin: 'https://www.linkedin.com/in/anna-sala/'
         },
         show: true
     }],
