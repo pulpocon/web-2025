@@ -4,7 +4,8 @@
       <h1 class="heading-1">
         {{ talk.getTitle() }}
       </h1>
-      <h3 class="talk__track">{{ talk.schedule }}</h3>
+      <h3 class="talk__track">Track {{ talk.getTrack() }} - {{ talk.schedule }}</h3>
+      <h3 class="talk__lang">{{ talk.getLangAsFlag() }}</h3>
     </header>
     <section v-if="talk.getSpeakers().length > 0" class="talk__speakers talk__subsection">
       <h2 class="heading-3">{{ talk.getSpeakers().length > 1 ? 'Speakers' : 'Speaker' }}</h2>

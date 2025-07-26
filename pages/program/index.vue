@@ -19,10 +19,12 @@
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
-              Crafter Starter Workshop
+              <p><strong>Crafter Starter Workshop</strong></p>
+              <p>Introduction to Agile Technical Practices</p>
             </th>
             <th>
-              Crafter + IA Workshop
+              <p><strong>Crafter + IA Workshop</strong></p>
+              <p>Developing AI. Developing with AI</p>
             </th>
             <th>
               Jardín / Salón
@@ -152,16 +154,20 @@
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
             <th>
-              🇬🇧 Crafter 🇬🇧
+              <p><strong>🇬🇧 Crafter 🇬🇧</strong></p>
+              <p>Advanced refactoring, testing, product development and more</p>
             </th>
             <th>
-              🇪🇸 Crafter 🇪🇸
+              <p><strong>🇪🇸 Crafter 🇪🇸</strong></p>
+              <p>Advanced refactoring, testing, product development and more</p>
             </th>
             <th>
-              Fullstack
+              <p><strong>Fullstack</strong></p>
+              <p>The T-shaped developer in multidisciplinary teams.</p>
             </th>
             <th>
-              Management
+              <p><strong>Management</strong></p>
+              <p>The road from Contributor to Leadership and management</p>
             </th>
             <th>
               La Pulpito

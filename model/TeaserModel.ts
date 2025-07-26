@@ -21,7 +21,14 @@ export class TeaserModel {
     }
 
     static fromSlot(slot: Slot, speakersList: Map<string, Speaker>): TeaserModel {
-        const speakers: Speaker[] = slot.speakers.map((id: SpeakerID) => speakersList.get(id)!)!
+        const speakers: Speaker[] = slot.speakers.map((id: SpeakerID):Speaker => {
+            const speaker = speakersList.get(id);
+            // Default to tbd if speaker name is not in the list. Probably waiting for confirmation
+            if (!speaker) {
+                return speakersList.get('tbd')!
+            }
+            return speaker;
+        })!
 
         return new TeaserModel(
             slot.content.title ?? 'TBD',
@@ -39,6 +46,6 @@ export class TeaserModel {
     }
 
     getTitle(): string {
-        return langTitle(this.title, this.lang)
+        return this.title
     }
 }

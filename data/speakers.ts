@@ -122,6 +122,94 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
+    ['juan', {
+        image: '/i/speakers/your-photo-grayscale.jpg',
+        name: 'Juan Pontón Rodríguez',
+        company: 'Gradiant',
+        position: '',
+        bio: '',
+        social: {
+            linkedin: ''
+        },
+        show: false
+    }],
+    ['manuel', {
+        image: '/i/speakers/your-photo-grayscale.jpg',
+        name: 'Manuel Landín',
+        company: 'Gradiant',
+        position: 'Research Engineer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/manuellandin/'
+        },
+        show: false
+    }],
+    ['paula', {
+        image: '/i/speakers/your-photo-grayscale.jpg',
+        name: 'Paula Domínguez',
+        company: 'Gradiant',
+        position: 'Project Manager',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/paula-dom%C3%ADnguez-v%C3%A1zquez-889585178/'
+        },
+        show: false
+    }],
+    ['crafters', {
+        image: '/i/sps/craftersVigo.png',
+        name: 'Crafters Vigo',
+        company: 'Crafters Vigo',
+        position: '',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/company/craftersvigo/'
+        },
+        show: false
+    }],
+    ['lambda', {
+        image: '/i/sps/lambdaloopersPulpito.jpeg',
+        name: 'LambdaLoopers',
+        company: 'LambdaLoopers',
+        position: '',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/company/lambdaloopers/'
+        },
+        show: false
+    }],
+    ['innatial', {
+        image: '/i/sps/innatial.png',
+        name: 'Innatial Developers',
+        company: 'Innatial Developers',
+        position: '',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/company/innatial'
+        },
+        show: false
+    }],
+    ['grafana', {
+        image: '/i/sps/grafanaPulpito.jpeg',
+        name: 'Grafana Labs',
+        company: 'Grafana Labs',
+        position: '',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/company/grafana-labs/'
+        },
+        show: false
+    }],
+    ['gradiant', {
+        image: '/i/sps/gradiant.png',
+        name: 'Gradiant',
+        company: 'Gradiant',
+        position: '',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/company/gradiant/'
+        },
+        show: false
+    }],
     ['tbd', {
         image: '/i/speakers/your-photo-grayscale.jpg',
         name: 'Speaker TBD',

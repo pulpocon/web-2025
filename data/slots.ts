@@ -90,12 +90,16 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-01', {
             speakers:
                 [
-                    'tbd'
+                    'tbd','tbd'
                 ],
             content: {
                 title: 'Module 1',
                 lang: 'es',
-                description: ['TBD'],
+                description:
+                    [
+                        'A full-day workshop for the introduction or improvement of agile technical practices.',
+                        'Including TDD, refactoring, pair programming, code reviews, etc.',
+                    ],
             },
             track: 'Crafter Starter Workshop',
             schedule: 'Thursday 9:30-11:30',
@@ -103,12 +107,12 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-02', {
             speakers:
                 [
-                    'tbd',
+                    'tbd','tbd'
                 ],
             content: {
                 title: 'Module 2',
                 lang: 'es',
-                description: ['TBD'],
+                description: ['...'],
             },
             track: 'Crafter Starter Workshop',
             schedule: 'Thursday 9:30-11:30',
@@ -116,12 +120,12 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-03', {
             speakers:
                 [
-                    'tbd',
+                    'tbd','tbd'
                 ],
             content: {
                 title: 'Module 3',
                 lang: 'es',
-                description: ['TBD'],
+                description: ['...'],
             },
             track: 'Crafter Starter Workshop',
             schedule: 'Thursday 9:30-11:30',
@@ -133,9 +137,11 @@ export const slots: Map<string, Slot> = new Map([
                     'tbd'
                 ],
             content: {
-                title: 'Module 1',
+                title: 'Module 1. State of the AI',
                 lang: 'es',
-                description: ['TBD'],
+                description: [
+                    'IA Tools ecosystem'
+                ],
             },
             track: 'Crafter + AI Workshop',
             schedule: 'Thursday 9:30-11:30',
@@ -147,7 +153,7 @@ export const slots: Map<string, Slot> = new Map([
                     'tbd'
                 ],
             content: {
-                title: 'Module 2',
+                title: 'Building IA products',
                 lang: 'es',
                 description: ['TBD'],
             },
@@ -161,7 +167,7 @@ export const slots: Map<string, Slot> = new Map([
                     'tbd'
                 ],
             content: {
-                title: 'Module 3',
+                title: 'Programming kata, helped with IA',
                 lang: 'es',
                 description: ['TBD'],
             },
@@ -212,9 +218,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-01', {
             content: {
-                title: 'Workshop Title',
+                title: 'Don\'t Let Your Code Skip Leg Day',
                 description: [
-                    'Description of your workshop'
+                    '🏋️ Train your coding skills like your gym routine'
                 ],
                 lang: 'es',
             },
@@ -244,7 +250,7 @@ export const slots: Map<string, Slot> = new Map([
                 description: [
                     'Description of your workshop'
                 ],
-                lang: 'en',
+                lang: 'es',
             },
             speakers: [
                 'tbd',
@@ -252,23 +258,25 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 16:30-18:30',
             track: '🇪🇸 Crafter 🇪🇸',
         }],
-    ['workshop-fullstack-01', {
-        content: {
-            title: 'tbd',
-            description: [
-                'tbd'
-            ],
-            lang: 'es',
-        },
-        speakers: [
-            'tbd',
-        ],
-        schedule: 'Friday 12:00-14:00',
-        track: 'FullStack',
-    }],
-    ['workshop-fullstack-02', {
+        ['workshop-fullstack-01', {
             content: {
-                title: 'Workshop Title',
+                title: 'Backend: Hexagonal Architecture by the Book',
+                description: [
+                    'Let\'s build a little application by following the book "Hexagonal Architecture Explained" by Dr. Alistair Cockburn and Juan Manuel Garrido.',
+                    'Discover what makes great this pattern and how to apply it to your projects.',
+                    'Understand the numerous misconceptions about Hexagonal Architecture and how to avoid them.',
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'fran',
+            ],
+            schedule: 'Friday 9:30-11:30',
+            track: 'FullStack',
+        }],
+        ['workshop-fullstack-02', {
+            content: {
+                title: 'Frontend: TBD',
                 description: [
                     'TBD'
                 ],
@@ -277,16 +285,17 @@ export const slots: Map<string, Slot> = new Map([
             speakers: [
                 'anna',
             ],
-            schedule: 'Friday 09:30-11:30',
+            schedule: 'Friday 12:30-14:30',
             track: 'FullStack',
         }],
         ['workshop-fullstack-03', {
             content: {
-                title: 'Workshop Title',
+                title: 'Devops: Continuous Deployment in Kubernetes with GitOps and FluxCD',
                 description: [
-                    'Description of your workshop'
+                    'This workshop is aimed at providing a practical experience in the implementation of Continuous Deployment in Kubernetes through a GitOps approach with FluxCD.',
+                    'Throughout the session, work will be done on automating the deployment of dockerized applications, managing infrastructure and services in a declarative way from Git, and enabling continuous updates that ensure the automated delivery of new versions, without affecting the availability of the service.'
                 ],
-                lang: 'en',
+                lang: 'es',
             },
             speakers: [
                 'tbd',
@@ -328,13 +337,128 @@ export const slots: Map<string, Slot> = new Map([
                 description: [
                     'Description of your workshop'
                 ],
-                lang: 'en',
+                lang: 'es',
             },
             speakers: [
                 'tbd',
             ],
             schedule: 'Friday 16:30-18:30',
             track: 'Management',
+        }],
+        ['talk-pulpito-01', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'innatial',
+            ],
+            schedule: 'Friday 10:10-10:50',
+            track: 'Pulpito',
+        }],
+        ['talk-pulpito-02', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'paula',
+                'gradiant',
+            ],
+            schedule: 'Friday 10:50-11:30',
+            track: 'Pulpito',
+        }],
+        ['talk-pulpito-03', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'jesus',
+            ],
+            schedule: 'Friday 12:00-12:40',
+            track: 'Pulpito',
+        }],
+        ['talk-pulpito-04', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'maryna',
+                'crafters'
+            ],
+            schedule: 'Friday 12:40-13:20',
+            track: 'Pulpito',
+        }],
+        ['talk-pulpito-05', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'adria',
+                'lambda'
+            ],
+            schedule: 'Friday 13:20-14:00',
+            track: 'Pulpito',
+        }],
+        ['talk-pulpito-06', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 16:00-16:40',
+            track: 'Pulpito',
+        }],
+        ['talk-pulpito-07', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'tbd',
+            ],
+            schedule: 'Friday 16:40-17:20',
+            track: 'Pulpito',
+        }],
+        ['talk-pulpito-08', {
+            content: {
+                title: 'Talk Title',
+                description: [
+                    'Description of your talk'
+                ],
+                lang: 'es',
+            },
+            speakers: [
+                'grafana',
+            ],
+            schedule: 'Friday 17:30-18:00',
+            track: 'Pulpito',
         }],
     ])
 ;

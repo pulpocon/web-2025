@@ -57,6 +57,10 @@
       }
     }
 
+    &__lang {
+      font-size: 4rem;
+    }
+
     &__speaker {
       color: #fff;
       display: flex;
@@ -66,10 +70,11 @@
 
       &-image {
         width: 120px;
-        object-fit: cover;
         height: 120px;
         border-radius: 50%;
         transition: all 0.3s ease-in-out;
+        background-color: #fff;
+        object-fit: scale-down;
 
         &:hover {
           text-decoration: underline;
