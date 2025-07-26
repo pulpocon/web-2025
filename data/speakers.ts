@@ -155,6 +155,7 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: false
     }],
+    // These are basically sponsors. I added them here for showing sponsorship in La Pulpito track
     ['crafters', {
         image: '/i/sps/craftersVigo.png',
         name: 'Crafters Vigo',
