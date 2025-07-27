@@ -8,9 +8,8 @@
         scrolling="no"
         src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=Sede%20Afundacion%20Vigo+(PulpoCon)&ie=UTF8&t=&z=17&iwloc=B&output=embed"
         width="100%"
-    >
-      <a href="https://www.mapsdirections.info/calcular-ruta.html">mapas y direcciones</a>
-    </iframe>
+    ></iframe>
+    <a href="https://www.mapsdirections.info/calcular-ruta.html">mapas y direcciones</a>
 
     <aside class="location-section__content">
       <div class="location-section__venue">
