@@ -21,6 +21,28 @@
 
     }
 
+    // Target the second table (Friday) to equalize columns 2-6
+    &:nth-of-type(2) {
+      .program-day__table {
+        // Create a class for the equal-width columns
+        &-equal-width-cols {
+          table-layout: fixed;
+        }
+
+        // Set width for time columns (1 and 7)
+        th:first-child, th:last-child,
+        td:first-child, td:last-child {
+          width: 8%; // Width for time columns
+        }
+
+        // Apply equal width to columns 2-6 (both header and data cells)
+        th:nth-child(n+2):nth-child(-n+6),
+        td:nth-child(n+2):nth-child(-n+6) {
+          width: 16.8%; // Equal width for columns 2-6 (84% ÷ 5 = 16.8%)
+        }
+      }
+    }
+
     &__table {
       max-width: 1280px;
       margin: 0 auto;

@@ -179,7 +179,7 @@ const speakersList: Map<string, Speaker> = new Map([
         show: false
     }],
     ['innatial', {
-        image: '/i/sps/innatial.png',
+        image: '/i/sps/innatialPulpito.png',
         name: 'Innatial Developers',
         company: 'Innatial Developers',
         position: '',
@@ -201,7 +201,7 @@ const speakersList: Map<string, Speaker> = new Map([
         show: false
     }],
     ['gradiant', {
-        image: '/i/sps/gradiant.png',
+        image: '/i/sps/gradiantPulpito.png',
         name: 'Gradiant',
         company: 'Gradiant',
         position: '',

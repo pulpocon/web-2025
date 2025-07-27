@@ -149,7 +149,7 @@
         </h2>
       </header>
       <div class="program-day__table-wrapper">
-        <table class="program-day__table">
+        <table class="program-day__table program-day__table-equal-width-cols">
           <thead>
           <tr class="program-day__table-header">
             <th>&nbsp;</th>

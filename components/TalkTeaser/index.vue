@@ -63,7 +63,7 @@ const talk: TeaserModel = !slot
   aspect-ratio: 1/1;
   flex-shrink: 1;
   border-radius: 50%;
-  object-fit: scale-down;
+  object-fit: cover;
   border: 3px solid #a81d88;
   background: #fff;
 }

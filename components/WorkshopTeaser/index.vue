@@ -58,7 +58,7 @@ const workshop: TeaserModel = !slot
   width: 128px;
   height: auto;
   border-radius: 50%;
-  object-fit: scale-down;
+  object-fit: cover;
   margin-bottom: 16px;
   border: 3px solid #a81d88;
   background: #fff;
