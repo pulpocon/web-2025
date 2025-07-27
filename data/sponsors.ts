@@ -10,7 +10,7 @@ export enum SponsorType {
   Gold = 'gold',
   Silver = 'silver',
   Multimedia = 'multimedia',
-  Partner = 'partners'
+  Partner = 'partner'
 }
 
 type SponsorGroups = Record<SponsorType, Sponsor[]>
@@ -67,21 +67,21 @@ const sponsors: SponsorGroups = {
     }
   ],
   [SponsorType.Partner]: [
-    // {
-    //   name: 'AFundación',
-    //   logo: '/i/sps/afundacion.png',
-    //   link: 'https://www.afundacion.org/es/centros/centro/centro_social_afundacion_vigo/?utm_origin=pulpocon&utm_medium=web'
-    // },
-    // {
-    //   name: 'NH-Collection',
-    //   logo: '/i/sps/nh-collection.png',
-    //   link: 'https://www.nh-collection.com/es/hotel/nh-collection-vigo/?utm_origin=pulpocon&utm_medium=web'
-    // },
-    // {
-    //   name: 'El Molino',
-    //   logo: '/i/sps/el-molino.jpeg',
-    //   link: 'https://www.facebook.com/MolinoVigo/?utm_origin=pulpocon&utm_medium=web'
-    // }
+    {
+      name: 'AFundación',
+      logo: '/i/sps/afundacion.png',
+      link: 'https://www.afundacion.org/es/centros/centro/centro_social_afundacion_vigo/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'NH-Collection',
+      logo: '/i/sps/nh-collection.png',
+      link: 'https://www.nh-collection.com/es/hotel/nh-collection-vigo/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'El Molino',
+      logo: '/i/sps/el-molino.jpeg',
+      link: 'https://www.facebook.com/MolinoVigo/?utm_origin=pulpocon&utm_medium=web'
+    }
   ]
 
 }

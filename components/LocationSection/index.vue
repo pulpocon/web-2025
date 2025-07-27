@@ -47,7 +47,7 @@
           </h4>
           <div class="transport-info__content">
             Peinador Airport: 17 km distance. <a
-              href="https://www.aena-aeropuertos.es/csee/Satellite/Aeropuerto-Vigo/es/"
+              href="https://www.aena.es/es/vigo.html"
               target="_blank">More information</a>
           </div>
         </li>
@@ -56,8 +56,21 @@
             <i class="fa fa-train"></i> Train
           </h4>
           <div class="transport-info__content">
+            <p>Train Station Urzáiz: R/ Norte, s/n Vigo. <a
+                href="https://www.adif.es/w/08223-vigo-urz%C3%A1iz"
+                target="_blank">
+              Train Station Vigo-Urzáiz Info.
+            </a>
+            </p>
+          </div>
+        </li>
+        <li class="transport-info">
+          <h4 class="transport-info__title">
+            <i class="fa fa-train"></i> Train
+          </h4>
+          <div class="transport-info__content">
             <p>Train Station Guixar: R/ Areal, s/n Vigo. <a
-                href="http://www.adif.es/es_ES/infraestructuras/estaciones/22308/informacion_000390.shtml"
+                href="https://www.adif.es/w/22308-vigo-guixar"
                 target="_blank">
               Train Station Vigo-Guixar Info.
             </a>
