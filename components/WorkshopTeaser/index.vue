@@ -47,17 +47,23 @@ const workshop: TeaserModel = !slot
   &__image-group {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 16px;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
 
 .speaker-image {
   width: 128px;
-  height: 128px;
+  height: auto;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: scale-down;
   margin-bottom: 16px;
   border: 3px solid #a81d88;
+  background: #fff;
+  max-width: calc((100% - 16px) / 2); /* Allow up to 2 images per row with gaps */
+  aspect-ratio: 1/1;
+  flex-shrink: 1;
 }
 </style>

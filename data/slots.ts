@@ -263,8 +263,8 @@ export const slots: Map<string, Slot> = new Map([
                 title: 'Backend: Hexagonal Architecture by the Book',
                 description: [
                     'Let\'s build a little application by following the book "Hexagonal Architecture Explained" by Dr. Alistair Cockburn and Juan Manuel Garrido.',
-                    'Discover what makes great this pattern and how to apply it to your projects.',
-                    'Understand the numerous misconceptions about Hexagonal Architecture and how to avoid them.',
+                    'Discover what makes this pattern great and how to apply it to your projects.',
+                    'Fix the numerous misconceptions about Hexagonal Architecture and how to avoid them.',
                 ],
                 lang: 'es',
             },
