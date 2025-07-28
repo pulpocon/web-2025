@@ -188,6 +188,17 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
+    ['berny', {
+        name: 'Berny Cantos',
+        image: '/i/speakers/berny-cantos.jpg',
+        company: 'Reverse Tech',
+        position: 'Senior Server Developer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/bernycantos/'
+        },
+        show: true
+    }],
     // These are basically sponsors. I added them here for showing sponsorship in La Pulpito track
     ['crafters', {
         image: '/i/sps/craftersVigo.png',

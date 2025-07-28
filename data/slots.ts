@@ -253,7 +253,7 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'es',
             },
             speakers: [
-                'tbd',
+                'berny',
             ],
             schedule: 'Friday 16:30-18:30',
             track: '🇪🇸 Crafter 🇪🇸',
