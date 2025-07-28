@@ -90,7 +90,7 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-01', {
             speakers:
                 [
-                    'tbd','tbd'
+                    'lorena','ben'
                 ],
             content: {
                 title: 'Module 1',
@@ -107,7 +107,7 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-02', {
             speakers:
                 [
-                    'tbd','tbd'
+                    'lorena','ben'
                 ],
             content: {
                 title: 'Module 2',
@@ -120,7 +120,7 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-03', {
             speakers:
                 [
-                    'tbd','tbd'
+                    'lorena','ben'
                 ],
             content: {
                 title: 'Module 3',
@@ -133,8 +133,8 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-expert-01', {
             speakers:
                 [
-                    'tbd',
-                    'tbd'
+                    'david',
+                    'alex'
                 ],
             content: {
                 title: 'Module 1. State of the AI',
@@ -149,8 +149,8 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-expert-02', {
             speakers:
                 [
-                    'tbd',
-                    'tbd'
+                    'david',
+                    'alex'
                 ],
             content: {
                 title: 'Building IA products',
@@ -163,8 +163,8 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-expert-03', {
             speakers:
                 [
-                    'tbd',
-                    'tbd'
+                    'david',
+                    'alex'
                 ],
             content: {
                 title: 'Programming kata, helped with IA',

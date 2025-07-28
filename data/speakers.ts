@@ -87,7 +87,7 @@ const speakersList: Map<string, Speaker> = new Map([
         social: {
             linkedin: 'https://www.linkedin.com/in/lorenamartinezmoledo/'
         },
-        show: false
+        show: true
     }],
     ['ben', {
         image: '/i/speakers/benjaminRae.jpeg',
@@ -98,7 +98,7 @@ const speakersList: Map<string, Speaker> = new Map([
         social: {
             linkedin: 'https://www.linkedin.com/in/benjamin-alexander-rae/'
         },
-        show: false
+        show: true
     }],
     ['fran', {
         image: '/i/speakers/franIglesias.jpg',
@@ -154,6 +154,39 @@ const speakersList: Map<string, Speaker> = new Map([
             linkedin: 'https://www.linkedin.com/in/paula-dom%C3%ADnguez-v%C3%A1zquez-889585178/'
         },
         show: false
+    }],
+    ['adria', {
+        name: 'Adriá Batllé',
+        image: '/i/speakers/adriaBatlle.png',
+        company: 'LambdaLoopers',
+        position: 'CEO',
+        bio: 'Apasionado de la tecnología, siempre buscando el mejor martillo para cada clavo.',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/adri%C3%A0-batlle/'
+        },
+        show: true
+    }],
+    ['alex', {
+        name: 'Alex Cáceres',
+        image: '/i/speakers/alexCaceres.png',
+        company: 'LambdaLoopers',
+        position: 'Senior Software Engineer',
+        bio: 'Geek por naturaleza, curioso, experimentador y siempre con ganas de aprender sobre cualquier ámbito de la tecnología. De los que sienten que programar es jugar, crear y contribuir.',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/acaceresgomez/'
+        },
+        show: true
+    }],
+    ['david', {
+        name: 'David Pravos',
+        image: '/i/speakers/davidPravos.png',
+        company: 'LambdaLoopers',
+        position: 'Software Developer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/dpravos/'
+        },
+        show: true
     }],
     // These are basically sponsors. I added them here for showing sponsorship in La Pulpito track
     ['crafters', {
