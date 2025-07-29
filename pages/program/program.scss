@@ -18,7 +18,7 @@
 
     &__table-wrapper {
       overflow-x: auto;
-
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
     }
 
     // Target the second table (Friday) to equalize columns 2-6
@@ -47,6 +47,7 @@
       max-width: 1280px;
       margin: 0 auto;
       width: 100%;
+      min-width: 768px; /* Minimum width for better readability on mobile */
       border-collapse: collapse;
 
       &-header {
@@ -102,6 +103,7 @@
         background: var(--blue-violet);
         text-align: center;
         font-size: 0.8em;
+        min-width: 60px; /* Minimum width for time cells */
 
         background: color-mix(in srgb, var(--bg-color), #000 15%);
       }
@@ -116,6 +118,7 @@
         background: var(--bg-color);
         font-size: 0.8em;
         font-style: italic;
+        min-width: 120px; /* Minimum width for title cells */
 
         strong {
           font-style: normal;
@@ -137,8 +140,6 @@
       }
 
       td {
-
-
         padding: 10px;
         align-items: center;
         vertical-align: middle;
@@ -148,6 +149,50 @@
         em {
           font-size: 0.8em;
           font-style: italic;
+        }
+      }
+    }
+  }
+
+  /* Responsive adjustments for better mobile experience */
+  @media (max-width: 767px) {
+    .program-day {
+      &__table-wrapper {
+        position: relative;
+
+        /* Visual indicator for horizontal scrolling */
+        &::after {
+          content: "→ Scroll to see more →";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.7);
+          color: white;
+          padding: 5px 10px;
+          font-size: 12px;
+          border-radius: 4px 0 0 0;
+          pointer-events: none;
+          opacity: 0.8;
+        }
+      }
+
+      &__table {
+        /* Ensure table cells don't get too cramped on mobile */
+        td, th {
+          padding: 8px 5px;
+          font-size: 0.9em;
+
+          strong {
+            font-size: 0.95em;
+          }
+        }
+
+        &-time {
+          font-size: 0.75em;
+        }
+
+        &-title {
+          font-size: 0.75em;
         }
       }
     }
