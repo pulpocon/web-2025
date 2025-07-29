@@ -179,10 +179,10 @@ const speakersList: Map<string, Speaker> = new Map([
     }],
     ['david', {
         name: 'David Pravos',
-        image: '/i/speakers/davidPravos.png',
+        image: '/i/speakers/davidPravos.jpeg',
         company: 'LambdaLoopers',
-        position: 'Software Developer',
-        bio: '',
+        position: 'Senior Software Engineer',
+        bio: 'Físico de formación, entusiasmado por la ciencia y tecnología. Le encanta combinar la teoría con el pragmatismo.',
         social: {
             linkedin: 'https://www.linkedin.com/in/dpravos/'
         },
