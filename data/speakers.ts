@@ -81,7 +81,7 @@ const speakersList: Map<string, Speaker> = new Map([
     ['lorena', {
         image: '/i/speakers/lorenaMartinez.jpeg',
         name: 'Lorena Martínez',
-        company: 'Qualifyze',
+        company: '',
         position: 'Fullstack Software Engineer',
         bio: '',
         social: {
