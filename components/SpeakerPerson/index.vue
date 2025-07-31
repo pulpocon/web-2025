@@ -9,6 +9,10 @@
     <h3 class="speaker__position">{{ speaker.position }} <br />@ {{ speaker.company }}</h3>
 
     <ul class="speaker__social">
+      <li v-if="speaker.country" class="speaker__social-link">
+        {{ speaker.country }}
+      </li>
+
       <li v-if="speaker.social?.twitter" class="speaker__social-link">
         <a :href="speaker.social?.twitter" rel="noopener noreferrer" target="_blank">
           <i class="fab fa-twitter"></i>

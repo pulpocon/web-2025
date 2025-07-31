@@ -2,6 +2,7 @@ export type Speaker = {
     name: string
     position: string
     company: string
+    country?: string
     bio: string
     image: string
     show: boolean

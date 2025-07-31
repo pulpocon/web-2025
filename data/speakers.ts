@@ -6,6 +6,7 @@ const speakersList: Map<string, Speaker> = new Map([
         company: 'Sudbery Soft. Eng.',
         position: 'Samman technical coach',
         bio: '',
+        country: '🇬🇧',
         image: '/i/speakers/clareSudbery.jpeg',
         social: {
             linkedin: 'https://www.linkedin.com/in/clare-sudbery-she-her-35939540/'
@@ -16,6 +17,7 @@ const speakersList: Map<string, Speaker> = new Map([
         name: 'Sandro Mancuso',
         company: 'Codurance',
         bio: '',
+        country: '🇧🇷',
         position: 'Managing Director',
         image: '/i/speakers/sandroMancuso.jpeg',
         social: {
@@ -27,6 +29,7 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/krisztinaHirth.png',
         name: 'Krisztina Hirth',
         bio: '',
+        country: '🇩🇪',
         company: 'PayFit',
         position: 'Staff Architect',
         social: {
@@ -38,6 +41,7 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/jesusVillarVazquez.jpg',
         name: 'Jesús M. Villar',
         company: 'Apipana.io',
+        country: '🇪🇸',
         position: 'Engineering Lead',
         bio: '',
         social: {
@@ -49,6 +53,7 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/dorraBartaguiz.png',
         name: 'Dorra Bartaguiz',
         company: 'Arolla',
+        country: '🇫🇷',
         position: 'CTO',
         bio: 'co-author "Software Craft" Dunod editions, coach, speaker',
         social: {
@@ -60,6 +65,7 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/helderDeOliveira.jpeg',
         name: 'Helder de Oliveira',
         company: 'Codurance',
+        country: '🇻🇪',
         position: 'Engineering Manager',
         bio: 'Driving Agile Transformations & Building Scalable Platforms',
         social: {
@@ -71,21 +77,11 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/annegretJunker.png',
         name: 'Dr. Annegret Junker',
         company: 'codecentric AG',
+        country: '🇩🇪',
         position: 'Chief Software Architect',
         bio: 'Author of Mastering Domain-Driven Design',
         social: {
             linkedin: 'https://www.linkedin.com/in/dr-annegret-junker-141a99a4/'
-        },
-        show: true
-    }],
-    ['luise', {
-        name: '👑Luise Freese',
-        image: '/i/speakers/1707739821322.jpeg',
-        company: 'm365princess.com',
-        position: 'Power Platform & Azure Architect',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/luisefreese/'
         },
         show: true
     }],
@@ -95,19 +91,21 @@ const speakersList: Map<string, Speaker> = new Map([
         company: 'ManagerPro',
         position: 'Teacher',
         bio: '',
+        country: '🇪🇸',
         social: {
             linkedin: 'https://www.linkedin.com/in/josecgil/'
         },
         show: true
     }],
-    ['lorena', {
-        image: '/i/speakers/lorenaMartinez.jpeg',
-        name: 'Lorena Martínez',
-        company: '',
-        position: 'Fullstack Software Engineer',
+    ['luise', {
+        name: '👑Luise Freese',
+        image: '/i/speakers/1707739821322.jpeg',
+        company: 'm365princess.com',
+        country: '🇩🇪',
+        position: 'Power Platform & Azure Architect',
         bio: '',
         social: {
-            linkedin: 'https://www.linkedin.com/in/lorenamartinezmoledo/'
+            linkedin: 'https://www.linkedin.com/in/luisefreese/'
         },
         show: true
     }],
@@ -115,6 +113,7 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/franIglesias.jpg',
         name: 'Fran Iglesias',
         company: 'Qualifyze',
+        country: '🇪🇸',
         position: 'Staff Software Engineer',
         bio: 'PulpoCon and Crafters-Vigo organizer',
         social: {
@@ -122,14 +121,15 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
-    ['anna', {
-        image: '/i/speakers/annaSala.jpg',
-        name: 'Anna Sala Mercade',
-        company: 'IFCO Systems',
-        position: 'Frontend Developer',
-        bio: 'I am a Frontend developer passionate about learning more every day, and I have a peculiar obsession with rubber ducks.',
+    ['lorena', {
+        image: '/i/speakers/lorenaMartinez.jpeg',
+        name: 'Lorena Martínez',
+        company: '',
+        country: '🇪🇸',
+        position: 'Fullstack Software Engineer',
+        bio: '',
         social: {
-            linkedin: 'https://www.linkedin.com/in/anna-sala/'
+            linkedin: 'https://www.linkedin.com/in/lorenamartinezmoledo/'
         },
         show: true
     }],
@@ -137,6 +137,7 @@ const speakersList: Map<string, Speaker> = new Map([
         name: 'Berny Cantos',
         image: '/i/speakers/berny-cantos.jpg',
         company: 'Reverse Tech',
+        country: '🇪🇸',
         position: 'Senior Server Developer',
         bio: '',
         social: {
@@ -144,14 +145,15 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
-    ['ana', {
-        name: 'Ana Carmona',
-        image: '/i/speakers/ana-carmona.jpg',
-        company: 'Adevinta',
-        position: 'Sr Engineering Manager',
-        bio: '',
+    ['anna', {
+        image: '/i/speakers/annaSala.jpg',
+        name: 'Anna Sala Mercade',
+        company: 'IFCO Systems',
+        country: '🇪🇸',
+        position: 'Frontend Developer',
+        bio: 'I am a Frontend developer passionate about learning more every day, and I have a peculiar obsession with rubber ducks.',
         social: {
-            linkedin: 'https://www.linkedin.com/in/ana-carmona-ag/'
+            linkedin: 'https://www.linkedin.com/in/anna-sala/'
         },
         show: true
     }],
@@ -160,20 +162,22 @@ const speakersList: Map<string, Speaker> = new Map([
         name: 'Benjamin A. Rae',
         company: 'Qualifyze',
         position: 'Software Engineer',
+        country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
         bio: '',
         social: {
             linkedin: 'https://www.linkedin.com/in/benjamin-alexander-rae/'
         },
         show: true
     }],
-    ['paula', {
-        image: '/i/speakers/your-photo-grayscale.jpg',
-        name: 'Paula Domínguez',
-        company: 'Gradiant',
-        position: 'Project Manager',
+    ['ana', {
+        name: 'Ana Carmona',
+        image: '/i/speakers/ana-carmona.jpg',
+        company: 'Adevinta',
+        country: '🇪🇸',
+        position: 'Sr Engineering Manager',
         bio: '',
         social: {
-            linkedin: 'https://www.linkedin.com/in/paula-dom%C3%ADnguez-v%C3%A1zquez-889585178/'
+            linkedin: 'https://www.linkedin.com/in/ana-carmona-ag/'
         },
         show: true
     }],
@@ -183,19 +187,21 @@ const speakersList: Map<string, Speaker> = new Map([
         company: 'Gradiant',
         position: '',
         bio: '',
+        country: '🇪🇸',
         social: {
             linkedin: ''
         },
         show: true
     }],
-    ['maryna', {
-        image: '/i/speakers/maryna-bogdan.png',
-        name: 'Maryna Bogdan',
-        company: 'Freelance',
-        position: 'AI/ML Engineer',
+    ['paula', {
+        image: '/i/speakers/your-photo-grayscale.jpg',
+        name: 'Paula Domínguez',
+        company: 'Gradiant',
+        position: 'Project Manager',
         bio: '',
+        country: '🇪🇸',
         social: {
-            linkedin: 'https://www.linkedin.com/in/maryna-bogdan/'
+            linkedin: 'https://www.linkedin.com/in/paula-dom%C3%ADnguez-v%C3%A1zquez-889585178/'
         },
         show: true
     }],
@@ -205,8 +211,21 @@ const speakersList: Map<string, Speaker> = new Map([
         company: 'Gradiant',
         position: 'Research Engineer',
         bio: '',
+        country: '🇪🇸',
         social: {
             linkedin: 'https://www.linkedin.com/in/manuellandin/'
+        },
+        show: true
+    }],
+    ['maryna', {
+        image: '/i/speakers/maryna-bogdan.png',
+        name: 'Maryna Bogdan',
+        company: 'Freelance',
+        country: '🇺🇦',
+        position: 'AI/ML Engineer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/maryna-bogdan/'
         },
         show: true
     }],
@@ -215,6 +234,7 @@ const speakersList: Map<string, Speaker> = new Map([
         image: '/i/speakers/adriaBatlle.png',
         company: 'LambdaLoopers',
         position: 'CEO',
+        country: '🇪🇸',
         bio: 'Apasionado de la tecnología, siempre buscando el mejor martillo para cada clavo.',
         social: {
             linkedin: 'https://www.linkedin.com/in/adri%C3%A0-batlle/'
@@ -225,6 +245,7 @@ const speakersList: Map<string, Speaker> = new Map([
         name: 'Alex Cáceres',
         image: '/i/speakers/alexCaceres.png',
         company: 'LambdaLoopers',
+        country: '🇪🇸',
         position: 'Senior Software Engineer',
         bio: 'Geek por naturaleza, curioso, experimentador y siempre con ganas de aprender sobre cualquier ámbito de la tecnología. De los que sienten que programar es jugar, crear y contribuir.',
         social: {
@@ -236,6 +257,7 @@ const speakersList: Map<string, Speaker> = new Map([
         name: 'David Pravos',
         image: '/i/speakers/davidPravos.jpeg',
         company: 'LambdaLoopers',
+        country: '🇪🇸',
         position: 'Senior Software Engineer',
         bio: 'Físico de formación, entusiasmado por la ciencia y tecnología. Le encanta combinar la teoría con el pragmatismo.',
         social: {
