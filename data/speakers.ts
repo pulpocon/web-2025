@@ -144,17 +144,6 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
-    ['ben', {
-        image: '/i/speakers/benjaminRae.jpeg',
-        name: 'Benjamin A. Rae',
-        company: 'Qualifyze',
-        position: 'Software Engineer',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/benjamin-alexander-rae/'
-        },
-        show: true
-    }],
     ['ana', {
         name: 'Ana Carmona',
         image: '/i/speakers/ana-carmona.jpg',
@@ -166,14 +155,14 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
-    ['juan', {
-        image: '/i/speakers/your-photo-grayscale.jpg',
-        name: 'Juan Pontón Rodríguez',
-        company: 'Gradiant',
-        position: '',
+    ['ben', {
+        image: '/i/speakers/benjaminRae.jpeg',
+        name: 'Benjamin A. Rae',
+        company: 'Qualifyze',
+        position: 'Software Engineer',
         bio: '',
         social: {
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/benjamin-alexander-rae/'
         },
         show: true
     }],
@@ -188,14 +177,14 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
-    ['manuel', {
+    ['juan', {
         image: '/i/speakers/your-photo-grayscale.jpg',
-        name: 'Manuel Landín',
+        name: 'Juan Pontón Rodríguez',
         company: 'Gradiant',
-        position: 'Research Engineer',
+        position: '',
         bio: '',
         social: {
-            linkedin: 'https://www.linkedin.com/in/manuellandin/'
+            linkedin: ''
         },
         show: true
     }],
@@ -207,6 +196,17 @@ const speakersList: Map<string, Speaker> = new Map([
         bio: '',
         social: {
             linkedin: 'https://www.linkedin.com/in/maryna-bogdan/'
+        },
+        show: true
+    }],
+    ['manuel', {
+        image: '/i/speakers/your-photo-grayscale.jpg',
+        name: 'Manuel Landín',
+        company: 'Gradiant',
+        position: 'Research Engineer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/manuellandin/'
         },
         show: true
     }],
