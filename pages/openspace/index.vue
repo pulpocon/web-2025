@@ -46,7 +46,6 @@ const openspace = computed(() => {
   }
 
   const speakers: Speaker[] = slot.speakers.map((id: string) => speakersList.get(id)!)!
-
   return new DetailModel(
       slot.content.title,
       slot.content.lang,

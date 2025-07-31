@@ -199,6 +199,39 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
+    ['joseCarlos', {
+        name: 'José Carlos Gil Zambrana',
+        image: '/i/speakers/1666567513619.jpeg',
+        company: 'ManagerPro',
+        position: 'Teacher',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/josecgil/'
+        },
+        show: true
+    }],
+    ['luise', {
+        name: '👑Luise Freese',
+        image: '/i/speakers/1707739821322.jpeg',
+        company: 'm365princess.com',
+        position: 'Power Platform & Azure Architect',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/luisefreese/'
+        },
+        show: true
+    }],
+    ['ana', {
+        name: 'Ana Carmona',
+        image: '/i/speakers/ana-carmona.jpg',
+        company: 'Adevinta',
+        position: 'Sr Engineering Manager',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/ana-carmona-ag/'
+        },
+        show: true
+    }],
     // These are basically sponsors. I added them here for showing sponsorship in La Pulpito track
     ['crafters', {
         image: '/i/sps/craftersVigo.png',

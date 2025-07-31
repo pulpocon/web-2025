@@ -8,6 +8,7 @@ export type Speaker = {
     social?: {
         linkedin?: string
         twitter?: string
+        website?: string
     }
 }
 

@@ -3,7 +3,7 @@ import type {Slot} from "~/model";
 export const slots: Map<string, Slot> = new Map([
         ['openspace', {
             speakers: [
-                'tbd'
+                'ana'
             ],
             content: {
                 title: 'Open Space',
@@ -58,6 +58,19 @@ export const slots: Map<string, Slot> = new Map([
             },
             track: 'Main Day',
             schedule: 'Sat 10:00-10:40',
+        }],
+        ['talk-sat-05', {
+            speakers:
+                [
+                    'luise'
+                ],
+            content: {
+                title: 'Your testing strategy is broken- let’s fix it!',
+                lang: 'en',
+                description: ['Testing is essential for delivering reliable software, but too often, teams fall into the trap of testing everything and testing it poorly. Endless unit tests for trivial code create a false sense of security while ignoring the areas that matter most—like how your system behaves when it really counts. This session takes a hard look at what makes a good testing strategy. Instead of chasing meaningless metrics like 100% coverage, learn how to test behaviors, focus on integration points, and embrace a leaner, smarter approach to quality assurance. Your users don’t care about how many tests you’ve written—they care about software that works. This is your guide to writing fewer tests, but better ones, that actually make a difference.'],
+            },
+            track: 'Main Day',
+            schedule: 'Sat 16:00-16:40',
         }],
         ['talk-sat-06', {
             speakers:
@@ -190,9 +203,13 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-en-02', {
             content: {
-                title: 'Workshop Title',
+                title: 'Impact Mapping',
                 description: [
-                    'Description of your workshop'
+                    'Impact mapping is a lightweight, collaborative planning technique for teams that want to make a big impact with software products. It is based on user interaction design, outcome-driven planning and mind mapping. Impact maps help delivery teams and stakeholders visualise roadmaps, explain how deliverables connect to user needs and communicate how user outcomes relate to higher-level organisational goals. (source: https://www.impactmapping.org/)',
+                    'Impact Mapping is a unique technique (described in a book by Gojko Adzic) which enables every organisation or team facing a new problem, a new challenge to not only find unexpected ideas but also to make sure that these ideas address those challenges instead of fulfilling other interests.',
+                    'By following the steps, Impact Mapping helps find ways to experiment, innovate, and compare possible ideas by focusing on the outcome rather than the output. It gives the group the means to verify the progress the whole time - to fail fast or stop investing because they have reached their goal.',
+                    'In this workshop, we will discuss and map a fictive problem. At the end of the workshop, you will know how the technique works and when to use it, how much fun such Impact Mapping can be and how creative people are when the only constraint is time :)',
+                    'There are no prerequisites but curiosity :) '
                 ],
                 lang: 'en',
             },
@@ -218,9 +235,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-01', {
             content: {
-                title: 'Don\'t Let Your Code Skip Leg Day',
+                title: 'Don\'t Let Your Code Skip Leg Day - Train your coding skills like your gym routine',
                 description: [
-                    '🏋️ Train your coding skills like your gym routine'
+                    'Developing well crafted code is not an unicorn, is something easy to achieve, but requires discipline and commitment. The workshop will show tips and examples of how to achieve the goal of coding high quality code based on three pillars. Simple Design, easy to test and easy to read'
                 ],
                 lang: 'es',
             },
@@ -246,9 +263,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-03', {
             content: {
-                title: 'Workshop Title',
+                title: 'Wake up, Neo: Primeros pasos en Developer eXperience',
                 description: [
-                    'Description of your workshop'
+                    '¿Alguna vez has sentido que algo no iba bien, pero no sabrías decir el qué? El proyecto ha crecido. Funciona, pero… ¿a qué precio? Nadie entiende el sistema completo, añadir una feature sencilla es cada vez más difícil, y cada nuevo developer se adapta rápido… al dolor. El enfoque que nos ha traído hasta aquí puede que no nos lleve más lejos, ¿y ahora qué? En esta charla veremos cómo dar nuestros primeros pasos hacia una mejor Developer eXperience: detectar fricciones, diseñar defensivamente, desmontar cultos, implicar a negocio... Todo ello usando el universo de The Matrix como excusa. Yo puedo mostrarte la puerta, cruzarla depende de ti.'
                 ],
                 lang: 'es',
             },
@@ -312,7 +329,7 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'es',
             },
             speakers: [
-                'tbd',
+                'joseCarlos',
             ],
             schedule: 'Friday 09:30-11:30',
             track: 'Management',

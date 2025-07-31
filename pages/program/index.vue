@@ -124,9 +124,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/openspace">
-                Open Space
-              </nuxt-link>
+              <open-space-teaser />
             </td>
             <td class="program-day__table-time">
               16:00<br>18:30
@@ -515,6 +513,7 @@
 <script lang="ts" setup>
 import WorkshopTeaser from '../../components/WorkshopTeaser/index.vue'
 import TalkTeaser from '../../components/TalkTeaser/index.vue'
+import OpenSpaceTeaser from '../../components/OpenSpaceTeaser/index.vue'
 import config from "~/data/config";
 </script>
 <style src="./program.scss"></style>
