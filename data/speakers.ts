@@ -78,6 +78,28 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
+    ['luise', {
+        name: '👑Luise Freese',
+        image: '/i/speakers/1707739821322.jpeg',
+        company: 'm365princess.com',
+        position: 'Power Platform & Azure Architect',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/luisefreese/'
+        },
+        show: true
+    }],
+    ['joseCarlos', {
+        name: 'José Carlos Gil Zambrana',
+        image: '/i/speakers/1666567513619.jpeg',
+        company: 'ManagerPro',
+        position: 'Teacher',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/josecgil/'
+        },
+        show: true
+    }],
     ['lorena', {
         image: '/i/speakers/lorenaMartinez.jpeg',
         name: 'Lorena Martínez',
@@ -86,6 +108,39 @@ const speakersList: Map<string, Speaker> = new Map([
         bio: '',
         social: {
             linkedin: 'https://www.linkedin.com/in/lorenamartinezmoledo/'
+        },
+        show: true
+    }],
+    ['fran', {
+        image: '/i/speakers/franIglesias.jpg',
+        name: 'Fran Iglesias',
+        company: 'Qualifyze',
+        position: 'Staff Software Engineer',
+        bio: 'PulpoCon and Crafters-Vigo organizer',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/franiglesias/'
+        },
+        show: true
+    }],
+    ['anna', {
+        image: '/i/speakers/annaSala.jpg',
+        name: 'Anna Sala Mercade',
+        company: 'IFCO Systems',
+        position: 'Frontend Developer',
+        bio: 'I am a Frontend developer passionate about learning more every day, and I have a peculiar obsession with rubber ducks.',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/anna-sala/'
+        },
+        show: true
+    }],
+    ['berny', {
+        name: 'Berny Cantos',
+        image: '/i/speakers/berny-cantos.jpg',
+        company: 'Reverse Tech',
+        position: 'Senior Server Developer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/bernycantos/'
         },
         show: true
     }],
@@ -100,25 +155,14 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
-    ['fran', {
-        image: '/i/speakers/franIglesias.jpg',
-        name: 'Fran Iglesias',
-        company: 'Qualifyze',
-        position: 'Staff Software Engineer',
-        bio: 'PulpoCon and Crafters-Vigo organizer',
+    ['ana', {
+        name: 'Ana Carmona',
+        image: '/i/speakers/ana-carmona.jpg',
+        company: 'Adevinta',
+        position: 'Sr Engineering Manager',
+        bio: '',
         social: {
-            linkedin: 'https://www.linkedin.com/in/franiglesias/'
-        },
-        show: false
-    }],
-    ['anna', {
-        image: '/i/speakers/annaSala.jpg',
-        name: 'Anna Sala Mercade',
-        company: 'IFCO Systems',
-        position: 'Frontend Developer',
-        bio: 'I am a Frontend developer passionate about learning more every day, and I have a peculiar obsession with rubber ducks.',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/anna-sala/'
+            linkedin: 'https://www.linkedin.com/in/ana-carmona-ag/'
         },
         show: true
     }],
@@ -131,18 +175,7 @@ const speakersList: Map<string, Speaker> = new Map([
         social: {
             linkedin: ''
         },
-        show: false
-    }],
-    ['manuel', {
-        image: '/i/speakers/your-photo-grayscale.jpg',
-        name: 'Manuel Landín',
-        company: 'Gradiant',
-        position: 'Research Engineer',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/manuellandin/'
-        },
-        show: false
+        show: true
     }],
     ['paula', {
         image: '/i/speakers/your-photo-grayscale.jpg',
@@ -153,7 +186,29 @@ const speakersList: Map<string, Speaker> = new Map([
         social: {
             linkedin: 'https://www.linkedin.com/in/paula-dom%C3%ADnguez-v%C3%A1zquez-889585178/'
         },
-        show: false
+        show: true
+    }],
+    ['manuel', {
+        image: '/i/speakers/your-photo-grayscale.jpg',
+        name: 'Manuel Landín',
+        company: 'Gradiant',
+        position: 'Research Engineer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/manuellandin/'
+        },
+        show: true
+    }],
+    ['maryna', {
+        image: '/i/speakers/maryna-bogdan.png',
+        name: 'Maryna Bogdan',
+        company: 'Freelance',
+        position: 'AI/ML Engineer',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/maryna-bogdan/'
+        },
+        show: true
     }],
     ['adria', {
         name: 'Adriá Batllé',
@@ -185,50 +240,6 @@ const speakersList: Map<string, Speaker> = new Map([
         bio: 'Físico de formación, entusiasmado por la ciencia y tecnología. Le encanta combinar la teoría con el pragmatismo.',
         social: {
             linkedin: 'https://www.linkedin.com/in/dpravos/'
-        },
-        show: true
-    }],
-    ['berny', {
-        name: 'Berny Cantos',
-        image: '/i/speakers/berny-cantos.jpg',
-        company: 'Reverse Tech',
-        position: 'Senior Server Developer',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/bernycantos/'
-        },
-        show: true
-    }],
-    ['joseCarlos', {
-        name: 'José Carlos Gil Zambrana',
-        image: '/i/speakers/1666567513619.jpeg',
-        company: 'ManagerPro',
-        position: 'Teacher',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/josecgil/'
-        },
-        show: true
-    }],
-    ['luise', {
-        name: '👑Luise Freese',
-        image: '/i/speakers/1707739821322.jpeg',
-        company: 'm365princess.com',
-        position: 'Power Platform & Azure Architect',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/luisefreese/'
-        },
-        show: true
-    }],
-    ['ana', {
-        name: 'Ana Carmona',
-        image: '/i/speakers/ana-carmona.jpg',
-        company: 'Adevinta',
-        position: 'Sr Engineering Manager',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/ana-carmona-ag/'
         },
         show: true
     }],
