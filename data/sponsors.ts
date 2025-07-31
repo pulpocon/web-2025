@@ -51,7 +51,7 @@ const sponsors: SponsorGroups = {
     {
       name: 'Apipana',
       logo: '/i/sps/apipana.png',
-      link: 'https://apipana.io/es?utm_origin=pulpocon&utm_medium=web'
+      link: 'https://apipana.io/?utm_origin=pulpocon&utm_medium=web'
     },
     // {
     //   name: 'Qualifyze',
