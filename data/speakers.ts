@@ -230,7 +230,7 @@ const speakersList: Map<string, Speaker> = new Map([
         show: true
     }],
     ['adria', {
-        name: 'Adriá Batllé',
+        name: 'Adrià Batlle',
         image: '/i/speakers/adriaBatlle.png',
         company: 'LambdaLoopers',
         position: 'CEO',
