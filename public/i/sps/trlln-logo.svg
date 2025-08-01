@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="63px" viewBox="0 0 150 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#E62059" x="0" y="0" width="150" height="63"></rect>
+        <g id="TRLLN-LOGO" transform="translate(10, 16)" fill="#FFFFFF">
+            <path d="M123,14.0834625 L111.988736,0 L105,0 L105,25 L111.988736,25 L112,12 L123,25 L130,25 L130,0 L123,0 L123,14.0834625 Z M57,0 L57,25 L76,25 L76.0017083,19 L64,19 L64,0 L57,0 Z M81,0 L81,25 L100,25 L100.001708,19 L88,19 L88,0 L81,0 Z M28,0 L39.915626,0.00991669972 C46.8212001,0.00991669972 51,3.28798096 51,9 C51,12.6790956 49.1462077,15.5025783 46,17 L51,25 L44.0067012,25 L40,18 L35,18 L35,25 L28,25 L28,0 Z M40,5 L35,5 L35,13 L40,13 C42.9652757,13 44,11.3205077 44,9 C44,6.67949226 42.9652757,5 40,5 Z M0,6 L8,6 L8,25 L15,25 L15,6 L23,6 L23,0 L0,0 L0,6 Z" id="Shape" fill-rule="nonzero"></path>
+            <rect id="Rectangle" x="105" y="30" width="25" height="5"></rect>
+            <rect id="Rectangle" x="81" y="30" width="5" height="5"></rect>
+            <rect id="Rectangle" x="88" y="30" width="5" height="5"></rect>
+            <rect id="Rectangle" x="95" y="30" width="5" height="5"></rect>
+        </g>
+    </g>
+</svg>

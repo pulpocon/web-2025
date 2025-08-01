@@ -53,11 +53,16 @@ const sponsors: SponsorGroups = {
       logo: '/i/sps/apipana.png',
       link: 'https://apipana.io/?utm_origin=pulpocon&utm_medium=web'
     },
-    // {
-    //   name: 'Qualifyze',
-    //   logo: '/i/sps/qualifyzeLogo.png',
-    //   link: 'https://www.qualifyze.com/?utm_origin=pulpocon&utm_medium=web'
-    // },
+    {
+      name: 'IFCO Systems',
+      logo: '/i/sps/ifco.png',
+      link: 'https://www.ifco.com/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Qualifyze',
+      logo: '/i/sps/qualifyzeLogo.png',
+      link: 'https://www.qualifyze.com/?utm_origin=pulpocon&utm_medium=web'
+    },
   ],
   [SponsorType.Multimedia]: [
     {
