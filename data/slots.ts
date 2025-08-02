@@ -23,9 +23,12 @@ export const slots: Map<string, Slot> = new Map([
                     'annegret'
                 ],
             content: {
-                title: 'Talk Title',
+                title: 'Can an AI design elegant APIs?',
                 lang: 'en',
-                description: ['TBD'],
+                description: [
+                    'This presentation demonstrates how LLMs can support the design of understandable and domain-appropriate APIs based on DDD practices such as Domain Storytelling, Event Storming, and Context Mapping.',
+                    'Using the Synergetic Blueprint process, it explains where AI provides real value—and where human judgment remains irreplaceable.'
+                ],
 
             },
             track: 'Main Day',
@@ -65,9 +68,10 @@ export const slots: Map<string, Slot> = new Map([
                     'luise'
                 ],
             content: {
-                title: 'Your testing strategy is broken- let’s fix it!',
+                title: 'Your testing strategy is broken. Let’s fix it!',
                 lang: 'en',
-                description: ['Testing is essential for delivering reliable software, but too often, teams fall into the trap of testing everything and testing it poorly. Endless unit tests for trivial code create a false sense of security while ignoring the areas that matter most—like how your system behaves when it really counts. This session takes a hard look at what makes a good testing strategy. Instead of chasing meaningless metrics like 100% coverage, learn how to test behaviors, focus on integration points, and embrace a leaner, smarter approach to quality assurance. Your users don’t care about how many tests you’ve written—they care about software that works. This is your guide to writing fewer tests, but better ones, that actually make a difference.'],
+                description: [
+                    'Testing is essential for delivering reliable software, but too often, teams fall into the trap of testing everything and testing it poorly. Endless unit tests for trivial code create a false sense of security while ignoring the areas that matter most—like how your system behaves when it really counts. This session takes a hard look at what makes a good testing strategy. Instead of chasing meaningless metrics like 100% coverage, learn how to test behaviors, focus on integration points, and embrace a leaner, smarter approach to quality assurance. Your users don’t care about how many tests you’ve written—they care about software that works. This is your guide to writing fewer tests, but better ones, that actually make a difference.'],
             },
             track: 'Main Day',
             schedule: 'Sat 16:00-16:40',
@@ -237,7 +241,7 @@ export const slots: Map<string, Slot> = new Map([
             content: {
                 title: 'Don\'t Let Your Code Skip Leg Day - Train your coding skills like your gym routine',
                 description: [
-                    'Developing well crafted code is not an unicorn, is something easy to achieve, but requires discipline and commitment. The workshop will show tips and examples of how to achieve the goal of coding high quality code based on three pillars. Simple Design, easy to test and easy to read'
+                    'Developing well-crafted code is not a unicorn, is something easy to achieve, but requires discipline and commitment. The workshop will show tips and examples of how to achieve the goal of coding high quality code based on three pillars. Simple Design, easy to test and easy to read'
                 ],
                 lang: 'es',
             },
@@ -293,9 +297,10 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-fullstack-02', {
             content: {
-                title: 'Frontend: TBD',
+                title: 'Frontend: Not Just a Pretty Face',
                 description: [
-                    'TBD'
+                    'We will build an application using TanStack Query, to build an efficient data fetching frontend.',
+                    'Together, we will navigate the best practices in frontend development for serious (and silly) applications and discover why the modern frontends are much more than "just a pretty face".'
                 ],
                 lang: 'es',
             },
