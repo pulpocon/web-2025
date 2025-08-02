@@ -20,11 +20,11 @@
             <th>&nbsp;</th>
             <th>
               <p><strong>Crafter Starter Workshop</strong></p>
-              <p>Introduction to Agile Technical Practices</p>
+              <p>Introduction a las Prácticas Técnicas Ágiles</p>
             </th>
             <th>
               <p><strong>Crafter + IA Workshop</strong></p>
-              <p>Developing AI. Developing with AI</p>
+              <p>Desarrollando AI. Desarrollando con AI</p>
             </th>
             <th>
               Jardín / Salón
@@ -157,18 +157,18 @@
             </th>
             <th>
               <p><strong>🇪🇸 Crafter 🇪🇸</strong></p>
-              <p>Advanced refactoring, testing, product development and more</p>
+              <p>Refactoring avanzado, testing, desarrollo de producto y más...</p>
             </th>
             <th>
               <p><strong>Fullstack</strong></p>
-              <p>The T-shaped developer in multidisciplinary teams.</p>
+              <p>T-shaped developer en equipos multidisciplinares.</p>
             </th>
             <th>
               <p><strong>Management</strong></p>
-              <p>The road from Contributor to Leadership and management</p>
+              <p>De IC a Leadership y Management</p>
             </th>
             <th>
-              La Pulpito
+              <p><strong>La Pulpito</strong></p>
             </th>
             <th>&nbsp;</th>
           </tr>

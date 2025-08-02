@@ -8,9 +8,9 @@ export const slots: Map<string, Slot> = new Map([
             content: {
                 title: 'Open Space',
                 description: [
-                    'An open space is a non-conference format. No agenda, no predefined topics. Attendants decide the agenda at the start, using a collaborative process. No topic is banned.',
-                    'It is an opportunity to explore new perspectives on whatever topic matters to you. Have you ever tried to empathize with someone on an issue you were sure you fully understood?',
-                    'In this openspace, participants will propose topics that will later be voted on by everyone. Once the topics of interest are defined, we will dive into enriching discussions, allowing every voice to be heard. The idea is to learn collectively, in an environment of respect and collaboration.'
+                    'Un open space es un formato no conferencial. Sin agenda, sin temas predefinidos. Los asistentes deciden la agenda al inicio, utilizando un proceso colaborativo. Ningún tema está prohibido.',
+                    'Es una oportunidad para explorar nuevas perspectivas sobre cualquier tema que te importe. ¿Alguna vez has intentado empatizar con alguien sobre un tema que estabas seguro de entender completamente?',
+                    'En este open space, los participantes propondrán temas que luego serán votados por todos. Una vez definidos los temas de interés, nos sumergiremos en discusiones enriquecedoras, permitiendo que cada voz sea escuchada. La idea es aprender colectivamente, en un ambiente de respeto y colaboración.'
                 ],
                 lang: 'es',
             },
@@ -107,15 +107,15 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-01', {
             speakers:
                 [
-                    'lorena','ben'
+                    'lorena', 'ben'
                 ],
             content: {
-                title: 'Module 1',
+                title: 'Módulo 1',
                 lang: 'es',
                 description:
                     [
-                        'A full-day workshop for the introduction or improvement of agile technical practices.',
-                        'Including TDD, refactoring, pair programming, code reviews, etc.',
+                        'Un taller de día completo para la introducción o mejora de prácticas técnicas ágiles.',
+                        'Incluyendo TDD, refactorización, programación en parejas, revisiones de código, etc.',
                     ],
             },
             track: 'Crafter Starter Workshop',
@@ -124,10 +124,10 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-02', {
             speakers:
                 [
-                    'lorena','ben'
+                    'lorena', 'ben'
                 ],
             content: {
-                title: 'Module 2',
+                title: 'Módulo 2',
                 lang: 'es',
                 description: ['...'],
             },
@@ -137,10 +137,10 @@ export const slots: Map<string, Slot> = new Map([
         ['workshop-newbie-03', {
             speakers:
                 [
-                    'lorena','ben'
+                    'lorena', 'ben'
                 ],
             content: {
-                title: 'Module 3',
+                title: 'Módulo 3',
                 lang: 'es',
                 description: ['...'],
             },
@@ -154,10 +154,10 @@ export const slots: Map<string, Slot> = new Map([
                     'alex'
                 ],
             content: {
-                title: 'Module 1. State of the AI',
+                title: 'Módulo 1. Estado de la IA',
                 lang: 'es',
                 description: [
-                    'IA Tools ecosystem'
+                    'Ecosistema de herramientas de IA'
                 ],
             },
             track: 'Crafter + AI Workshop',
@@ -170,9 +170,9 @@ export const slots: Map<string, Slot> = new Map([
                     'alex'
                 ],
             content: {
-                title: 'Building IA products',
+                title: 'Construyendo productos de IA',
                 lang: 'es',
-                description: ['TBD'],
+                description: ['Por determinar'],
             },
             track: 'Crafter + AI Workshop',
             schedule: 'Thursday 9:30-11:30',
@@ -184,9 +184,9 @@ export const slots: Map<string, Slot> = new Map([
                     'alex'
                 ],
             content: {
-                title: 'Programming kata, helped with IA',
+                title: 'Kata de programación, asistida con IA',
                 lang: 'es',
-                description: ['TBD'],
+                description: ['Por determinar'],
             },
             track: 'Crafter + AI Workshop',
             schedule: 'Thursday 9:30-11:30',
@@ -239,9 +239,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-01', {
             content: {
-                title: 'Don\'t Let Your Code Skip Leg Day - Train your coding skills like your gym routine',
+                title: 'No dejes que tu código se salte el día de piernas - Entrena tus habilidades de codificación como tu rutina de gimnasio',
                 description: [
-                    'Developing well-crafted code is not a unicorn, is something easy to achieve, but requires discipline and commitment. The workshop will show tips and examples of how to achieve the goal of coding high quality code based on three pillars. Simple Design, easy to test and easy to read'
+                    'Desarrollar código bien elaborado no es un unicornio, es algo fácil de lograr, pero requiere disciplina y compromiso. El taller mostrará consejos y ejemplos de cómo lograr el objetivo de codificar código de alta calidad basado en tres pilares. Diseño simple, fácil de probar y fácil de leer'
                 ],
                 lang: 'es',
             },
@@ -253,9 +253,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-02', {
             content: {
-                title: 'Workshop Title',
+                title: 'Título del Taller',
                 description: [
-                    'Description of your workshop'
+                    'Descripción de tu taller'
                 ],
                 lang: 'es',
             },
@@ -269,7 +269,9 @@ export const slots: Map<string, Slot> = new Map([
             content: {
                 title: 'Wake up, Neo: Primeros pasos en Developer eXperience',
                 description: [
-                    '¿Alguna vez has sentido que algo no iba bien, pero no sabrías decir el qué? El proyecto ha crecido. Funciona, pero… ¿a qué precio? Nadie entiende el sistema completo, añadir una feature sencilla es cada vez más difícil, y cada nuevo developer se adapta rápido… al dolor. El enfoque que nos ha traído hasta aquí puede que no nos lleve más lejos, ¿y ahora qué? En esta charla veremos cómo dar nuestros primeros pasos hacia una mejor Developer eXperience: detectar fricciones, diseñar defensivamente, desmontar cultos, implicar a negocio... Todo ello usando el universo de The Matrix como excusa. Yo puedo mostrarte la puerta, cruzarla depende de ti.'
+                    '¿Alguna vez has sentido que algo no iba bien, pero no sabrías decir el qué? El proyecto ha crecido. Funciona, pero… ¿a qué precio? Nadie entiende el sistema completo, añadir una feature sencilla es cada vez más difícil, y cada nuevo developer se adapta rápido… al dolor.',
+                    'El enfoque que nos ha traído hasta aquí puede que no nos lleve más lejos, ¿y ahora qué? En esta charla veremos cómo dar nuestros primeros pasos hacia una mejor Developer eXperience: detectar fricciones, diseñar defensivamente, desmontar cultos, implicar a negocio... ',
+                    'Todo ello usando el universo de The Matrix como excusa. Yo puedo mostrarte la puerta, cruzarla depende de ti.'
                 ],
                 lang: 'es',
             },
@@ -281,11 +283,11 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-fullstack-01', {
             content: {
-                title: 'Backend: Hexagonal Architecture by the Book',
+                title: 'Backend: Arquitectura Hexagonal según el libro',
                 description: [
-                    'Let\'s build a little application by following the book "Hexagonal Architecture Explained" by Dr. Alistair Cockburn and Juan Manuel Garrido.',
-                    'Discover what makes this pattern great and how to apply it to your projects.',
-                    'Fix the numerous misconceptions about Hexagonal Architecture and how to avoid them.',
+                    'Construyamos una pequeña aplicación siguiendo el libro "Hexagonal Architecture Explained" de Dr. Alistair Cockburn y Juan Manuel Garrido.',
+                    'Descubre qué hace que este patrón sea excelente y cómo aplicarlo a tus proyectos.',
+                    'Corrige las numerosas ideas erróneas sobre la Arquitectura Hexagonal y cómo evitarlas.',
                 ],
                 lang: 'es',
             },
@@ -297,10 +299,10 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-fullstack-02', {
             content: {
-                title: 'Frontend: Not Just a Pretty Face',
+                title: 'Frontend: No Solo una Cara Bonita',
                 description: [
-                    'We will build an application using TanStack Query, to build an efficient data fetching frontend.',
-                    'Together, we will navigate the best practices in frontend development for serious (and silly) applications and discover why the modern frontends are much more than "just a pretty face".'
+                    'Construiremos una aplicación utilizando TanStack Query, para crear un frontend eficiente en la obtención de datos.',
+                    'Juntos, navegaremos por las mejores prácticas en el desarrollo frontend para aplicaciones serias (y tontas) y descubriremos por qué los frontends modernos son mucho más que "solo una cara bonita".'
                 ],
                 lang: 'es',
             },
@@ -312,10 +314,10 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-fullstack-03', {
             content: {
-                title: 'Devops: Continuous Deployment in Kubernetes with GitOps and FluxCD',
+                title: 'Devops: Despliegue Continuo en Kubernetes con GitOps y FluxCD',
                 description: [
-                    'This workshop is aimed at providing a practical experience in the implementation of Continuous Deployment in Kubernetes through a GitOps approach with FluxCD.',
-                    'Throughout the session, work will be done on automating the deployment of dockerized applications, managing infrastructure and services in a declarative way from Git, and enabling continuous updates that ensure the automated delivery of new versions, without affecting the availability of the service.'
+                    'Este taller está dirigido a proporcionar una experiencia práctica en la implementación de Despliegue Continuo en Kubernetes a través de un enfoque GitOps con FluxCD.',
+                    'A lo largo de la sesión, se trabajará en la automatización del despliegue de aplicaciones dockerizadas, gestionando infraestructura y servicios de forma declarativa desde Git, y habilitando actualizaciones continuas que aseguren la entrega automatizada de nuevas versiones, sin afectar la disponibilidad del servicio.'
                 ],
                 lang: 'es',
             },
@@ -327,9 +329,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-management-01', {
             content: {
-                title: 'Workshop Title',
+                title: 'Título del Taller',
                 description: [
-                    'Description of your workshop'
+                    'Descripción de tu taller'
                 ],
                 lang: 'es',
             },
@@ -341,9 +343,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-management-02', {
             content: {
-                title: 'Workshop Title',
+                title: 'Título del Taller',
                 description: [
-                    'Description of your workshop'
+                    'Descripción de tu taller'
                 ],
                 lang: 'es',
             },
@@ -355,9 +357,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-management-03', {
             content: {
-                title: 'Workshop Title',
+                title: 'Título del Taller',
                 description: [
-                    'Description of your workshop'
+                    'Descripción de tu taller'
                 ],
                 lang: 'es',
             },
@@ -369,9 +371,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-01', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -383,9 +385,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-02', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -398,9 +400,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-03', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -412,9 +414,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-04', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -427,9 +429,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-05', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -442,9 +444,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-06', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -456,9 +458,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-07', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -470,9 +472,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-08', {
             content: {
-                title: 'Talk Title',
+                title: 'Título de la Charla',
                 description: [
-                    'Description of your talk'
+                    'Descripción de tu charla'
                 ],
                 lang: 'es',
             },
@@ -484,4 +486,3 @@ export const slots: Map<string, Slot> = new Map([
         }],
     ])
 ;
-
