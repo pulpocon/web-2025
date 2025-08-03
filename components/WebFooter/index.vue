@@ -10,7 +10,7 @@
             <logo-crafters-vigo color="#fff"></logo-crafters-vigo>
           </a>
           <a class="event-organizer__link event-organizer__link--aindustriosa"
-             href="https://intranet.aindustriosa.org/">
+             href="https://aindustriosa.org/">
             <logo-aindustriosa color="#fff"></logo-aindustriosa>
           </a>
           <a class="event-organizer__link event-organizer__link--vigotech" href="https://vigotech.org/">
