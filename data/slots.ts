@@ -40,9 +40,10 @@ export const slots: Map<string, Slot> = new Map([
                     'dorra'
                 ],
             content: {
-                title: 'Talk Title',
+                title: 'Improving feature flags implementation to achieve flow\n',
                 lang: 'en',
-                description: ['TBD'],
+                description: ['You might be using feature flags in your projects and consider this technique indispensable. However, developers often face frustration when managing the myriad combinations of feature flags, especially as projects evolve. This complexity can make flags hard to maintain and even hated by developers. The code is full with invasive if/else statements, with no time to clean up obsolete feature flags.\n' +
+                'In this talk, I will present alternatives to traditional feature flag. Depending on the context, we will explore solutions involving work organization, prioritization, and design techniques such as legacy management strategies (e.g., the strangler application pattern or branch by abstraction), circuit breakers, and even Domain-Driven Design.'],
 
             },
             track: 'Main Day',
@@ -54,9 +55,12 @@ export const slots: Map<string, Slot> = new Map([
                     'clare'
                 ],
             content: {
-                title: 'Talk Title',
+                title: 'Let\'s Stop Making Each Other Feel Stupid',
                 lang: 'en',
-                description: ['TBD'],
+                description: [
+                    'We work in an industry where we have to prove how much we know. And yet, there are a million different paths through software development. On a day-to-day level we have to specialise on one task at a time. The skills we don’t need now are necessarily forgotten, or delegated to someone else. And that’s fine. \n' +
+                    'Instead of judging people for their ignorance, let’s help them to feel excited about all the new things they’ll discover. Instead of saying “How come you don’t know that?” let’s say “Fantastic! Lucky you. You get to learn something. What can I do to help?”'
+                ],
 
             },
             track: 'Main Day',
@@ -225,9 +229,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-en-03', {
             content: {
-                title: 'Workshop Title',
+                title: '“Lift-up conditional” – The magical refactoring',
                 description: [
-                    'Description of your workshop'
+                    'The first time I saw this powerful refactoring technique demonstrated, I was confused. It seemed like some dark magic indeed. But then I tried a practical example for myself, got my head around it and fell in love. “Lift up conditional” allows you to take messy code filled with nested conditionals and repetitious code, and detangle it into something simple and beautiful that will suddenly be easier to understand and cheaper to maintain. Join me for a hands-on example and your own moment of revelation.'
                 ],
                 lang: 'en',
             },
@@ -343,9 +347,14 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-management-02', {
             content: {
-                title: 'Título del Taller',
+                title: 'Crafter Manager, el juego',
                 description: [
-                    'Descripción de tu taller'
+                    'Un juego serio para liderar como un artesano.\n' +
+                    '¿Y si liderar bien fuera tan desafiante (y tan satisfactorio) como escribir buen código?\n' +
+                    'En este workshop vivirás un juego de simulación donde formarás parte de un equipo técnico enfrentando decisiones difíciles en un entorno en constante cambio: cambios de prioridades, presión de negocio, dilemas éticos, conflictos humanos y tensiones entre velocidad y calidad.\n' +
+                    'Si alguna vez te nombraron manager como en la Edad Media se nombraban caballeros con una palmada en la espalda y cero entrenamiento, este workshop es para ti.\n' +
+                    'Basado en principios de Software Craftsmanship y liderazgo ágil, este taller está diseñado para desarrolladores, tech leads y managers que quieran aumentar su impacto sin perder el alma técnica por el camino.\n' +
+                    'Decidirás, lanzarás los dados del caos, y descubrirás que liderar bien también es una forma de arte.'
                 ],
                 lang: 'es',
             },
