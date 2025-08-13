@@ -409,9 +409,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-03', {
             content: {
-                title: 'Título de la Charla',
+                title: 'The Lazy Dev’s Guide to Beautiful APIs',
                 description: [
-                    'Descripción de tu charla'
+                    'Como diseñar APIs de las que puedas enorgullecerte.'
                 ],
                 lang: 'es',
             },
