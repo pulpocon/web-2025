@@ -110,7 +110,7 @@ export const slots: Map<string, Slot> = new Map([
                     'lorena', 'ben'
                 ],
             content: {
-                title: 'Módulo 1',
+                title: 'Módulo 1. Aprende las formas y reglas fundamentales de TDD',
                 lang: 'es',
                 description:
                     [
@@ -127,7 +127,7 @@ export const slots: Map<string, Slot> = new Map([
                     'lorena', 'ben'
                 ],
             content: {
-                title: 'Módulo 2',
+                title: 'Módulo 2. Dale cuerpo y ritmo a tu desarrollo con estrategias de TDD',
                 lang: 'es',
                 description: ['...'],
             },
@@ -140,7 +140,7 @@ export const slots: Map<string, Slot> = new Map([
                     'lorena', 'ben'
                 ],
             content: {
-                title: 'Módulo 3',
+                title: 'Módulo 3. Ponlo todo en práctica con una kata',
                 lang: 'es',
                 description: ['...'],
             },

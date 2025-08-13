@@ -20,7 +20,7 @@
             <th>&nbsp;</th>
             <th>
               <p><strong>Crafter Starter Workshop</strong></p>
-              <p>Introduction a las Prácticas Técnicas Ágiles</p>
+              <p>Aprende iterativamente la metodología TDD desde 0</p>
             </th>
             <th>
               <p><strong>Crafter + IA Workshop</strong></p>
