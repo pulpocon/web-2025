@@ -429,9 +429,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-05', {
             content: {
-                title: 'Título de la Charla',
+                title: 'La muerte del middle manager, el ascenso del ingeniero poliédrico',
                 description: [
-                    'Descripción de tu charla'
+                    'TBD'
                 ],
                 lang: 'es',
             },
