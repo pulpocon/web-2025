@@ -321,6 +321,17 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: false
     }],
+    ['elastic', {
+        image: '/i/sps/elasticPulpito.png',
+        name: 'Elastic',
+        company: 'Elastic',
+        position: '',
+        bio: '',
+        social: {
+            linkedin: 'https://www.linkedin.com/company/elastic-co/'
+        },
+        show: false
+    }],
     ['tbd', {
         image: '/i/speakers/your-photo-grayscale.jpg',
         name: 'Speaker TBD',
