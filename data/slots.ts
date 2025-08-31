@@ -49,6 +49,24 @@ export const slots: Map<string, Slot> = new Map([
             track: 'Main Day',
             schedule: 'Sat 10:00-10:40',
         }],
+    ['talk-sat-03', {
+        speakers:
+            [
+                'susanne'
+            ],
+        content: {
+            title: 'Evolving a Legacy System with Architecture for Flow\n',
+            lang: 'en',
+            description: [
+                'Legacy systems are often double-edged: They contain years of accumulated business knowledge and value and they pay your salaries. But at the same time, they can feel like a burden, slowing down innovation and making organizations less adaptive to change.',
+                'A full rewrite or big-bang reorganization is rarely an option. So how do we evolve a legacy system incrementally without breaking what works?',
+                'This talk explores a pragmatic approach to optimizing legacy systems for flow. It introduces Architecture for Flow, a structured yet flexible approach that integrates Wardley Mapping, Domain-Driven Design (DDD), and Team Topologies. This approach focuses on identifying suitable streams of change, modularizing step by step, and evolving teams alongside the system; ensuring sustainable, low-risk transition from the status quo to an envisioned future.'
+            ],
+
+        },
+        track: 'Main Day',
+        schedule: 'Sat 10:00-10:40',
+    }],
         ['talk-sat-04', {
             speakers:
                 [
@@ -86,7 +104,7 @@ export const slots: Map<string, Slot> = new Map([
                     'sandro'
                 ],
             content: {
-                title: 'Talk Title',
+                title: 'Software Craftsmanship: Quality vs Productivity',
                 lang: 'en',
                 description: ['TBD'],
             },
@@ -257,14 +275,16 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-02', {
             content: {
-                title: 'Título del Taller',
+                title: 'Backend: Arquitectura Hexagonal según el libro',
                 description: [
-                    'Descripción de tu taller'
+                    'Construyamos una pequeña aplicación siguiendo el libro "Hexagonal Architecture Explained" de Dr. Alistair Cockburn y Juan Manuel Garrido.',
+                    'Descubre qué hace que este patrón sea excelente y cómo aplicarlo a tus proyectos.',
+                    'Corrige las numerosas ideas erróneas sobre la Arquitectura Hexagonal y cómo evitarlas.',
                 ],
                 lang: 'es',
             },
             speakers: [
-                'tbd',
+                'fran',
             ],
             schedule: 'Friday 12:00-14:00',
             track: '🇪🇸 Crafter 🇪🇸',
@@ -326,7 +346,8 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'es',
             },
             speakers: [
-                'tbd',
+                'manuel',
+                'juan'
             ],
             schedule: 'Friday 16:30-18:30',
             track: 'FullStack',
@@ -373,7 +394,7 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'es',
             },
             speakers: [
-                'tbd',
+                'susanne',
             ],
             schedule: 'Friday 16:30-18:30',
             track: 'Management',
@@ -394,15 +415,14 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-02', {
             content: {
-                title: 'Título de la Charla',
+                title: 'No entiendo tus corchetes, pero sí tus necesidades',
                 description: [
-                    'Descripción de tu charla'
+                    'Cómo sobrevivir (y disfrutar) en un mundo tech sin ser técnica. En esta charla hablaré de como ayuda una visión de gestión de talento a la gestión de equipos y proyectos'
                 ],
                 lang: 'es',
             },
             speakers: [
-                'paula',
-                'gradiant',
+                'paula'
             ],
             schedule: 'Friday 10:50-11:30',
             track: 'Pulpito',
@@ -430,8 +450,7 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'es',
             },
             speakers: [
-                'maryna',
-                'crafters'
+                'maryna'
             ],
             schedule: 'Friday 12:40-13:20',
             track: 'Pulpito',
@@ -445,8 +464,7 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'es',
             },
             speakers: [
-                'adria',
-                'lambda'
+                'adria'
             ],
             schedule: 'Friday 13:20-14:00',
             track: 'Pulpito',
@@ -467,7 +485,7 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-07', {
             content: {
-                title: 'Título de la Charla',
+                title: 'OpenTelemetry eBPF Profiler',
                 description: [
                     'Descripción de tu charla'
                 ],
@@ -488,7 +506,7 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'es',
             },
             speakers: [
-                'grafana',
+                'nadia',
             ],
             schedule: 'Friday 17:30-18:00',
             track: 'Pulpito',
