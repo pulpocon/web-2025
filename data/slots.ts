@@ -87,13 +87,13 @@ export const slots: Map<string, Slot> = new Map([
         ['talk-sat-05', {
             speakers:
                 [
-                    'luise'
+                    'tbd'
                 ],
             content: {
-                title: 'Your testing strategy is broken. Let’s fix it!',
+                title: 'Talk title',
                 lang: 'en',
                 description: [
-                    'Testing is essential for delivering reliable software, but too often, teams fall into the trap of testing everything and testing it poorly. Endless unit tests for trivial code create a false sense of security while ignoring the areas that matter most—like how your system behaves when it really counts. This session takes a hard look at what makes a good testing strategy. Instead of chasing meaningless metrics like 100% coverage, learn how to test behaviors, focus on integration points, and embrace a leaner, smarter approach to quality assurance. Your users don’t care about how many tests you’ve written—they care about software that works. This is your guide to writing fewer tests, but better ones, that actually make a difference.'],
+                    'tbd'],
             },
             track: 'Main Day',
             schedule: 'Sat 16:00-16:40',
@@ -222,7 +222,7 @@ export const slots: Map<string, Slot> = new Map([
                 lang: 'en',
             },
             speakers: [
-                'luise',
+                'tbd',
             ],
             schedule: 'Friday 09:30-11:30',
             track: '🇬🇧 Crafter 🇬🇧',
@@ -275,7 +275,7 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-02', {
             content: {
-                title: 'Backend: Arquitectura Hexagonal según el libro',
+                title: 'Arquitectura Hexagonal según el libro',
                 description: [
                     'Construyamos una pequeña aplicación siguiendo el libro "Hexagonal Architecture Explained" de Dr. Alistair Cockburn y Juan Manuel Garrido.',
                     'Descubre qué hace que este patrón sea excelente y cómo aplicarlo a tus proyectos.',
@@ -307,7 +307,7 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-fullstack-01', {
             content: {
-                title: 'Backend: Arquitectura Hexagonal según el libro',
+                title: 'Backend: Entendiendo la Arquitectura Hexagonal',
                 description: [
                     'Construyamos una pequeña aplicación siguiendo el libro "Hexagonal Architecture Explained" de Dr. Alistair Cockburn y Juan Manuel Garrido.',
                     'Descubre qué hace que este patrón sea excelente y cómo aplicarlo a tus proyectos.',
