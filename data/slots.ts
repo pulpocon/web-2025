@@ -49,24 +49,24 @@ export const slots: Map<string, Slot> = new Map([
             track: 'Main Day',
             schedule: 'Sat 10:00-10:40',
         }],
-    ['talk-sat-03', {
-        speakers:
-            [
-                'susanne'
-            ],
-        content: {
-            title: 'Evolving a Legacy System with Architecture for Flow\n',
-            lang: 'en',
-            description: [
-                'Legacy systems are often double-edged: They contain years of accumulated business knowledge and value and they pay your salaries. But at the same time, they can feel like a burden, slowing down innovation and making organizations less adaptive to change.',
-                'A full rewrite or big-bang reorganization is rarely an option. So how do we evolve a legacy system incrementally without breaking what works?',
-                'This talk explores a pragmatic approach to optimizing legacy systems for flow. It introduces Architecture for Flow, a structured yet flexible approach that integrates Wardley Mapping, Domain-Driven Design (DDD), and Team Topologies. This approach focuses on identifying suitable streams of change, modularizing step by step, and evolving teams alongside the system; ensuring sustainable, low-risk transition from the status quo to an envisioned future.'
-            ],
+        ['talk-sat-03', {
+            speakers:
+                [
+                    'susanne'
+                ],
+            content: {
+                title: 'Evolving a Legacy System with Architecture for Flow\n',
+                lang: 'en',
+                description: [
+                    'Legacy systems are often double-edged: They contain years of accumulated business knowledge and value and they pay your salaries. But at the same time, they can feel like a burden, slowing down innovation and making organizations less adaptive to change.',
+                    'A full rewrite or big-bang reorganization is rarely an option. So how do we evolve a legacy system incrementally without breaking what works?',
+                    'This talk explores a pragmatic approach to optimizing legacy systems for flow. It introduces Architecture for Flow, a structured yet flexible approach that integrates Wardley Mapping, Domain-Driven Design (DDD), and Team Topologies. This approach focuses on identifying suitable streams of change, modularizing step by step, and evolving teams alongside the system; ensuring sustainable, low-risk transition from the status quo to an envisioned future.'
+                ],
 
-        },
-        track: 'Main Day',
-        schedule: 'Sat 10:00-10:40',
-    }],
+            },
+            track: 'Main Day',
+            schedule: 'Sat 10:00-10:40',
+        }],
         ['talk-sat-04', {
             speakers:
                 [
@@ -213,7 +213,7 @@ export const slots: Map<string, Slot> = new Map([
             track: 'Crafter + AI Workshop',
             schedule: 'Thursday 9:30-11:30',
         }],
-        ['workshop-crafter-en-01', {
+        ['workshop-crafter-en-03', {
             content: {
                 title: 'Workshop Title',
                 description: [
@@ -227,7 +227,7 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 09:30-11:30',
             track: '🇬🇧 Crafter 🇬🇧',
         }],
-        ['workshop-crafter-en-02', {
+        ['workshop-crafter-en-01', {
             content: {
                 title: 'Impact Mapping',
                 description: [
@@ -245,7 +245,7 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 12:00-14:00',
             track: '🇬🇧 Crafter 🇬🇧',
         }],
-        ['workshop-crafter-en-03', {
+        ['workshop-crafter-en-02', {
             content: {
                 title: '“Lift-up conditional” – The magical refactoring',
                 description: [

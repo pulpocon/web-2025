@@ -234,13 +234,13 @@
               Coffee Break ☕
             </td>
             <td class="program-day__table-time">
-              11:30<br>12:30
+              11:30<br>12:00
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="3">
-              12:30<br>14:30
+              12:00<br>14:00
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="workshop-crafter-en-02" />
@@ -258,7 +258,7 @@
               <talk-teaser id="talk-pulpito-03"/>
             </td>
             <td class="program-day__table-time">
-              12:30<br>13:10
+              12:00<br>12:40
             </td>
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
@@ -266,7 +266,7 @@
               <talk-teaser id="talk-pulpito-04"/>
             </td>
             <td class="program-day__table-time">
-              13:10<br>13:50
+              12:40<br>13:20
             </td>
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
@@ -274,25 +274,25 @@
               <talk-teaser id="talk-pulpito-05"/>
             </td>
             <td class="program-day__table-time">
-              13:50<br>14:30
+              13:20<br>14:00
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--lunch">
             <td class="program-day__table-time">
-              14:30<br>16:30
+              14:00<br>16:00
             </td>
             <td class="program-day__table-title" colspan="5">
               Lunch 🍽️
             </td>
             <td class="program-day__table-time">
-              14:30<br>16:30
+              14:00<br>16:00
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="3">
-              16:30<br>18:30
+              16:00<br>18:00
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="workshop-crafter-en-03"/>
@@ -310,7 +310,7 @@
               <talk-teaser id="talk-pulpito-06"/>
             </td>
             <td class="program-day__table-time">
-              16:30<br>17:10
+              16:00<br>16:40
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
@@ -318,7 +318,7 @@
               <talk-teaser id="talk-pulpito-07"/>
             </td>
             <td class="program-day__table-time">
-              17:10<br>17:50
+              16:40<br>17:20
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
@@ -326,19 +326,19 @@
               <talk-teaser id="talk-pulpito-08"/>
             </td>
             <td class="program-day__table-time">
-              17:50<br>18:30
+              17:20<br>18:00
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
             <td class="program-day__table-time">
-              18:30<br>19:30
+              18:00<br>19:00
             </td>
             <td class="program-day__table-title" colspan="5">
               <workshop-teaser id="fireside-chat"/>
             </td>
             <td class="program-day__table-time">
-              18:30<br>19:30
+              18:00<br>19:00
             </td>
           </tr>
           </tbody>

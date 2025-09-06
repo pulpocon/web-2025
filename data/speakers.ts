@@ -97,18 +97,18 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
-    ['luise', {
-        name: '👑Luise Freese',
-        image: '/i/speakers/1707739821322.jpeg',
-        company: 'm365princess.com',
-        country: '🇩🇪',
-        position: 'Power Platform & Azure Architect',
-        bio: '',
-        social: {
-            linkedin: 'https://www.linkedin.com/in/luisefreese/'
-        },
-        show: false
-    }],
+    // ['luise', {
+    //     name: '👑Luise Freese',
+    //     image: '/i/speakers/1707739821322.jpeg',
+    //     company: 'm365princess.com',
+    //     country: '🇩🇪',
+    //     position: 'Power Platform & Azure Architect',
+    //     bio: '',
+    //     social: {
+    //         linkedin: 'https://www.linkedin.com/in/luisefreese/'
+    //     },
+    //     show: false
+    // }],
     ['fran', {
         image: '/i/speakers/franIglesias.jpg',
         name: 'Fran Iglesias',
