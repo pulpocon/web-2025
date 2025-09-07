@@ -33,7 +33,12 @@ const sponsors: SponsorGroups = {
       name: 'Innatial',
       logo: '/i/sps/innatial.png',
       link: 'https://www.innatial.com/?utm_origin=pulpocon&utm_medium=web'
-    }
+    },
+      {
+          name: 'Elastic',
+          logo: '/i/sps/elastic.svg',
+          link: 'https://www.elastic.co/?utm_origin=pulpocon&utm_medium=web'
+      }
   ],
   [SponsorType.Gold]: [
     {
