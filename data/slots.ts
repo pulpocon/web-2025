@@ -55,9 +55,9 @@ export const slots: Map<string, Slot> = new Map([
                     'dorra'
                 ],
             content: {
-                title: 'Improving feature flags implementation to achieve flow\n',
+                title: 'Improving feature flags implementation to achieve flow',
                 lang: 'en',
-                description: ['You might be using feature flags in your projects and consider this technique indispensable. However, developers often face frustration when managing the myriad combinations of feature flags, especially as projects evolve. This complexity can make flags hard to maintain and even hated by developers. The code is full with invasive if/else statements, with no time to clean up obsolete feature flags.\n' +
+                description: ['You might be using feature flags in your projects and consider this technique indispensable. However, developers often face frustration when managing the myriad combinations of feature flags, especially as projects evolve. This complexity can make flags hard to maintain and even hated by developers. The code is full with invasive if/else statements, with no time to clean up obsolete feature flags.' +
                 'In this talk, I will present alternatives to traditional feature flag. Depending on the context, we will explore solutions involving work organization, prioritization, and design techniques such as legacy management strategies (e.g., the strangler application pattern or branch by abstraction), circuit breakers, and even Domain-Driven Design.'],
 
             },
@@ -70,7 +70,7 @@ export const slots: Map<string, Slot> = new Map([
                     'susanne'
                 ],
             content: {
-                title: 'Evolving a Legacy System with Architecture for Flow\n',
+                title: 'Evolving a Legacy System with Architecture for Flow',
                 lang: 'en',
                 description: [
                     'Legacy systems are often double-edged: They contain years of accumulated business knowledge and value and they pay your salaries. But at the same time, they can feel like a burden, slowing down innovation and making organizations less adaptive to change.',
@@ -91,7 +91,7 @@ export const slots: Map<string, Slot> = new Map([
                 title: 'Let\'s Stop Making Each Other Feel Stupid',
                 lang: 'en',
                 description: [
-                    'We work in an industry where we have to prove how much we know. And yet, there are a million different paths through software development. On a day-to-day level we have to specialise on one task at a time. The skills we don’t need now are necessarily forgotten, or delegated to someone else. And that’s fine. \n' +
+                    'We work in an industry where we have to prove how much we know. And yet, there are a million different paths through software development. On a day-to-day level we have to specialise on one task at a time. The skills we don’t need now are necessarily forgotten, or delegated to someone else. And that’s fine. ' +
                     'Instead of judging people for their ignorance, let’s help them to feel excited about all the new things they’ll discover. Instead of saying “How come you don’t know that?” let’s say “Fantastic! Lucky you. You get to learn something. What can I do to help?”'
                 ],
 
@@ -218,7 +218,7 @@ export const slots: Map<string, Slot> = new Map([
             content: {
                 title: 'Optimizing for a fast flow of value with the Architecture for Flow Canvas',
                 description: [
-                    'In today’s fast paced business environment, organizations have to continuously adapt and evolve in order to remain competitive and stay relevant in the market To be amenable to change organizations need to design, build, and evolve adaptive, socio-technical systems that are optimized for a fast flow of value and constant feedback. \n' +
+                    'In today’s fast paced business environment, organizations have to continuously adapt and evolve in order to remain competitive and stay relevant in the market To be amenable to change organizations need to design, build, and evolve adaptive, socio-technical systems that are optimized for a fast flow of value and constant feedback. ' +
                     'In this interactive 2-hour workshop, you’ll get hands-on experience with the Architecture for Flow Canvas - a lightweight yet powerful tool that combines insights from Wardley Mapping, Domain-Driven Design, and Team Topologies into a holistic approach.'
                 ],
                 lang: 'en',
@@ -263,7 +263,7 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-es-01', {
             content: {
-                title: 'No dejes que tu código se salte el día de piernas - Entrena tus habilidades de codificación como tu rutina de gimnasio',
+                title: 'Don’t Let Your Code Skip Leg Day.Train your coding skills like your gym routine',
                 description: [
                     'Desarrollar código bien elaborado no es un unicornio, es algo fácil de lograr, pero requiere disciplina y compromiso. El taller mostrará consejos y ejemplos de cómo lograr el objetivo de codificar código de alta calidad basado en tres pilares. Diseño simple, fácil de probar y fácil de leer'
                 ],
@@ -356,9 +356,10 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-management-01', {
             content: {
-                title: 'Título del Taller',
+                title: 'Feedback que funciona: cómo intervenir sin generar resistencia\n',
                 description: [
-                    'Descripción de tu taller'
+                    'Dar feedback es una de las responsabilidades más críticas —y más difíciles— de cualquier manager. Muchas veces vemos situaciones mejorables, pero dudamos: ¿lo digo ahora o espero? ¿Generaré rechazo o desconfianza?',
+                    'En este taller verás un marco práctico para dar feedback de manera efectiva. Veremos qué errores evitar, cómo estructurar tu mensaje para que sea escuchado y cómo crear conversaciones que construyan confianza en lugar de resistencia.'
                 ],
                 lang: 'es',
             },
@@ -372,11 +373,11 @@ export const slots: Map<string, Slot> = new Map([
             content: {
                 title: 'Crafter Manager, el juego',
                 description: [
-                    'Un juego serio para liderar como un artesano.\n' +
-                    '¿Y si liderar bien fuera tan desafiante (y tan satisfactorio) como escribir buen código?\n' +
-                    'En este workshop vivirás un juego de simulación donde formarás parte de un equipo técnico enfrentando decisiones difíciles en un entorno en constante cambio: cambios de prioridades, presión de negocio, dilemas éticos, conflictos humanos y tensiones entre velocidad y calidad.\n' +
-                    'Si alguna vez te nombraron manager como en la Edad Media se nombraban caballeros con una palmada en la espalda y cero entrenamiento, este workshop es para ti.\n' +
-                    'Basado en principios de Software Craftsmanship y liderazgo ágil, este taller está diseñado para desarrolladores, tech leads y managers que quieran aumentar su impacto sin perder el alma técnica por el camino.\n' +
+                    'Un juego serio para liderar como un artesano.' +
+                    '¿Y si liderar bien fuera tan desafiante (y tan satisfactorio) como escribir buen código?' +
+                    'En este workshop vivirás un juego de simulación donde formarás parte de un equipo técnico enfrentando decisiones difíciles en un entorno en constante cambio: cambios de prioridades, presión de negocio, dilemas éticos, conflictos humanos y tensiones entre velocidad y calidad.' +
+                    'Si alguna vez te nombraron manager como en la Edad Media se nombraban caballeros con una palmada en la espalda y cero entrenamiento, este workshop es para ti.' +
+                    'Basado en principios de Software Craftsmanship y liderazgo ágil, este taller está diseñado para desarrolladores, tech leads y managers que quieran aumentar su impacto sin perder el alma técnica por el camino.' +
                     'Decidirás, lanzarás los dados del caos, y descubrirás que liderar bien también es una forma de arte.'
                 ],
                 lang: 'es',
@@ -461,7 +462,10 @@ export const slots: Map<string, Slot> = new Map([
             content: {
                 title: 'La muerte del middle manager, el ascenso del ingeniero poliédrico',
                 description: [
-                    'TBD'
+                    'Las organizaciones tecnológicas evolucionan 🧬',
+                    'Menos jerarquía, más autonomía. Menos burocracia, más responsabilidad en perfiles técnicos.',
+                    'El middle manager pierde terreno, mientras surge el ingeniero poliédrico: alguien capaz de unir ingeniería, producto, negocio y liderazgo.',
+                    'Un cambio que redefine cómo se construyen equipos y cómo se reparte la responsabilidad.'
                 ],
                 lang: 'es',
             },
@@ -473,9 +477,13 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-06', {
             content: {
-                title: 'Título de la Charla',
+                title: 'Las 4 etapas del management (y cómo saber en cuál estás)',
                 description: [
-                    'Descripción de tu charla'
+                    'Empiezas a gestionar un equipo y de repente cada día se convierte en apagar fuegos, tomar decisiones bajo presión y rezar para no equivocarte.',
+                    'Buscas consejos en libros o imitas a otros managers, pero nada encaja exactamente con los problemas que enfrentas en este momento.',
+                    'Y hasta que no entiendas en qué etapa de tu desarrollo como manager estás, seguirás repitiendo los mismos errores y atrapado en modo supervivencia.',
+                    'En esta charla te voy a mostrar un mapa claro con las cuatro etapas del management, para que identifiques exactamente dónde estás hoy.',
+                    'Así sabrás qué trampas evitar, qué hacer y cómo dejar de improvisar para empezar a liderar con confianza.'
                 ],
                 lang: 'es',
             },
@@ -487,14 +495,14 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-07', {
             content: {
-                title: 'OpenTelemetry eBPF Profiler',
+                title: 'Whole-system observability: discovering unknown unknowns with continuous profiling',
                 description: [
-                    'Descripción de tu charla'
+                    'Observability has long revolved around the three pillars—metrics, logs, and traces—but profiles are rapidly emerging as the missing piece for whole-system insight. In this talk, we’ll explore how continuous profiling enables developers to move beyond surface-level telemetry and uncover unknown unknowns in real-world systems. We’ll dive into the architecture of the OpenTelemetry eBPF Profiler, explain how stack unwinding and symbolization work across languages, and highlight the profiler’s current language support. To wrap up, we’ll demonstrate how the Elastic\'s Devfiler tool and the OpenTelemetry eBPF Profiler can reveal hidden performance issues in the OpenTelemetry Demo, showing how profiles unlock a new dimension of observability.'
                 ],
                 lang: 'es',
             },
             speakers: [
-                'elastic',
+                'roger',
             ],
             schedule: 'Friday 16:40-17:20',
             track: 'Pulpito',

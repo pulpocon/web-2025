@@ -289,6 +289,18 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: true
     }],
+    ['roger', {
+        name: 'Roger Coll',
+        image: '/i/speakers/rogerColl.jpeg',
+        company: 'Elastic',
+        country: '🇪🇸',
+        position: 'Computer Engineer',
+        bio: 'I am a passionate Unix-like systems enthusiast with an even greater love for open source code. As an OpenTelemetry and observability advocate, I strive to promote the importance of comprehensive monitoring and performance insights. I’m also unreasonably excited about micro-optimizations—the kind where shaving off a few nanoseconds feels like winning an Olympic medal for computers. When I\'m not immersed in technology, you\'ll find me exploring the great outdoors as an avid mountain hiker.',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/roger-coll/'
+        },
+        show: true
+    }],
     // These are basically sponsors. I added them here for showing sponsorship in La Pulpito track
     ['crafters', {
         image: '/i/sps/craftersVigo.png',
