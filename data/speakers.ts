@@ -325,7 +325,7 @@ const speakersList: Map<string, Speaker> = new Map([
         show: false
     }],
     ['miguel', {
-        image: '/i/sps/miguelPaezFigueroa.JPG',
+        image: '/i/speakers/miguelPaezFigueroa.JPG',
         name: 'Miguel Paz Figueroa',
         company: 'Innatial Developers',
         position: '',
