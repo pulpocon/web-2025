@@ -397,13 +397,13 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
             <td class="program-day__table-time">
-              10:40<br>11:20
+              10:50<br>11:30
             </td>
             <td class="program-day__table-title">
               <talk-teaser id="talk-sat-02"/>
             </td>
             <td class="program-day__table-time">
-              10:40<br>11:20
+              10:50<br>11:30
             </td>
           </tr>
           <!----->

@@ -20,6 +20,21 @@ export const slots: Map<string, Slot> = new Map([
         ['talk-sat-01', {
             speakers:
                 [
+                    'helder'
+                ],
+            content: {
+                title: 'Testing: from mess to success',
+                lang: 'en',
+                description: [
+                    'Many software teams invest heavily in testing, yet still face fragile test suites, long delivery times, and a lack of trust in their results. If your tests slow you down instead of giving you confidence, chances are your testing strategy is broken.' +
+                    'In this talk, we’ll explore what it really means for a testing strategy to be “broken”, not only from a technical perspective but also from a business and leadership lens. We’ll use the Agile Testing Quadrant as a map to understand where tests belong, why strategies fail when they over-invest in one area, and what a balanced, value-driven approach looks like.'],
+            },
+            track: 'Main Day',
+            schedule: 'Sat 10:00-10:40',
+        }],
+        ['talk-sat-02', {
+            speakers:
+                [
                     'annegret'
                 ],
             content: {
@@ -32,9 +47,9 @@ export const slots: Map<string, Slot> = new Map([
 
             },
             track: 'Main Day',
-            schedule: 'Sat 10:00-10:40',
+            schedule: 'Sat 10:50-11:30',
         }],
-        ['talk-sat-02', {
+        ['talk-sat-03', {
             speakers:
                 [
                     'dorra'
@@ -47,9 +62,9 @@ export const slots: Map<string, Slot> = new Map([
 
             },
             track: 'Main Day',
-            schedule: 'Sat 10:00-10:40',
+            schedule: 'Sat 12:30-13:10',
         }],
-        ['talk-sat-03', {
+        ['talk-sat-04', {
             speakers:
                 [
                     'susanne'
@@ -65,9 +80,9 @@ export const slots: Map<string, Slot> = new Map([
 
             },
             track: 'Main Day',
-            schedule: 'Sat 10:00-10:40',
+            schedule: 'Sat 13:20-14:00',
         }],
-        ['talk-sat-04', {
+        ['talk-sat-05', {
             speakers:
                 [
                     'clare'
@@ -80,20 +95,6 @@ export const slots: Map<string, Slot> = new Map([
                     'Instead of judging people for their ignorance, let’s help them to feel excited about all the new things they’ll discover. Instead of saying “How come you don’t know that?” let’s say “Fantastic! Lucky you. You get to learn something. What can I do to help?”'
                 ],
 
-            },
-            track: 'Main Day',
-            schedule: 'Sat 10:00-10:40',
-        }],
-        ['talk-sat-05', {
-            speakers:
-                [
-                    'tbd'
-                ],
-            content: {
-                title: 'Talk title',
-                lang: 'en',
-                description: [
-                    'tbd'],
             },
             track: 'Main Day',
             schedule: 'Sat 16:00-16:40',
@@ -215,16 +216,17 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['workshop-crafter-en-03', {
             content: {
-                title: 'Workshop Title',
+                title: 'Optimizing for a fast flow of value with the Architecture for Flow Canvas',
                 description: [
-                    'Description of your workshop'
+                    'In today’s fast paced business environment, organizations have to continuously adapt and evolve in order to remain competitive and stay relevant in the market To be amenable to change organizations need to design, build, and evolve adaptive, socio-technical systems that are optimized for a fast flow of value and constant feedback. \n' +
+                    'In this interactive 2-hour workshop, you’ll get hands-on experience with the Architecture for Flow Canvas - a lightweight yet powerful tool that combines insights from Wardley Mapping, Domain-Driven Design, and Team Topologies into a holistic approach.'
                 ],
                 lang: 'en',
             },
             speakers: [
                 'susanne',
             ],
-            schedule: 'Friday 09:30-11:30',
+            schedule: 'Friday 16:00-18:00',
             track: '🇬🇧 Crafter 🇬🇧',
         }],
         ['workshop-crafter-en-01', {
@@ -242,7 +244,7 @@ export const slots: Map<string, Slot> = new Map([
             speakers: [
                 'krisztina',
             ],
-            schedule: 'Friday 12:00-14:00',
+            schedule: 'Friday 09:30-11:30',
             track: '🇬🇧 Crafter 🇬🇧',
         }],
         ['workshop-crafter-en-02', {
@@ -256,7 +258,7 @@ export const slots: Map<string, Slot> = new Map([
             speakers: [
                 'clare',
             ],
-            schedule: 'Friday 16:30-18:30',
+            schedule: 'Friday 12:00-14:00',
             track: '🇬🇧 Crafter 🇬🇧',
         }],
         ['workshop-crafter-es-01', {
@@ -302,7 +304,7 @@ export const slots: Map<string, Slot> = new Map([
             speakers: [
                 'berny',
             ],
-            schedule: 'Friday 16:30-18:30',
+            schedule: 'Friday 16:00-18:00',
             track: '🇪🇸 Crafter 🇪🇸',
         }],
         ['workshop-fullstack-01', {
@@ -349,7 +351,7 @@ export const slots: Map<string, Slot> = new Map([
                 'manuel',
                 'juan'
             ],
-            schedule: 'Friday 16:30-18:30',
+            schedule: 'Friday 16:00-18:00',
             track: 'FullStack',
         }],
         ['workshop-management-01', {
@@ -396,7 +398,7 @@ export const slots: Map<string, Slot> = new Map([
             speakers: [
                 'ana',
             ],
-            schedule: 'Friday 16:30-18:30',
+            schedule: 'Friday 16:00-18:00',
             track: 'Management',
         }],
         ['talk-pulpito-01', {
@@ -443,9 +445,9 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-04', {
             content: {
-                title: 'Título de la Charla',
+                title: 'Chat with Your Data: When Your Files Start Talking Back',
                 description: [
-                    'Descripción de tu charla'
+                    'What if you could ask questions about your own files, like PDFs, meeting notes, or research papers, and get clear, accurate answers using AI? We’ll explore how a chatbot can respond based on the actual content of your documents, not just what it learned during training. You’ll see how vector search, document embeddings, and retrieval make this possible. We’ll look at real use cases that show how this approach can save time and make information instantly accessible.'
                 ],
                 lang: 'es',
             },
