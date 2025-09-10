@@ -324,16 +324,16 @@ const speakersList: Map<string, Speaker> = new Map([
         },
         show: false
     }],
-    ['innatial', {
-        image: '/i/sps/innatialPulpito.png',
-        name: 'Innatial Developers',
+    ['miguel', {
+        image: '/i/sps/miguelPaezFigueroa.JPG',
+        name: 'Miguel Paz Figueroa',
         company: 'Innatial Developers',
         position: '',
         bio: '',
         social: {
-            linkedin: 'https://www.linkedin.com/company/innatial'
+            linkedin: 'https://www.linkedin.com/in/miguelpazfigueroa'
         },
-        show: false
+        show: true
     }],
     ['grafana', {
         image: '/i/sps/grafanaPulpito.jpeg',

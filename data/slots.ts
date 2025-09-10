@@ -404,14 +404,15 @@ export const slots: Map<string, Slot> = new Map([
         }],
         ['talk-pulpito-01', {
             content: {
-                title: 'Título de la Charla',
+                title: 'De Unicornio a bancarrota. Historia de un hundimiento',
                 description: [
-                    'Descripción de tu charla'
+                    'Crónica de cómo fue trabajar para una empresa que tenía todo para ser un unicornio, pero se murió antes de conseguirlo.',
+                    'Comentaremos desafíos tecnológicos y organizativos que viví como CTO y como era el día a día en una empresa supervisada por el Banco de España.'
                 ],
                 lang: 'es',
             },
             speakers: [
-                'innatial',
+                'miguel',
             ],
             schedule: 'Friday 10:10-10:50',
             track: 'Pulpito',
