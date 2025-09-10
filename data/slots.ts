@@ -354,7 +354,7 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 16:00-18:00',
             track: 'FullStack',
         }],
-        ['workshop-management-01', {
+        ['workshop-management-02', {
             content: {
                 title: 'Feedback que funciona: cómo intervenir sin generar resistencia\n',
                 description: [
@@ -369,7 +369,7 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 09:30-11:30',
             track: 'Management',
         }],
-        ['workshop-management-02', {
+        ['workshop-management-03', {
             content: {
                 title: 'Crafter Manager, el juego',
                 description: [
@@ -388,9 +388,9 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 12:00-14:00',
             track: 'Management',
         }],
-        ['workshop-management-03', {
+        ['workshop-management-01', {
             content: {
-                title: 'Título del Taller',
+                title: 'Seguridad psicológica: el ingrediente invisible de los equipos de alto rendimiento',
                 description: [
                     'Descripción de tu taller'
                 ],
