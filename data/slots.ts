@@ -431,7 +431,7 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 10:50-11:30',
             track: 'Pulpito',
         }],
-        ['talk-pulpito-03', {
+        ['talk-pulpito-05', {
             content: {
                 title: 'The Lazy Dev’s Guide to Beautiful APIs',
                 description: [
@@ -445,7 +445,7 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 12:00-12:40',
             track: 'Pulpito',
         }],
-        ['talk-pulpito-04', {
+        ['talk-pulpito-03', {
             content: {
                 title: 'Chat with Your Data: When Your Files Start Talking Back',
                 description: [
@@ -459,7 +459,7 @@ export const slots: Map<string, Slot> = new Map([
             schedule: 'Friday 12:40-13:20',
             track: 'Pulpito',
         }],
-        ['talk-pulpito-05', {
+        ['talk-pulpito-04', {
             content: {
                 title: 'La muerte del middle manager, el ascenso del ingeniero poliédrico',
                 description: [
