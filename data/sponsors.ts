@@ -73,6 +73,11 @@ const sponsors: SponsorGroups = {
             logo: '/i/sps/ultreia.png',
             link: 'https://ultreia.es/?utm_origin=pulpocon&utm_medium=web'
         },
+        {
+            name: 'Infojobs',
+            logo: '/i/sps/infojobs.png',
+            link: 'https://www.infojobs.net/?utm_origin=pulpocon&utm_medium=web'
+        },
     ],
     [SponsorType.Multimedia]: [
         {
