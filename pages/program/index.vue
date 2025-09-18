@@ -228,7 +228,7 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--break">
             <td class="program-day__table-time">
-              11:30<br>12:30
+              11:30<br>12:00
             </td>
             <td class="program-day__table-title" colspan="5">
               Coffee Break ☕
